@@ -1,0 +1,87 @@
+/* Main styling for the GUI */ 
+
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Andy';
+    src: url('styling/Andy\ Bold.ttf');
+}
+
+/* Place Terraria background image */
+body {
+    background-image: url('images/background.jpg');
+    font-family: 'Andy';
+}
+
+/* Ensure main container takes up full screen */
+#mainBodyContent {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+}
+
+/* Left Panel styling */
+#leftPanel {
+    width: 25vw;
+    min-width: 250px;
+    background-color: rgb(51 54 125 / 76%);
+    border: 3px solid rgb(29 26 38 / 41%);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Search Container styling */
+#searchContainer {
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+/* Style for the search bar */
+#iconSearchBar {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Icon Container styling */
+#iconContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 5px;
+    color: white;
+}
+
+/* Main Panel styling */
+#mainPanel {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Optional styling for the infoPanel within mainPanel */
+#infoPanel {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Icon styling within left panel */
+.icon {
+
+}
