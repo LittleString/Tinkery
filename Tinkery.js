@@ -1,4 +1,5 @@
 import { items } from './items.js';
+import { recipes } from './recipes.js';
 
 // Put all icons in iconContainer
 function initIconPanel() {
