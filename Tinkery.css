@@ -71,7 +71,7 @@ body {
 #iconSearchBar {
     width: 100%;
     border: 3px solid rgb(54 55 131);
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     font-family: 'Andy';
     font-size: 24px;
@@ -104,8 +104,6 @@ body {
 
 /* Optional styling for the infoPanel within mainPanel */
 #infoPanel {
-    width: 100%;
-    max-width: 800px;
     padding: 20px;
     border-radius: 10px;
     position: absolute;
@@ -113,9 +111,11 @@ body {
     width: 15vw;
     height: 35vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Icon styling within left panel */
+/* Item icon styling*/
 .icon {
     width: 60px;
     height: 60px;
@@ -129,15 +129,95 @@ body {
 }
 
 .icon:hover {
-    background-color: #6d71d7;
     cursor: pointer;
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 
 .icon:active{
-    background-color: #575bce;
+    filter: brightness(0.9);
 }
 
 /* Class for icons when not searched on */
 .hidden {
     display: none;
+}
+
+/* If item is hardmode only, give it red background instead */
+.hardmode {
+    background-color: #db406b;
+    border: 3px solid #b31c2b;
+}
+
+/* If item is the last in crafting tree and pre-hardmode, give it blue gradient background */
+.finalCraft {
+    background-image: linear-gradient(135deg, #5f63d3, #6fa4ff, #36d1dc, #76ffb8, #b6fffc, #6fa4ff, #5f63d3);
+    background-clip: padding-box;
+    background-size: 400% 400%;
+    animation: blue-gradient-animation 8s ease infinite;
+    transition: transform 0.2s ease, animation 0.2s ease;
+}
+
+/* Animation for Gradient Shifting */
+@keyframes blue-gradient-animation {
+    0% { background-position: 50% 0%; }
+    50% { background-position: 50% 100%; }
+    100% { background-position: 50% 0%; }
+}
+
+/* If item is the last in crafting tree and hardmode only, give it red gradient background */
+.hardmode.finalCraft {
+    background-image: linear-gradient(135deg, #db406b, #ff6b8a, #ff8e4a, #ffcd3c, #ffd27f, #ff6b8a, #db406b);
+    background-clip: padding-box;
+    border: 3px solid #b31c2b;
+    background-size: 400% 400%;
+    animation: red-gradient-animation 8s ease infinite;
+    transition: transform 0.2s ease, animation 0.2s ease;
+}
+
+/* Animation for Gradient Shifting */
+@keyframes red-gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#selectedItemName {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    border-bottom: 2px #d9d9d9 solid;
+}
+
+#selectedItemDetails {
+    flex-grow: 1;
+    font-size: 17px;
+}
+
+#iconPicContainer {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.urlIcon {
+    width: 15px;
+    height: 15px;
+    margin-top: auto;
+    padding-left: 5px;
+}
+
+#selectedItemDetails div {
+    padding: 5px 10px 5px 10px;
+}
+
+#tooltipVal {
+    text-align: center;
 }

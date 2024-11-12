@@ -1,6 +1,8 @@
 // All information about every item in Tinkerer's Workshop recipes
 
 let items = [
+
+    // --- Pre-hardmode Items ---
     {
         "name": "Tackle Box",
         "tooltip": "Decreases chance of bait consumption",
@@ -25,19 +27,6 @@ let items = [
         },
         "iconLocation": "images/icons/Honey_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Balloon",
-        "hardmode": false
-    },
-    {
-        "name": "Amber Horseshoe Balloon",
-        "tooltip": "Releases bees and douses the user in honey when damaged\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Amber_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Amber_Horseshoe_Balloon",
         "hardmode": false
     },
     {
@@ -80,19 +69,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Amphibian Boots",
-        "tooltip": "The wearer can run super fast\nIncreases jump speed and allows auto-jump\nIncreases fall resistance",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Amphibian_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Amphibian_Boots",
-        "hardmode": false
-    },
-    {
         "name": "High Test Fishing Line",
         "tooltip": "Fishing line will never break",
         "value": {
@@ -119,45 +95,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Angler Tackle Bag",
-        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Angler_Tackle_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
-        "hardmode": false
-    },
-    {
-        "name": "Ankh Charm",
-        "tooltip": "Grants immunity to most debuffs",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Ankh_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Charm",
-        "hardmode": true
-    },
-    {
-        "name": "Armor Bracing",
-        "tooltip": "Immunity to Weakness and Broken Armor",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Armor_Bracing.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Bracing",
-        "hardmode": true
-    },
-    {
         "name": "Medicated Bandage",
         "tooltip": "Immunity to Poison and Bleeding",
         "value": {
@@ -169,19 +106,6 @@ let items = [
         "iconLocation": "images/icons/Medicated_Bandage.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Medicated_Bandage",
         "hardmode": false
-    },
-    {
-        "name": "The Plan",
-        "tooltip": "Immunity to Slow and Confusion",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/The_Plan.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/The_Plan",
-        "hardmode": true
     },
     {
         "name": "Countercurse Mantra",
@@ -197,32 +121,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Reflective Shades",
-        "tooltip": "Immunity to Darkness and Petrification",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Reflective_Shades.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Reflective_Shades",
-        "hardmode": true
-    },
-    {
-        "name": "Ankh Shield",
-        "tooltip": "Grants immunity to knockback and fire blocks\nGrants immunity to most debuffs",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Ankh_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Shield",
-        "hardmode": true
-    },
-    {
         "name": "Obsidian Shield",
         "tooltip": "Grants immunity to knockback\nGrants immunity to fire blocks",
         "value": {
@@ -236,19 +134,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Arcane Flower",
-        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nEnemies are less likely to target you",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Arcane_Flower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Arcane_Flower",
-        "hardmode": true
-    },
-    {
         "name": "Mana Flower",
         "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed",
         "value": {
@@ -259,32 +144,6 @@ let items = [
         },
         "iconLocation": "images/icons/Mana_Flower.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Flower",
-        "hardmode": false
-    },
-    {
-        "name": "Putrid Scent",
-        "tooltip": "Enemies are less likely to target you\n5% increased damage and critical strike chance",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Putrid_Scent.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Putrid_Scent",
-        "hardmode": true
-    },
-    {
-        "name": "Architect Gizmo Pack",
-        "tooltip": "Increases block & wall placement speed\nIncreases block placement & tool range by 3\nAutomatically paints or coats placed objects",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
         "hardmode": false
     },
     {
@@ -340,19 +199,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Arctic Diving Gear",
-        "tooltip": "Grants the ability to swim and greatly extends underwater breathing\nProvides extra mobility on ice\nGenerates a very subtle glow which becomes more vibrant underwater",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Arctic_Diving_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Arctic_Diving_Gear",
-        "hardmode": false
-    },
-    {
         "name": "Jellyfish Diving Gear",
         "tooltip": "Grants the ability to swim and greatly extends underwater breathing\nGenerates a very subtle glow which becomes more vibrant underwater",
         "value": {
@@ -366,16 +212,16 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Argon Moss Fishing Bobber",
+        "name": "Fishing Bobber",
         "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
-            "silver": 0,
-            "gold": 1,
+            "silver": 50,
+            "gold": 0,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
+        "iconLocation": "images/icons/Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Fishing_Bobber",
         "hardmode": false
     },
     {
@@ -392,108 +238,82 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Armor Polish",
-        "tooltip": "Immunity to Broken Armor",
+        "name": "Argon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 2,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Armor_Polish.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Polish",
-        "hardmode": true
+        "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
-        "name": "Vitamins",
-        "tooltip": "Immunity to Weakness",
+        "name": "Helium Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 2,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Vitamins.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Vitamins",
-        "hardmode": true
+        "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
-        "name": "Avenger Emblem",
-        "tooltip": "12% increased damage",
+        "name": "Krypton Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 6,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Avenger_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Avenger_Emblem",
-        "hardmode": true
+        "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
-        "name": "Warrior Emblem",
-        "tooltip": "15% increased melee damage",
+        "name": "Lava Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 2,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Warrior_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Warrior_Emblem",
-        "hardmode": true
+        "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
-        "name": "Ranger Emblem",
-        "tooltip": "15% increased ranged damage",
+        "name": "Xenon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 2,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Ranger_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ranger_Emblem",
-        "hardmode": true
+        "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
-        "name": "Sorcerer Emblem",
-        "tooltip": "15% increased magic damage",
+        "name": "Neon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 2,
+            "gold": 1,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Sorcerer_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sorcerer_Emblem",
-        "hardmode": true
-    },
-    {
-        "name": "Summoner Emblem",
-        "tooltip": "15% increased summon damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Summoner_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Summoner_Emblem",
-        "hardmode": true
-    },
-    {
-        "name": "Bee Cloak",
-        "tooltip": "Causes starts to fall, releases bees, and douses the user in honey when damaged",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Bee_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bee_Cloak",
-        "hardmode": true
+        "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
+        "hardmode": false
     },
     {
         "name": "Honey Comb",
@@ -507,58 +327,6 @@ let items = [
         "iconLocation": "images/icons/Honey_Comb.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Comb",
         "hardmode": false
-    },
-    {
-        "name": "Star Cloak",
-        "tooltip": "Causes stars to fall after taking damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Star_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Star_Cloak",
-        "hardmode": true
-    },
-    {
-        "name": "Berserker's Glove",
-        "tooltip": "Increases melee knockback\n12% increased melee speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons\nEnemies are more likely to target you",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Berserker's_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Berserker%27s_Glove",
-        "hardmode": true
-    },
-    {
-        "name": "Power Glove",
-        "tooltip": "Increases melee knockback\n12% increased melee speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Power_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Power_Glove",
-        "hardmode": true
-    },
-    {
-        "name": "Flesh Knuckles",
-        "tooltip": "Enemies are more likely to target you",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Flesh_Knuckles.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flesh_Knuckles",
-        "hardmode": true
     },
     {
         "name": "Blizzard in a Balloon",
@@ -587,6 +355,19 @@ let items = [
         "hardmode": false
     },
     {
+        "name": "Cloud in a Bottle",
+        "tooltip": "Allows the holder to double jump",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Cloud_in_a_Bottle.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Bottle",
+        "hardmode": false
+    },
+    {
         "name": "Shiny Red Balloon",
         "tooltip": "Increases jump height",
         "value": {
@@ -597,19 +378,6 @@ let items = [
         },
         "iconLocation": "images/icons/Shiny_Red_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shiny_Red_Balloon",
-        "hardmode": false
-    },
-    {
-        "name": "Blue Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
         "hardmode": false
     },
     {
@@ -626,19 +394,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Bundle of Balloons",
-        "tooltip": "Allows the holder to quadruple jump\nIncreases jump height",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Bundle_of_Balloons.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Balloons",
-        "hardmode": false
-    },
-    {
         "name": "Sandstorm in a Balloon",
         "tooltip": "Allows the holder to double jump\nIncreases jump height",
         "value": {
@@ -652,55 +407,16 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Bundle of Horseshoe Balloons",
-        "tooltip": "Allows the holder to quadruple jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Bundle_of_Horseshoe_Balloons.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Horseshoe_Balloons",
-        "hardmode": false
-    },
-    {
-        "name": "White Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "name": "Bundle of Balloons",
+        "tooltip": "Allows the holder to quadruple jump\nIncreases jump height",
         "value": {
             "copper": 0,
             "silver": 0,
             "gold": 3,
             "platinum": 0
         },
-        "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
-        "hardmode": false
-    },
-    {
-        "name": "Yellow Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
-        "hardmode": false
-    },
-    {
-        "name": "Celestial Cuffs",
-        "tooltip": "Increases pickup range for mana stars\nRestores mana when damaged\nIncreases maximum mana by 20",
-        "value": {
-            "copper": 0,
-            "silver": 20,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Celestial_Cuffs.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Cuffs",
+        "iconLocation": "images/icons/Bundle_of_Balloons.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Balloons",
         "hardmode": false
     },
     {
@@ -727,97 +443,6 @@ let items = [
         },
         "iconLocation": "images/icons/Magic_Cuffs.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Cuffs",
-        "hardmode": false
-    },
-    {
-        "name": "Celestial Emblem",
-        "tooltip": "Increases pickup range for mana stars\n15% increased magic damage",
-        "value": {
-            "copper": 0,
-            "silver": 20,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Celestial_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Emblem",
-        "hardmode": true
-    },
-    {
-        "name": "Celestial Shell",
-        "tooltip": "Turns the holder into a werewolf at night\nTurns the holder into a merfolk when entering water\nMinor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 14,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Celestial_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Shell",
-        "hardmode": true
-    },
-    {
-        "name": "Celestial Stone",
-        "tooltip": "Minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Celestial_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Stone",
-        "hardmode": true
-    },
-    {
-        "name": "Moon Shell",
-        "tooltip": "Turns the holder into a werewolf at night and a merfolk when entering water",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Moon_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Shell",
-        "hardmode": true
-    },
-    {
-        "name": "Sun Stone",
-        "tooltip": "During daytime, grants minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 6,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Sun_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sun_Stone",
-        "hardmode": true
-    },
-    {
-        "name": "Moon Stone",
-        "tooltip": "During nighttime, grants minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
-        "value": {
-            "copper": 0,
-            "silver": 50,
-            "gold": 7,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Moon_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Stone",
-        "hardmode": true
-    },
-    {
-        "name": "Cell Phone",
-        "tooltip": "Displays everything\nAllows you to return home at will",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Cell_Phone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
         "hardmode": false
     },
     {
@@ -860,19 +485,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Charm of Myths",
-        "tooltip": "Provides life regernation and reduces the cooldown of healing potions by 25%",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Charm_of_Myths.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Charm_of_Myths",
-        "hardmode": true
-    },
-    {
         "name": "Band of Regeneration",
         "tooltip": "Slowly regenerates life",
         "value": {
@@ -884,71 +496,6 @@ let items = [
         "iconLocation": "images/icons/Band_of_Regeneration.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Band_of_Regeneration",
         "hardmode": false
-    },
-    {
-        "name": "Philosopher's Stone",
-        "tooltip": "Reduces the cooldown of healing potions by 25%",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Philosopher's_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Philosopher%27s_Stone",
-        "hardmode": true
-    },
-    {
-        "name": "Cloud in a Bottle",
-        "tooltip": "Allows the holder to double jump",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Cloud_in_a_Bottle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Bottle",
-        "hardmode": false
-    },
-    {
-        "name": "Coin Ring",
-        "tooltip": "Increases coin pickup range\nHitting enemies will sometimes drop extra coins",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Coin_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Coin_Ring",
-        "hardmode": true
-    },
-    {
-        "name": "Gold Ring",
-        "tooltip": "Increases coin pickup range",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Gold_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Ring",
-        "hardmode": true
-    },
-    {
-        "name": "Lucky Coin",
-        "tooltip": "Hitting enemies will sometimes drop extra coins\n'I found a coin! It's my lucky day!'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Lucky_Coin.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Coin",
-        "hardmode": true
     },
     {
         "name": "Megaphone",
@@ -975,32 +522,6 @@ let items = [
         "iconLocation": "images/icons/Nazar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Nazar",
         "hardmode": false
-    },
-    {
-        "name": "Destroyer Emblem",
-        "tooltip": "10% increased damage\n8% increased critical strike chance",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 6,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Destroyer_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Destroyer_Emblem",
-        "hardmode": true
-    },
-    {
-        "name": "Eye of the Golem",
-        "tooltip": "10% increased critical strike chance",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Eye_of_the_Golem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Eye_of_the_Golem",
-        "hardmode": true
     },
     {
         "name": "Diving Gear",
@@ -1039,19 +560,6 @@ let items = [
         },
         "iconLocation": "images/icons/Diving_Helmet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Diving_Helmet",
-        "hardmode": false
-    },
-    {
-        "name": "Fairy Boots",
-        "tooltip": "Allows flight\nThe wearer can run super fast\nFlowers grow on the grass you walk on",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Fairy_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fairy_Boots",
         "hardmode": false
     },
     {
@@ -1120,19 +628,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Fire Gauntlet",
-        "tooltip": "Increases melee knockback and melee attacks inflict fire damage\n12% increased melee damage and speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 6,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Fire_Gauntlet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fire_Gauntlet",
-        "hardmode": true
-    },
-    {
         "name": "Magma Stone",
         "tooltip": "Melee attacks inflict fire damage",
         "value": {
@@ -1144,19 +639,6 @@ let items = [
         "iconLocation": "images/icons/Magma_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magma_Stone",
         "hardmode": false
-    },
-    {
-        "name": "Mechanical Glove",
-        "tooltip": "Increases melee knockback\n12% increased melee damage and speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Mechanical_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Glove",
-        "hardmode": true
     },
     {
         "name": "Fish Finder",
@@ -1224,19 +706,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Frog Gear",
-        "tooltip": "Grants the ability to swim\nAllows the ability to climb walls\nIncreases jump speed and allows auto-jump\nIncreases fall resistance\n'It ain't easy being green'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Frog_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Gear",
-        "hardmode": false
-    },
-    {
         "name": "Tiger Climbing Gear",
         "tooltip": "Allows the ability to climb walls",
         "value": {
@@ -1299,58 +768,6 @@ let items = [
         },
         "iconLocation": "images/icons/Ice_Skates.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ice_Skates",
-        "hardmode": false
-    },
-    {
-        "name": "Frozen Shield",
-        "tooltip": "Grants immunity to knockback\nPuts a shell around the owner when below 50% life that reduces damage by 25%\nAbsorbs 25% of damage done to players on your team when above 25% life",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Frozen_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Shield",
-        "hardmode": true
-    },
-    {
-        "name": "Paladin's Shield",
-        "tooltip": "Absorbs 25% of damage done to players on your team when above 25% life\nGrants immunity to knockback",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 6,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Paladin's_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Paladin%27s_Shield",
-        "hardmode": true
-    },
-    {
-        "name": "Frozen Turtle Shell",
-        "tooltip": "Puts a shell around the owner when below 50% life that reduces damage by 25%",
-        "value": {
-            "copper": 0,
-            "silver": 50,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Frozen_Turtle_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Turtle_Shell",
-        "hardmode": true
-    },
-    {
-        "name": "Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 50,
-            "gold": 0,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Fishing_Bobber",
         "hardmode": false
     },
     {
@@ -1471,45 +888,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Greedy Ring",
-        "tooltip": "Increases coin pickup range and shops prices lowered by 20%\nHitting enemies will sometimes drop extra coins",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Greedy_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Greedy_Ring",
-        "hardmode": true
-    },
-    {
-        "name": "Discount Card",
-        "tooltip": "Shops prices lowered by 20%",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Discount_Card.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Discount_Card",
-        "hardmode": true
-    },
-    {
-        "name": "Green Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Green_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Green_Horseshoe_Balloon",
-        "hardmode": false
-    },
-    {
         "name": "Hand of Creation",
         "tooltip": "Increases mining speed by 25%\nIncreases block & wall placement speed\nIncreases block placement & tool range by 3\nIncreases pickup range for items\nAutomatically paints or coats placed objects\nHold Up to reach higher",
         "value": {
@@ -1562,84 +940,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Helium Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
-        "hardmode": false
-    },
-    {
-        "name": "Krypton Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
-        "hardmode": false
-    },
-    {
-        "name": "Lava Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
-        "hardmode": false
-    },
-    {
-        "name": "Xenon Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
-        "hardmode": false
-    },
-    {
-        "name": "Neon Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
-        "hardmode": false
-    },
-    {
-        "name": "Hellfire Treads",
-        "tooltip": "Allows flight\nThe wearer can run super fast\nLeaves a trail of flames in your wake",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Hellfire_Treads.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hellfire_Treads",
-        "hardmode": false
-    },
-    {
         "name": "Flame Waker Boots",
         "tooltip": "'Never get cold feet again'",
         "value": {
@@ -1653,19 +953,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Hero Shield",
-        "tooltip": "Grants immunity to knockback\nAbsorbs 25% of damage done to players on your team when above 25% life\nEnemies are more likely to target you",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Hero_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hero_Shield",
-        "hardmode": true
-    },
-    {
         "name": "Lava Waders",
         "tooltip": "Provides the ability to walk on water, honey, & lava\nGrants immunity to fire blocks and 7 seconds of immunity to lava\nReduces damage from touching lava",
         "value": {
@@ -1676,19 +963,6 @@ let items = [
         },
         "iconLocation": "images/icons/Lava_Waders.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lava_Waders",
-        "hardmode": false
-    },
-    {
-        "name": "Molten Skull Rose",
-        "tooltip": "Provides 7 seconds of immunity to lava\nGrants immunity to fire blocks\nReduces damage from touching lava",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Molten_Skull_Rose.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
         "hardmode": false
     },
     {
@@ -1861,32 +1135,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Magnet Flower",
-        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nIncreases pickup range for mana stars",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Magnet_Flower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magnet_Flower",
-        "hardmode": false
-    },
-    {
-        "name": "Mana Cloak",
-        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nCauses start to fall after taking damage\nStars restore mana when collected",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Mana_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Cloak",
-        "hardmode": true
-    },
-    {
         "name": "Nature's Gift",
         "tooltip": "6% reduced mana cost",
         "value": {
@@ -1926,45 +1174,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Master Ninja Gear",
-        "tooltip": "Allows the ability to climb walls and dash\nGives a chance to dodge attacks",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Master_Ninja_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Master_Ninja_Gear",
-        "hardmode": true
-    },
-    {
-        "name": "Tabi",
-        "tooltip": "Allows the ability to dash\nDouble tap a direction",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Tabi.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tabi",
-        "hardmode": true
-    },
-    {
-        "name": "Black Belt",
-        "tooltip": "Gives a chance to dodge attacks",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Black_Belt.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Black_Belt",
-        "hardmode": true
-    },
-    {
         "name": "Bezoar",
         "tooltip": "Immunity to Poison",
         "value": {
@@ -1978,45 +1187,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Adhesive Bandage",
-        "tooltip": "Immunity to Bleeding",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Adhesive_Bandage.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Adhesive_Bandage",
-        "hardmode": false
-    },
-    {
-        "name": "Molten Quiver",
-        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n 20% chance not to consume arrows\nLights wooden arrows ablaze\n'Quiver in fear!'",
-        "value": {
-            "copper": 0,
-            "silver": 50,
-            "gold": 7,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Molten_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Quiver",
-        "hardmode": true
-    },
-    {
-        "name": "Magic Quiver",
-        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n20% chance to not consume arrows",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Magic_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Quiver",
-        "hardmode": true
-    },
-    {
         "name": "Obsidian Skull Rose",
         "tooltip": "Grants immunity to fire blocks\nReduces damage from touching lava",
         "value": {
@@ -2028,32 +1198,6 @@ let items = [
         "iconLocation": "images/icons/Obsidian_Skull_Rose.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull_Rose",
         "hardmode": false
-    },
-    {
-        "name": "Moon Charm",
-        "tooltip": "Turns the holder into a werewolf at night",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Moon_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Charm",
-        "hardmode": true
-    },
-    {
-        "name": "Neptune's Shell",
-        "tooltip": "Transforms the holder into merfolk when entering water",
-        "value": {
-            "copper": 0,
-            "silver": 50,
-            "gold": 7,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Neptune's_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Neptune%27s_Shell",
-        "hardmode": true
     },
     {
         "name": "Multicolor Wrench",
@@ -2134,19 +1278,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Obsidian Horseshoe",
-        "tooltip": "Negates fall damage\nGrants immunity to fire blocks",
-        "value": {
-            "copper": 0,
-            "silver": 20,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Obsidian_Horseshoe.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Horseshoe",
-        "hardmode": false
-    },
-    {
         "name": "Cobalt Shield",
         "tooltip": "Grants immunity to knockback",
         "value": {
@@ -2158,45 +1289,6 @@ let items = [
         "iconLocation": "images/icons/Cobalt_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cobalt_Shield",
         "hardmode": false
-    },
-    {
-        "name": "Papyrus Scarab",
-        "tooltip": "Increases your max number of minions by 1\nIncreases your summon damage by 15% and the knockback of your minions",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Papyrus_Scarab.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
-        "hardmode": true
-    },
-    {
-        "name": "Necromantic Scroll",
-        "tooltip": "Increases your max number of minions by 1\nIncreases summon damage by 10%",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Necromantic_Scroll.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Necromantic_Scroll",
-        "hardmode": true
-    },
-    {
-        "name": "Hercules Beetle",
-        "tooltip": "Increases summon damage by 15%\nIncreases the knockback of your minions",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Hercules_Beetle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hercules_Beetle",
-        "hardmode": true
     },
     {
         "name": "R.E.K. 3000",
@@ -2212,19 +1304,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Pink Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Pink_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Pink_Horseshoe_Balloon",
-        "hardmode": false
-    },
-    {
         "name": "Sharkron Balloon",
         "tooltip": "Increases jump height\nAllows the holder to double jump",
         "value": {
@@ -2236,19 +1315,6 @@ let items = [
         "iconLocation": "images/icons/Sharkron_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sharkron_Balloon",
         "hardmode": false
-    },
-    {
-        "name": "Titan Glove",
-        "tooltip": "Increases melee knockback\nIncreases the size of melee weapons",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Titan_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Titan_Glove",
-        "hardmode": true
     },
     {
         "name": "Feral Claws",
@@ -2301,58 +1367,6 @@ let items = [
         "iconLocation": "images/icons/Radar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Radar",
         "hardmode": false
-    },
-    {
-        "name": "Recon Scope",
-        "tooltip": "Increases view range for guns\n(Right click to zoom out)\n10% increased ranged damage and critical strike chance\nEnemies are less likey to target you\n'Enemy spotted'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Recon_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Recon_Scope",
-        "hardmode": true
-    },
-    {
-        "name": "Sniper Scope",
-        "tooltip": "Increases view range for guns\n(Right click to zoom out)\n10% increased ranged damage and critical strike chance",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 6,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Sniper_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sniper_Scope",
-        "hardmode": true
-    },
-    {
-        "name": "Blindfold",
-        "tooltip": "Immunity to Darkness",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Blindfold.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blindfold",
-        "hardmode": true
-    },
-    {
-        "name": "Pocket Mirror",
-        "tooltip": "Immunity to Petrification",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Pocket_Mirror.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Pocket_Mirror",
-        "hardmode": true
     },
     {
         "name": "Sandstorm in a Bottle",
@@ -2433,19 +1447,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Rifle Scope",
-        "tooltip": "Increases view range for guns\nRight click to zoom out",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Rifle_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Rifle_Scope",
-        "hardmode": true
-    },
-    {
         "name": "Hermes Boots",
         "tooltip": "The wearer can run super fast",
         "value": {
@@ -2498,58 +1499,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Stalker's Quiver",
-        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n20%chance not to consume arrows\nEnemies are less likely to target you",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Stalker's_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Stalker%27s_Quiver",
-        "hardmode": true
-    },
-    {
-        "name": "Star Veil",
-        "tooltip": "Causes stars to fall and increases length of invincibility after taking damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Star_Veil.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Star_Veil",
-        "hardmode": true
-    },
-    {
-        "name": "Cross Necklace",
-        "tooltip": "Increases length of invincibility after taking damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Cross_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cross_Necklace",
-        "hardmode": true
-    },
-    {
-        "name": "Stinger Necklace",
-        "tooltip": "Increases armor penetration by 5\nReleases bees and douses the user in honey when damaged",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Stinger_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Stinger_Necklace",
-        "hardmode": false
-    },
-    {
         "name": "Shark Tooth Necklace",
         "tooltip": "Increases armor penetration by 5",
         "value": {
@@ -2563,19 +1512,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Sweetheart Necklace",
-        "tooltip": "Releases bees, douses the user in honey and increases movement speed when damaged",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Sweetheart_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sweetheart_Necklace",
-        "hardmode": false
-    },
-    {
         "name": "Panic Necklace",
         "tooltip": "Increases movement speed after taking damage",
         "value": {
@@ -2586,32 +1522,6 @@ let items = [
         },
         "iconLocation": "images/icons/Panic_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Panic_Necklace",
-        "hardmode": false
-    },
-    {
-        "name": "Terraspark Boots",
-        "tooltip": "Allows flight, super fast running, and extra mobility on ice\n8% increased movement speed\nProvides the ability to walk on water, honey, & lava\nGrants immunity to fire blocks and 7 seconds of immunity to lava\nReduces damage from touching lava",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 15,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Terraspark_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Terraspark_Boots",
-        "hardmode": false
-    },
-    {
-        "name": "The Grand Design",
-        "tooltip": "Allows ultimate control over wires!\nRight click while holding to edit wire settings",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/The_Grand_Design.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/The_Grand_Design",
         "hardmode": false
     },
     {
@@ -2639,32 +1549,6 @@ let items = [
         "iconLocation": "images/icons/Ruler.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Ruler",
         "hardmode": false
-    },
-    {
-        "name": "Fast Clock",
-        "tooltip": "Immunity to Slow",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Fast_Clock.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fast_Clock",
-        "hardmode": true
-    },
-    {
-        "name": "Trifold Map",
-        "tooltip": "Immunity to Confusion",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Trifold_Map.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Trifold_Map",
-        "hardmode": true
     },
     {
         "name": "Climbing Claws",
@@ -2745,19 +1629,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Ultrabright Helmet",
-        "tooltip": "Improves vision and provides light when worn\n'The darkness holds no secrets for you'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Ultrabright_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
-        "hardmode": false
-    },
-    {
         "name": "Mining Helmet",
         "tooltip": "Provides light when worn",
         "value": {
@@ -2784,19 +1655,6 @@ let items = [
         "hardmode": false
     },
     {
-        "name": "Yoyo Bag",
-        "tooltip": "Gives the user master yoyo skills",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Yoyo_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Bag",
-        "hardmode": true
-    },
-    {
         "name": "White String",
         "tooltip": "Increases yoyo range",
         "value": {
@@ -2810,6 +1668,688 @@ let items = [
         "hardmode": false
     },
     {
+        "name": "Adhesive Bandage",
+        "tooltip": "Immunity to Bleeding",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Adhesive_Bandage.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Adhesive_Bandage",
+        "hardmode": false
+    },
+
+
+
+    // --- Pre-hardmode Items; Final Craft ---
+    {
+        "name": "Amphibian Boots",
+        "tooltip": "The wearer can run super fast\nIncreases jump speed and allows auto-jump\nIncreases fall resistance",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Amphibian_Boots.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Amphibian_Boots",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Angler Tackle Bag",
+        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Angler_Tackle_Bag.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Architect Gizmo Pack",
+        "tooltip": "Increases block & wall placement speed\nIncreases block placement & tool range by 3\nAutomatically paints or coats placed objects",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Arctic Diving Gear",
+        "tooltip": "Grants the ability to swim and greatly extends underwater breathing\nProvides extra mobility on ice\nGenerates a very subtle glow which becomes more vibrant underwater",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Arctic_Diving_Gear.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Arctic_Diving_Gear",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Blue Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "White Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Yellow Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Green Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Green_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Green_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Pink Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Pink_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Pink_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Amber Horseshoe Balloon",
+        "tooltip": "Releases bees and douses the user in honey when damaged\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Amber_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Amber_Horseshoe_Balloon",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Bundle of Horseshoe Balloons",
+        "tooltip": "Allows the holder to quadruple jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Bundle_of_Horseshoe_Balloons.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Horseshoe_Balloons",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Celestial Cuffs",
+        "tooltip": "Increases pickup range for mana stars\nRestores mana when damaged\nIncreases maximum mana by 20",
+        "value": {
+            "copper": 0,
+            "silver": 20,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Celestial_Cuffs.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Cuffs",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Cell Phone",
+        "tooltip": "Displays everything\nAllows you to return home at will",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Cell_Phone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Fairy Boots",
+        "tooltip": "Allows flight\nThe wearer can run super fast\nFlowers grow on the grass you walk on",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Fairy_Boots.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fairy_Boots",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Frog Gear",
+        "tooltip": "Grants the ability to swim\nAllows the ability to climb walls\nIncreases jump speed and allows auto-jump\nIncreases fall resistance\n'It ain't easy being green'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Frog_Gear.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Gear",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Hellfire Treads",
+        "tooltip": "Allows flight\nThe wearer can run super fast\nLeaves a trail of flames in your wake",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Hellfire_Treads.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Hellfire_Treads",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Molten Skull Rose",
+        "tooltip": "Provides 7 seconds of immunity to lava\nGrants immunity to fire blocks\nReduces damage from touching lava",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Molten_Skull_Rose.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Magnet Flower",
+        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nIncreases pickup range for mana stars",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Magnet_Flower.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Magnet_Flower",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Obsidian Horseshoe",
+        "tooltip": "Negates fall damage\nGrants immunity to fire blocks",
+        "value": {
+            "copper": 0,
+            "silver": 20,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Obsidian_Horseshoe.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Horseshoe",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Stinger Necklace",
+        "tooltip": "Increases armor penetration by 5\nReleases bees and douses the user in honey when damaged",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Stinger_Necklace.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Stinger_Necklace",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Sweetheart Necklace",
+        "tooltip": "Releases bees, douses the user in honey and increases movement speed when damaged",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Sweetheart_Necklace.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Sweetheart_Necklace",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Terraspark Boots",
+        "tooltip": "Allows flight, super fast running, and extra mobility on ice\n8% increased movement speed\nProvides the ability to walk on water, honey, & lava\nGrants immunity to fire blocks and 7 seconds of immunity to lava\nReduces damage from touching lava",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 15,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Terraspark_Boots.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Terraspark_Boots",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "The Grand Design",
+        "tooltip": "Allows ultimate control over wires!\nRight click while holding to edit wire settings",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/The_Grand_Design.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/The_Grand_Design",
+        "hardmode": false,
+        "finalCraft": true
+    },
+    {
+        "name": "Ultrabright Helmet",
+        "tooltip": "Improves vision and provides light when worn\n'The darkness holds no secrets for you'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ultrabright_Helmet.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
+        "hardmode": false,
+        "finalCraft": true
+    },
+
+
+
+    // --- Hardmode Items ---
+    {
+        "name": "Ankh Charm",
+        "tooltip": "Grants immunity to most debuffs",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ankh_Charm.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Charm",
+        "hardmode": true
+    },
+    {
+        "name": "Armor Bracing",
+        "tooltip": "Immunity to Weakness and Broken Armor",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Armor_Bracing.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Bracing",
+        "hardmode": true
+    },
+    {
+        "name": "The Plan",
+        "tooltip": "Immunity to Slow and Confusion",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/The_Plan.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/The_Plan",
+        "hardmode": true
+    },
+    {
+        "name": "Reflective Shades",
+        "tooltip": "Immunity to Darkness and Petrification",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Reflective_Shades.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Reflective_Shades",
+        "hardmode": true
+    },
+    {
+        "name": "Putrid Scent",
+        "tooltip": "Enemies are less likely to target you\n5% increased damage and critical strike chance",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Putrid_Scent.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Putrid_Scent",
+        "hardmode": true
+    },
+    {
+        "name": "Armor Polish",
+        "tooltip": "Immunity to Broken Armor",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Armor_Polish.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Polish",
+        "hardmode": true
+    },
+    {
+        "name": "Vitamins",
+        "tooltip": "Immunity to Weakness",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Vitamins.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Vitamins",
+        "hardmode": true
+    },
+    {
+        "name": "Avenger Emblem",
+        "tooltip": "12% increased damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Avenger_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Avenger_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Warrior Emblem",
+        "tooltip": "15% increased melee damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Warrior_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Warrior_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Ranger Emblem",
+        "tooltip": "15% increased ranged damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ranger_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ranger_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Sorcerer Emblem",
+        "tooltip": "15% increased magic damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Sorcerer_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Sorcerer_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Summoner Emblem",
+        "tooltip": "15% increased summon damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Summoner_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Summoner_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Star Cloak",
+        "tooltip": "Causes stars to fall after taking damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Star_Cloak.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Star_Cloak",
+        "hardmode": true
+    },
+    {
+        "name": "Power Glove",
+        "tooltip": "Increases melee knockback\n12% increased melee speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Power_Glove.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Power_Glove",
+        "hardmode": true
+    },
+    {
+        "name": "Flesh Knuckles",
+        "tooltip": "Enemies are more likely to target you",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Flesh_Knuckles.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Flesh_Knuckles",
+        "hardmode": true
+    },
+    {
+        "name": "Celestial Stone",
+        "tooltip": "Minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Celestial_Stone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Stone",
+        "hardmode": true
+    },
+    {
+        "name": "Moon Shell",
+        "tooltip": "Turns the holder into a werewolf at night and a merfolk when entering water",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Moon_Shell.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Shell",
+        "hardmode": true
+    },
+    {
+        "name": "Sun Stone",
+        "tooltip": "During daytime, grants minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Sun_Stone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Sun_Stone",
+        "hardmode": true
+    },
+    {
+        "name": "Moon Stone",
+        "tooltip": "During nighttime, grants minor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
+        "value": {
+            "copper": 0,
+            "silver": 50,
+            "gold": 7,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Moon_Stone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Stone",
+        "hardmode": true
+    },
+    {
+        "name": "Philosopher's Stone",
+        "tooltip": "Reduces the cooldown of healing potions by 25%",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Philosopher's_Stone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Philosopher%27s_Stone",
+        "hardmode": true
+    },
+    {
+        "name": "Coin Ring",
+        "tooltip": "Increases coin pickup range\nHitting enemies will sometimes drop extra coins",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Coin_Ring.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Coin_Ring",
+        "hardmode": true
+    },
+    {
+        "name": "Gold Ring",
+        "tooltip": "Increases coin pickup range",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Gold_Ring.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Ring",
+        "hardmode": true
+    },
+    {
+        "name": "Lucky Coin",
+        "tooltip": "Hitting enemies will sometimes drop extra coins\n'I found a coin! It's my lucky day!'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Lucky_Coin.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Coin",
+        "hardmode": true
+    },
+    {
+        "name": "Destroyer Emblem",
+        "tooltip": "10% increased damage\n8% increased critical strike chance",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Destroyer_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Destroyer_Emblem",
+        "hardmode": true
+    },
+    {
+        "name": "Eye of the Golem",
+        "tooltip": "10% increased critical strike chance",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Eye_of_the_Golem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Eye_of_the_Golem",
+        "hardmode": true
+    },
+    {
         "name": "Yoyo Glove",
         "tooltip": "Allows the use of two yoyos at once",
         "value": {
@@ -2821,7 +2361,564 @@ let items = [
         "iconLocation": "images/icons/Yoyo_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Glove",
         "hardmode": true
+    },
+    {
+        "name": "Fast Clock",
+        "tooltip": "Immunity to Slow",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Fast_Clock.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fast_Clock",
+        "hardmode": true
+    },
+    {
+        "name": "Trifold Map",
+        "tooltip": "Immunity to Confusion",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Trifold_Map.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Trifold_Map",
+        "hardmode": true
+    },
+    {
+        "name": "Rifle Scope",
+        "tooltip": "Increases view range for guns\nRight click to zoom out",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Rifle_Scope.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Rifle_Scope",
+        "hardmode": true
+    },
+    {
+        "name": "Cross Necklace",
+        "tooltip": "Increases length of invincibility after taking damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Cross_Necklace.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Cross_Necklace",
+        "hardmode": true
+    },
+    {
+        "name": "Necromantic Scroll",
+        "tooltip": "Increases your max number of minions by 1\nIncreases summon damage by 10%",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Necromantic_Scroll.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Necromantic_Scroll",
+        "hardmode": true
+    },
+    {
+        "name": "Hercules Beetle",
+        "tooltip": "Increases summon damage by 15%\nIncreases the knockback of your minions",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Hercules_Beetle.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Hercules_Beetle",
+        "hardmode": true
+    },
+    {
+        "name": "Titan Glove",
+        "tooltip": "Increases melee knockback\nIncreases the size of melee weapons",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Titan_Glove.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Titan_Glove",
+        "hardmode": true
+    },
+    {
+        "name": "Sniper Scope",
+        "tooltip": "Increases view range for guns\n(Right click to zoom out)\n10% increased ranged damage and critical strike chance",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Sniper_Scope.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Sniper_Scope",
+        "hardmode": true
+    },
+    {
+        "name": "Blindfold",
+        "tooltip": "Immunity to Darkness",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Blindfold.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Blindfold",
+        "hardmode": true
+    },
+    {
+        "name": "Pocket Mirror",
+        "tooltip": "Immunity to Petrification",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Pocket_Mirror.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Pocket_Mirror",
+        "hardmode": true
+    },
+    {
+        "name": "Magic Quiver",
+        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n20% chance to not consume arrows",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Magic_Quiver.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Quiver",
+        "hardmode": true
+    },
+
+    {
+        "name": "Moon Charm",
+        "tooltip": "Turns the holder into a werewolf at night",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Moon_Charm.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Charm",
+        "hardmode": true
+    },
+    {
+        "name": "Neptune's Shell",
+        "tooltip": "Transforms the holder into merfolk when entering water",
+        "value": {
+            "copper": 0,
+            "silver": 50,
+            "gold": 7,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Neptune's_Shell.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Neptune%27s_Shell",
+        "hardmode": true
+    },
+    {
+        "name": "Tabi",
+        "tooltip": "Allows the ability to dash\nDouble tap a direction",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Tabi.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Tabi",
+        "hardmode": true
+    },
+    {
+        "name": "Black Belt",
+        "tooltip": "Gives a chance to dodge attacks",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Black_Belt.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Black_Belt",
+        "hardmode": true
+    },
+    {
+        "name": "Discount Card",
+        "tooltip": "Shops prices lowered by 20%",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Discount_Card.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Discount_Card",
+        "hardmode": true
+    },
+    {
+        "name": "Frozen Turtle Shell",
+        "tooltip": "Puts a shell around the owner when below 50% life that reduces damage by 25%",
+        "value": {
+            "copper": 0,
+            "silver": 50,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Frozen_Turtle_Shell.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Turtle_Shell",
+        "hardmode": true
+    },
+    {
+        "name": "Paladin's Shield",
+        "tooltip": "Absorbs 25% of damage done to players on your team when above 25% life\nGrants immunity to knockback",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Paladin's_Shield.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Paladin%27s_Shield",
+        "hardmode": true
+    },
+    {
+        "name": "Mechanical Glove",
+        "tooltip": "Increases melee knockback\n12% increased melee damage and speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Mechanical_Glove.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Glove",
+        "hardmode": true
+    },
+
+
+
+    // --- Hardmode Items; Final Craft ---
+    {
+        "name": "Ankh Shield",
+        "tooltip": "Grants immunity to knockback and fire blocks\nGrants immunity to most debuffs",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ankh_Shield.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Shield",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Arcane Flower",
+        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nEnemies are less likely to target you",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Arcane_Flower.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Arcane_Flower",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Bee Cloak",
+        "tooltip": "Causes starts to fall, releases bees, and douses the user in honey when damaged",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Bee_Cloak.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Bee_Cloak",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Berserker's Glove",
+        "tooltip": "Increases melee knockback\n12% increased melee speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons\nEnemies are more likely to target you",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Berserker's_Glove.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Berserker%27s_Glove",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Celestial Emblem",
+        "tooltip": "Increases pickup range for mana stars\n15% increased magic damage",
+        "value": {
+            "copper": 0,
+            "silver": 20,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Celestial_Emblem.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Emblem",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Celestial Shell",
+        "tooltip": "Turns the holder into a werewolf at night\nTurns the holder into a merfolk when entering water\nMinor increase to damage, melee speed, critical strike chance, life regeneration, defense, mining speed, and minion knockback",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 14,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Celestial_Shell.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Shell",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Charm of Myths",
+        "tooltip": "Provides life regernation and reduces the cooldown of healing potions by 25%",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Charm_of_Myths.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Charm_of_Myths",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Fire Gauntlet",
+        "tooltip": "Increases melee knockback and melee attacks inflict fire damage\n12% increased melee damage and speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 6,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Fire_Gauntlet.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fire_Gauntlet",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Frozen Shield",
+        "tooltip": "Grants immunity to knockback\nPuts a shell around the owner when below 50% life that reduces damage by 25%\nAbsorbs 25% of damage done to players on your team when above 25% life",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Frozen_Shield.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Shield",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Greedy Ring",
+        "tooltip": "Increases coin pickup range and shops prices lowered by 20%\nHitting enemies will sometimes drop extra coins",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Greedy_Ring.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Greedy_Ring",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Hero Shield",
+        "tooltip": "Grants immunity to knockback\nAbsorbs 25% of damage done to players on your team when above 25% life\nEnemies are more likely to target you",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Hero_Shield.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Hero_Shield",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Mana Cloak",
+        "tooltip": "8% reduced mana cost\nAutomatically use mana potions when needed\nCauses start to fall after taking damage\nStars restore mana when collected",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Mana_Cloak.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Cloak",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Master Ninja Gear",
+        "tooltip": "Allows the ability to climb walls and dash\nGives a chance to dodge attacks",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Master_Ninja_Gear.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Master_Ninja_Gear",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Molten Quiver",
+        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n 20% chance not to consume arrows\nLights wooden arrows ablaze\n'Quiver in fear!'",
+        "value": {
+            "copper": 0,
+            "silver": 50,
+            "gold": 7,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Molten_Quiver.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Quiver",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Papyrus Scarab",
+        "tooltip": "Increases your max number of minions by 1\nIncreases your summon damage by 15% and the knockback of your minions",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Papyrus_Scarab.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Recon Scope",
+        "tooltip": "Increases view range for guns\n(Right click to zoom out)\n10% increased ranged damage and critical strike chance\nEnemies are less likey to target you\n'Enemy spotted'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Recon_Scope.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Recon_Scope",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Stalker's Quiver",
+        "tooltip": "Increases arrow damage by 10% and greatly increases arrow speed\n20%chance not to consume arrows\nEnemies are less likely to target you",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Stalker's_Quiver.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Stalker%27s_Quiver",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Star Veil",
+        "tooltip": "Causes stars to fall and increases length of invincibility after taking damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Star_Veil.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Star_Veil",
+        "hardmode": true,
+        "finalCraft": true
+    },
+    {
+        "name": "Yoyo Bag",
+        "tooltip": "Gives the user master yoyo skills",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Yoyo_Bag.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Bag",
+        "hardmode": true,
+        "finalCraft": true
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
 ]
 
 /* Template
