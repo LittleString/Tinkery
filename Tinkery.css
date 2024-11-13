@@ -39,6 +39,10 @@ body {
     font-family: 'Andy';
 }
 
+
+
+
+
 /* Ensure main container takes up full screen */
 #mainBodyContent {
     display: flex;
@@ -64,7 +68,8 @@ body {
 /* Search Container styling */
 #searchContainer {
     padding: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    display: flex;
 }
 
 /* Style for the search bar */
@@ -76,6 +81,60 @@ body {
     font-family: 'Andy';
     font-size: 24px;
     padding: 6px 8px 6px 8px;
+}
+
+/* Filter button */
+#filterSearch {
+    height: 100%;
+    width: 52px;
+    border: 3px solid rgb(54 55 131);
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: #5f63d3;
+}
+
+#filterSearch:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+#filterSearch:active {
+    filter: brightness(0.9);
+}
+
+/* Filter icon on filter button */
+#filterImage {
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Filter options container styling */
+.popup {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+    z-index: 100;
+}
+
+/* Show filter options when toggled */
+.popup.show {
+    display: block;
+}
+
+/* Styling for each option within filter options popup */
+#filterOptions label {
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* Icon Container styling */
@@ -109,7 +168,7 @@ body {
     position: absolute;
     right: 40px;
     width: 15vw;
-    height: 35vh;
+    min-height: 35vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -182,6 +241,10 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+
+/* Styling for info panel on the right */
+
+/* Item name at the top */
 #selectedItemName {
     align-items: center;
     display: flex;
@@ -190,11 +253,13 @@ body {
     border-bottom: 2px #d9d9d9 solid;
 }
 
+/* Info about the selected item */
 #selectedItemDetails {
     flex-grow: 1;
     font-size: 17px;
 }
 
+/* Gray box before selecting an item */
 #iconPicContainer {
     height: 60px;
     width: 60px;
@@ -207,6 +272,7 @@ body {
     display: flex;
 }
 
+/* Little icon to the bottom right of selected item icon */
 .urlIcon {
     width: 15px;
     height: 15px;
@@ -220,4 +286,61 @@ body {
 
 #tooltipVal {
     text-align: center;
+}
+
+
+
+/* Coins CSS */
+
+/* Container for all coins */
+#valueVal {
+    display: flex;
+    gap: 10px;
+}
+
+/* Each coin has their own div; remove padding */
+#valueVal div {
+    padding: 0px !important;
+}
+
+.coin {
+    background-image: url('images/icons/coins.png');
+    background-repeat: no-repeat;
+}
+
+.coin-value {
+    font-size: 16px;
+}
+
+.copperCoin {
+    height: 16px;
+    width: 12px;
+    background-position: -41px 50%;
+}
+
+.silverCoin {
+    height: 16px;
+    width: 12px;
+    background-position: -28px 50%;
+}
+
+.goldCoin {
+    height: 16px;
+    width: 12px;
+    background-position: -15px 50%;
+}
+
+.platinumCoin {
+    height: 16px;
+    width: 14px;
+    background-position: 0px 50%;
+}
+
+
+
+
+/* Location information about root items */
+
+#location {
+    display: none;
 }

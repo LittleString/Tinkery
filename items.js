@@ -14,7 +14,10 @@ let items = [
         },
         "iconLocation": "images/icons/Tackle_Box.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Tackle_Box",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Honey Balloon",
@@ -27,7 +30,11 @@ let items = [
         },
         "iconLocation": "images/icons/Honey_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Health",
+            "Mobility"
+        ]
     },
     {
         "name": "Lucky Horseshoe",
@@ -40,7 +47,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lucky_Horseshoe.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Horseshoe",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Sailfish Boots",
@@ -53,7 +63,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sailfish_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sailfish_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Frog Leg",
@@ -66,7 +79,10 @@ let items = [
         },
         "iconLocation": "images/icons/Frog_Leg.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frog_Leg",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "High Test Fishing Line",
@@ -79,7 +95,10 @@ let items = [
         },
         "iconLocation": "images/icons/High_Test_Fishing_Line.png",
         "wikiLink": "https://terraria.fandom.com/wiki/High_Test_Fishing_Line",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Angler Earring",
@@ -92,7 +111,10 @@ let items = [
         },
         "iconLocation": "images/icons/Angler_Earring.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Angler_Earring",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Medicated Bandage",
@@ -105,7 +127,10 @@ let items = [
         },
         "iconLocation": "images/icons/Medicated_Bandage.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Medicated_Bandage",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Countercurse Mantra",
@@ -118,7 +143,10 @@ let items = [
         },
         "iconLocation": "images/icons/Countercurse_Mantra.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Countercurse_Mantra",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Obsidian Shield",
@@ -131,7 +159,10 @@ let items = [
         },
         "iconLocation": "images/icons/Obsidian_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Shield",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Mana Flower",
@@ -144,7 +175,10 @@ let items = [
         },
         "iconLocation": "images/icons/Mana_Flower.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Flower",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
         "name": "Brick Layer",
@@ -157,7 +191,10 @@ let items = [
         },
         "iconLocation": "images/icons/Brick_Layer.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Brick_Layer",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Extendo Grip",
@@ -170,7 +207,10 @@ let items = [
         },
         "iconLocation": "images/icons/Extendo_Grip.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Extendo_Grip",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Paint Sprayer",
@@ -183,7 +223,10 @@ let items = [
         },
         "iconLocation": "images/icons/Paint_Sprayer.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Paint_Sprayer",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Portable Cement Mixer",
@@ -196,7 +239,10 @@ let items = [
         },
         "iconLocation": "images/icons/Portable_Cement_Mixer.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Portable_Cement_Mixer",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Jellyfish Diving Gear",
@@ -209,7 +255,10 @@ let items = [
         },
         "iconLocation": "images/icons/Jellyfish_Diving_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Jellyfish_Diving_Gear",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Fishing Bobber",
@@ -222,7 +271,10 @@ let items = [
         },
         "iconLocation": "images/icons/Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Glowing Fishing Bobber",
@@ -235,7 +287,10 @@ let items = [
         },
         "iconLocation": "images/icons/Glowing_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Glowing_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Argon Moss Fishing Bobber",
@@ -248,7 +303,10 @@ let items = [
         },
         "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Helium Moss Fishing Bobber",
@@ -261,7 +319,10 @@ let items = [
         },
         "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Krypton Moss Fishing Bobber",
@@ -274,7 +335,10 @@ let items = [
         },
         "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Lava Moss Fishing Bobber",
@@ -287,7 +351,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Xenon Moss Fishing Bobber",
@@ -300,7 +367,10 @@ let items = [
         },
         "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Neon Moss Fishing Bobber",
@@ -313,7 +383,10 @@ let items = [
         },
         "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Honey Comb",
@@ -326,7 +399,11 @@ let items = [
         },
         "iconLocation": "images/icons/Honey_Comb.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Comb",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Health",
+            "Damage"
+        ]
     },
     {
         "name": "Blizzard in a Balloon",
@@ -339,7 +416,10 @@ let items = [
         },
         "iconLocation": "images/icons/Blizzard_in_a_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Blizzard_in_a_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Blizzard in a Bottle",
@@ -352,7 +432,10 @@ let items = [
         },
         "iconLocation": "images/icons/Blizzard_in_a_Bottle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Blizzard_in_a_Bottle",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Cloud in a Bottle",
@@ -365,7 +448,10 @@ let items = [
         },
         "iconLocation": "images/icons/Cloud_in_a_Bottle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Bottle",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Shiny Red Balloon",
@@ -378,7 +464,10 @@ let items = [
         },
         "iconLocation": "images/icons/Shiny_Red_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shiny_Red_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Cloud in a Balloon",
@@ -391,7 +480,10 @@ let items = [
         },
         "iconLocation": "images/icons/Cloud_in_a_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Sandstorm in a Balloon",
@@ -404,7 +496,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sandstorm_in_a_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sandstorm_in_a_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Bundle of Balloons",
@@ -417,7 +512,10 @@ let items = [
         },
         "iconLocation": "images/icons/Bundle_of_Balloons.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Balloons",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Celestial Magnet",
@@ -430,7 +528,10 @@ let items = [
         },
         "iconLocation": "images/icons/Celestial_Magnet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Magnet",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
         "name": "Magic Cuffs",
@@ -443,7 +544,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magic_Cuffs.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Cuffs",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
         "name": "PDA",
@@ -456,7 +560,10 @@ let items = [
         },
         "iconLocation": "images/icons/PDA.png",
         "wikiLink": "https://terraria.fandom.com/wiki/PDA",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Magic Mirror",
@@ -469,7 +576,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magic_Mirror.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Mirrors",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Ice Mirror",
@@ -482,7 +592,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ice_Mirror.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Mirrors",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Band of Regeneration",
@@ -495,7 +608,10 @@ let items = [
         },
         "iconLocation": "images/icons/Band_of_Regeneration.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Band_of_Regeneration",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Health"
+        ]
     },
     {
         "name": "Megaphone",
@@ -508,7 +624,10 @@ let items = [
         },
         "iconLocation": "images/icons/Megaphone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Megaphone",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Nazar",
@@ -521,7 +640,10 @@ let items = [
         },
         "iconLocation": "images/icons/Nazar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Nazar",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Diving Gear",
@@ -534,7 +656,10 @@ let items = [
         },
         "iconLocation": "images/icons/Diving_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Diving_Gear",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Flipper",
@@ -547,7 +672,10 @@ let items = [
         },
         "iconLocation": "images/icons/Flipper.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Flipper",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Diving Helmet",
@@ -560,7 +688,10 @@ let items = [
         },
         "iconLocation": "images/icons/Diving_Helmet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Diving_Helmet",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Spectre Boots",
@@ -573,7 +704,10 @@ let items = [
         },
         "iconLocation": "images/icons/Spectre_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Spectre_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Flower Boots",
@@ -586,7 +720,10 @@ let items = [
         },
         "iconLocation": "images/icons/Flower_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Flower_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Other"
+        ]
     },
     {
         "name": "Fart in a Balloon",
@@ -599,7 +736,10 @@ let items = [
         },
         "iconLocation": "images/icons/Fart_in_a_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fart_in_a_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Fart in a Jar",
@@ -612,7 +752,10 @@ let items = [
         },
         "iconLocation": "images/icons/Fart_in_a_Jar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fart_in_a_Jar",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Whoopie Cushion",
@@ -625,7 +768,10 @@ let items = [
         },
         "iconLocation": "images/icons/Whoopie_Cushion.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Other"
+        ]
     },
     {
         "name": "Magma Stone",
@@ -638,7 +784,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magma_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magma_Stone",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Melee"
+        ]
     },
     {
         "name": "Fish Finder",
@@ -651,7 +800,11 @@ let items = [
         },
         "iconLocation": "images/icons/Fish_Finder.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fish_Finder",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing",
+            "Tools"
+        ]
     },
     {
         "name": "Fisherman's Pocket Guide",
@@ -664,7 +817,11 @@ let items = [
         },
         "iconLocation": "images/icons/Fisherman's_Pocket_Guide.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fisherman%27s_Pocket_Guide",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing",
+            "Tools"
+        ]
     },
     {
         "name": "Weather Radio",
@@ -677,7 +834,10 @@ let items = [
         },
         "iconLocation": "images/icons/Weather_Radio.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Weather_Radio",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Sextant",
@@ -690,7 +850,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sextant.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sextant",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Frog Flipper",
@@ -703,7 +866,10 @@ let items = [
         },
         "iconLocation": "images/icons/Frog_Flipper.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frog_Flipper",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Tiger Climbing Gear",
@@ -716,7 +882,10 @@ let items = [
         },
         "iconLocation": "images/icons/Tiger_Climbing_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Tiger_Climbing_Gear",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Frog Webbing",
@@ -729,7 +898,10 @@ let items = [
         },
         "iconLocation": "images/icons/Frog_Webbing.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frog_Webbing",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Frostspark Boots",
@@ -742,7 +914,10 @@ let items = [
         },
         "iconLocation": "images/icons/Frostspark_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frostspark_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Lightning Boots",
@@ -755,7 +930,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lightning_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lightning_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Ice Skates",
@@ -768,7 +946,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ice_Skates.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ice_Skates",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Goblin Tech",
@@ -781,7 +962,10 @@ let items = [
         },
         "iconLocation": "images/icons/Goblin_Tech.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Goblin_Tech",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Metal Detector",
@@ -794,7 +978,10 @@ let items = [
         },
         "iconLocation": "images/icons/Metal_Detector.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Metal_Detector",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Stopwatch",
@@ -807,7 +994,10 @@ let items = [
         },
         "iconLocation": "images/icons/Stopwatch.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Stopwatch",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "DPS Meter",
@@ -820,7 +1010,10 @@ let items = [
         },
         "iconLocation": "images/icons/DPS_Meter.png",
         "wikiLink": "https://terraria.fandom.com/wiki/DPS_Meter",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "GPS",
@@ -833,7 +1026,10 @@ let items = [
         },
         "iconLocation": "images/icons/GPS.png",
         "wikiLink": "https://terraria.fandom.com/wiki/GPS",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Gold Watch",
@@ -846,7 +1042,10 @@ let items = [
         },
         "iconLocation": "images/icons/Gold_Watch.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Gold_Watch",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Depth Meter",
@@ -859,7 +1058,10 @@ let items = [
         },
         "iconLocation": "images/icons/Depth_Meter.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Depth_Meter",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Compass",
@@ -872,7 +1074,10 @@ let items = [
         },
         "iconLocation": "images/icons/Compass.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Compass",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Platinum Watch",
@@ -885,7 +1090,10 @@ let items = [
         },
         "iconLocation": "images/icons/Platinum_Watch.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Platinum_Watch",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Hand of Creation",
@@ -898,7 +1106,10 @@ let items = [
         },
         "iconLocation": "images/icons/Hand_of_Creation.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hand_Of_Creation",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Ancient Chisel",
@@ -911,7 +1122,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ancient_Chisel.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ancient_Chisel",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Treasure Magnet",
@@ -924,7 +1138,10 @@ let items = [
         },
         "iconLocation": "images/icons/Treasure_Magnet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Treasure_Magnet",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Step stool",
@@ -937,7 +1154,10 @@ let items = [
         },
         "iconLocation": "images/icons/Step_Stool.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Step_Stool",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Flame Waker Boots",
@@ -950,7 +1170,10 @@ let items = [
         },
         "iconLocation": "images/icons/Flame_Waker_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Flame_Waker_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Other"
+        ]
     },
     {
         "name": "Lava Waders",
@@ -963,7 +1186,11 @@ let items = [
         },
         "iconLocation": "images/icons/Lava_Waders.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lava_Waders",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Immunity"
+        ]
     },
     {
         "name": "Obsidian Water Walking Boots",
@@ -976,7 +1203,11 @@ let items = [
         },
         "iconLocation": "images/icons/Obsidian_Water_Walking_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Water_Walking_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Immunity"
+        ]
     },
     {
         "name": "Water Walking Boots",
@@ -989,7 +1220,10 @@ let items = [
         },
         "iconLocation": "images/icons/Water_Walking_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Water_Walking_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Lava Charm",
@@ -1002,7 +1236,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lava_Charm.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lava_Charm",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Obsidian Rose",
@@ -1015,7 +1252,10 @@ let items = [
         },
         "iconLocation": "images/icons/Obsidian_Rose.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Rose",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Damage"
+        ]
     },
     {
         "name": "Molten Charm",
@@ -1028,7 +1268,10 @@ let items = [
         },
         "iconLocation": "images/icons/Molten_Charm.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Molten_Charm",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Lavaproof Tackle Bag",
@@ -1041,7 +1284,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lavaproof_Tackle_Bag.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Tackle_Bag",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Lavaproof Fishing Hook",
@@ -1054,7 +1300,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lavaproof_Fishing_Hook.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Fishing_Hook",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ]
     },
     {
         "name": "Anklet of the Wind",
@@ -1067,7 +1316,10 @@ let items = [
         },
         "iconLocation": "images/icons/Anklet_of_the_Wind.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Anklet_of_the_Wind",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Aglet",
@@ -1080,7 +1332,10 @@ let items = [
         },
         "iconLocation": "images/icons/Aglet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Aglet",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Mana Regeneration Band",
@@ -1093,10 +1348,13 @@ let items = [
         },
         "iconLocation": "images/icons/Mana_Regeneration_Band.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Regeneration_Band",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
-        "name": "Shackle",
+        "name": "Shackle", // ????????
         "tooltip": "", // ???
         "value": {
             "copper": 0,
@@ -1106,7 +1364,8 @@ let items = [
         },
         "iconLocation": "images/icons/Shackle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shackle",
-        "hardmode": false
+        "hardmode": false,
+        "tags": []
     },
     {
         "name": "Magma Skull",
@@ -1119,7 +1378,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magma_Skull.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magma_Skull",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Obsidian Skull",
@@ -1132,7 +1394,10 @@ let items = [
         },
         "iconLocation": "images/icons/Obsidian_Skull.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Nature's Gift",
@@ -1145,10 +1410,13 @@ let items = [
         },
         "iconLocation": "images/icons/Nature's_Gift.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Nature%27s_Gift",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
-        "name": "Mana Potion",
+        "name": "Mana Potion", //????????
         "tooltip": "Heals mana by 100",
         "value": {
             "copper": 50,
@@ -1158,7 +1426,8 @@ let items = [
         },
         "iconLocation": "images/icons/Mana_Potion.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Potion",
-        "hardmode": false
+        "hardmode": false,
+        "tags": []
     },
     {
         "name": "Band of Starpower",
@@ -1171,7 +1440,10 @@ let items = [
         },
         "iconLocation": "images/icons/Band_of_Starpower.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Band_of_Starpower",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Magic"
+        ]
     },
     {
         "name": "Bezoar",
@@ -1184,7 +1456,10 @@ let items = [
         },
         "iconLocation": "images/icons/Bezoar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Bezoar",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "Obsidian Skull Rose",
@@ -1197,7 +1472,11 @@ let items = [
         },
         "iconLocation": "images/icons/Obsidian_Skull_Rose.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull_Rose",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity",
+            "Damage"
+        ]
     },
     {
         "name": "Multicolor Wrench",
@@ -1210,7 +1489,10 @@ let items = [
         },
         "iconLocation": "images/icons/Multicolor_Wrench.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Multicolor_Wrench",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Red Wrench",
@@ -1223,7 +1505,10 @@ let items = [
         },
         "iconLocation": "images/icons/Red_Wrench.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Blue Wrench",
@@ -1236,7 +1521,10 @@ let items = [
         },
         "iconLocation": "images/icons/Blue_Wrench.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Green Wrench",
@@ -1249,7 +1537,10 @@ let items = [
         },
         "iconLocation": "images/icons/Green_Wrench.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Yellow Wrench",
@@ -1262,7 +1553,10 @@ let items = [
         },
         "iconLocation": "images/icons/Yellow_Wrench.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Wire Cutter",
@@ -1275,7 +1569,10 @@ let items = [
         },
         "iconLocation": "images/icons/Wire_Cutter.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wire_Cutter",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Cobalt Shield",
@@ -1288,7 +1585,10 @@ let items = [
         },
         "iconLocation": "images/icons/Cobalt_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cobalt_Shield",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
     },
     {
         "name": "R.E.K. 3000",
@@ -1301,7 +1601,10 @@ let items = [
         },
         "iconLocation": "images/icons/R.E.K._3000.png",
         "wikiLink": "https://terraria.fandom.com/wiki/R.E.K._3000",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Sharkron Balloon",
@@ -1314,7 +1617,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sharkron_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sharkron_Balloon",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Feral Claws",
@@ -1327,7 +1633,10 @@ let items = [
         },
         "iconLocation": "images/icons/Feral_Claws.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Feral_Claws",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Melee"
+        ]
     },
     {
         "name": "Tally Counter",
@@ -1340,7 +1649,10 @@ let items = [
         },
         "iconLocation": "images/icons/Tally_Counter.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Tally_Counter",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Lifeform Analyzer",
@@ -1353,7 +1665,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lifeform_Analyzer.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lifeform_Analyzer",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Radar",
@@ -1366,7 +1681,10 @@ let items = [
         },
         "iconLocation": "images/icons/Radar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Radar",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Sandstorm in a Bottle",
@@ -1379,7 +1697,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sandstorm_in_a_Bottle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sandstorm_in_a_Bottle",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Tsunami in a Bottle",
@@ -1392,7 +1713,10 @@ let items = [
         },
         "iconLocation": "images/icons/Tsunami_in_a_Bottle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Tsunami_in_a_Bottle",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Balloon Pufferfish",
@@ -1405,7 +1729,10 @@ let items = [
         },
         "iconLocation": "images/icons/Balloon_Pufferfish.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Balloon_Pufferfish",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Shellphone",
@@ -1418,7 +1745,10 @@ let items = [
         },
         "iconLocation": "images/icons/Shellphone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shellphone",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Magic Conch",
@@ -1431,7 +1761,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magic_Conch.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Conch",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Demon Conch",
@@ -1444,7 +1777,10 @@ let items = [
         },
         "iconLocation": "images/icons/Demon_Conch.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Demon_Conch",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Hermes Boots",
@@ -1457,7 +1793,10 @@ let items = [
         },
         "iconLocation": "images/icons/Hermes_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hermes_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Rocket Boots",
@@ -1470,7 +1809,10 @@ let items = [
         },
         "iconLocation": "images/icons/Rocket_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Rocket_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Flurry Boots",
@@ -1483,7 +1825,10 @@ let items = [
         },
         "iconLocation": "images/icons/Flurry_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Flurry_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Dunerider Boots",
@@ -1496,7 +1841,10 @@ let items = [
         },
         "iconLocation": "images/icons/Dunerider_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Dunerider_Boots",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Shark Tooth Necklace",
@@ -1509,7 +1857,10 @@ let items = [
         },
         "iconLocation": "images/icons/Shark_Tooth_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shark_Tooth_Necklace",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Damage"
+        ]
     },
     {
         "name": "Panic Necklace",
@@ -1522,7 +1873,11 @@ let items = [
         },
         "iconLocation": "images/icons/Panic_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Panic_Necklace",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Damage"
+        ]
     },
     {
         "name": "Mechanical Lens",
@@ -1535,7 +1890,10 @@ let items = [
         },
         "iconLocation": "images/icons/Mechanical_Lens.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Lens",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Ruler",
@@ -1548,7 +1906,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ruler.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Ruler",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Climbing Claws",
@@ -1561,7 +1922,10 @@ let items = [
         },
         "iconLocation": "images/icons/Climbing_Claws.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Climbing_Claws",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Shoe Spikes",
@@ -1574,7 +1938,10 @@ let items = [
         },
         "iconLocation": "images/icons/Shoe_Spikes.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shoe_Spikes",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
     },
     {
         "name": "Ultra Absorbant Sponge",
@@ -1587,7 +1954,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ultra_Absorbant_Sponge.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ultra_Absorbant_Sponge",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Super Absorbant Sponge",
@@ -1600,7 +1970,10 @@ let items = [
         },
         "iconLocation": "images/icons/Super_Absorbant_Sponge.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Super_Absorbant_Sponge",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Lava Absorbant Sponge",
@@ -1613,7 +1986,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lava_Absorbant_Sponge.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lava_Absorbant_Sponge",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Honey Absorbant Sponge",
@@ -1626,7 +2002,10 @@ let items = [
         },
         "iconLocation": "images/icons/Honey_Absorbant_Sponge.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Absorbant_Sponge",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ]
     },
     {
         "name": "Mining Helmet",
@@ -1639,7 +2018,10 @@ let items = [
         },
         "iconLocation": "images/icons/Mining_Helmet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mining_armor",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "Night Vision Helmet",
@@ -1652,7 +2034,10 @@ let items = [
         },
         "iconLocation": "images/icons/Night_Vision_Helmet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Night_Vision_Helmet",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
     },
     {
         "name": "White String",
@@ -1665,7 +2050,10 @@ let items = [
         },
         "iconLocation": "images/icons/White_String.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Strings",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Melee"
+        ]
     },
     {
         "name": "Adhesive Bandage",
@@ -1678,7 +2066,36 @@ let items = [
         },
         "iconLocation": "images/icons/Adhesive_Bandage.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Adhesive_Bandage",
-        "hardmode": false
+        "hardmode": false,
+        "tags": [
+            "Immunity"
+        ]
+    },
+    {
+        "name": "Counterweight",
+        "tooltip": "Throws a counterweight after hitting an enemy with a yoyo",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": [ // Multiple icons for the counterweight
+            "images/icons/Black_Counterweight.png",
+            "images/icons/Yellow_Counterweight.png",
+            "images/icons/Blue_Counterweight.png",
+            "images/icons/Red_Counterweight.png",
+            "images/icons/Purple_Counterweight.png",
+            "images/icons/Green_Counterweight.png"
+        ],
+        "wikiLink": "https://terraria.fandom.com/wiki/Counterweights",
+        "hardmode": false,
+        "tags": [
+            "Melee"
+        ],
+        "location" : {
+
+        }
     },
 
 
@@ -1696,6 +2113,9 @@ let items = [
         "iconLocation": "images/icons/Amphibian_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Amphibian_Boots",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1710,6 +2130,9 @@ let items = [
         "iconLocation": "images/icons/Angler_Tackle_Bag.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
         "hardmode": false,
+        "tags": [
+            "Fishing"
+        ],
         "finalCraft": true
     },
     {
@@ -1724,6 +2147,9 @@ let items = [
         "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
         "hardmode": false,
+        "tags": [
+            "Building"
+        ],
         "finalCraft": true
     },
     {
@@ -1738,6 +2164,9 @@ let items = [
         "iconLocation": "images/icons/Arctic_Diving_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Arctic_Diving_Gear",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1752,6 +2181,9 @@ let items = [
         "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1766,6 +2198,9 @@ let items = [
         "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1780,6 +2215,9 @@ let items = [
         "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1794,6 +2232,9 @@ let items = [
         "iconLocation": "images/icons/Green_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Green_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1808,6 +2249,9 @@ let items = [
         "iconLocation": "images/icons/Pink_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Pink_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1822,6 +2266,9 @@ let items = [
         "iconLocation": "images/icons/Amber_Horseshoe_Balloon.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Amber_Horseshoe_Balloon",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1836,6 +2283,9 @@ let items = [
         "iconLocation": "images/icons/Bundle_of_Horseshoe_Balloons.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Horseshoe_Balloons",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1850,6 +2300,9 @@ let items = [
         "iconLocation": "images/icons/Celestial_Cuffs.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Cuffs",
         "hardmode": false,
+        "tags": [
+            "Magic"
+        ],
         "finalCraft": true
     },
     {
@@ -1864,6 +2317,9 @@ let items = [
         "iconLocation": "images/icons/Cell_Phone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
         "hardmode": false,
+        "tags": [
+            "Tools"
+        ],
         "finalCraft": true
     },
     {
@@ -1878,6 +2334,9 @@ let items = [
         "iconLocation": "images/icons/Fairy_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fairy_Boots",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1892,6 +2351,9 @@ let items = [
         "iconLocation": "images/icons/Frog_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frog_Gear",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1906,6 +2368,9 @@ let items = [
         "iconLocation": "images/icons/Hellfire_Treads.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hellfire_Treads",
         "hardmode": false,
+        "tags": [
+            "Mobility"
+        ],
         "finalCraft": true
     },
     {
@@ -1920,6 +2385,10 @@ let items = [
         "iconLocation": "images/icons/Molten_Skull_Rose.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
         "hardmode": false,
+        "tags": [
+            "Immunity",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -1934,6 +2403,9 @@ let items = [
         "iconLocation": "images/icons/Magnet_Flower.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magnet_Flower",
         "hardmode": false,
+        "tags": [
+            "Magic"
+        ],
         "finalCraft": true
     },
     {
@@ -1948,6 +2420,10 @@ let items = [
         "iconLocation": "images/icons/Obsidian_Horseshoe.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Horseshoe",
         "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Immunity"
+        ],
         "finalCraft": true
     },
     {
@@ -1962,6 +2438,10 @@ let items = [
         "iconLocation": "images/icons/Stinger_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Stinger_Necklace",
         "hardmode": false,
+        "tags": [
+            "Damage",
+            "Health"
+        ],
         "finalCraft": true
     },
     {
@@ -1976,6 +2456,11 @@ let items = [
         "iconLocation": "images/icons/Sweetheart_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sweetheart_Necklace",
         "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Health",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -1990,6 +2475,10 @@ let items = [
         "iconLocation": "images/icons/Terraspark_Boots.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Terraspark_Boots",
         "hardmode": false,
+        "tags": [
+            "Mobility",
+            "Immunity"
+        ],
         "finalCraft": true
     },
     {
@@ -2004,6 +2493,9 @@ let items = [
         "iconLocation": "images/icons/The_Grand_Design.png",
         "wikiLink": "https://terraria.fandom.com/wiki/The_Grand_Design",
         "hardmode": false,
+        "tags": [
+            "Building"
+        ],
         "finalCraft": true
     },
     {
@@ -2018,6 +2510,9 @@ let items = [
         "iconLocation": "images/icons/Ultrabright_Helmet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
         "hardmode": false,
+        "tags": [
+            "Tools"
+        ],
         "finalCraft": true
     },
 
@@ -2035,7 +2530,10 @@ let items = [
         },
         "iconLocation": "images/icons/Ankh_Charm.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Charm",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Armor Bracing",
@@ -2048,7 +2546,10 @@ let items = [
         },
         "iconLocation": "images/icons/Armor_Bracing.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Armor_Bracing",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "The Plan",
@@ -2061,7 +2562,10 @@ let items = [
         },
         "iconLocation": "images/icons/The_Plan.png",
         "wikiLink": "https://terraria.fandom.com/wiki/The_Plan",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Reflective Shades",
@@ -2074,7 +2578,10 @@ let items = [
         },
         "iconLocation": "images/icons/Reflective_Shades.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Reflective_Shades",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Putrid Scent",
@@ -2087,7 +2594,11 @@ let items = [
         },
         "iconLocation": "images/icons/Putrid_Scent.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Putrid_Scent",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage",
+            "Other"
+        ],
     },
     {
         "name": "Armor Polish",
@@ -2100,7 +2611,10 @@ let items = [
         },
         "iconLocation": "images/icons/Armor_Polish.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Armor_Polish",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Vitamins",
@@ -2113,7 +2627,10 @@ let items = [
         },
         "iconLocation": "images/icons/Vitamins.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Vitamins",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Avenger Emblem",
@@ -2126,7 +2643,10 @@ let items = [
         },
         "iconLocation": "images/icons/Avenger_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Avenger_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage"
+        ],
     },
     {
         "name": "Warrior Emblem",
@@ -2139,7 +2659,11 @@ let items = [
         },
         "iconLocation": "images/icons/Warrior_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Warrior_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Melee",
+            "Damage"
+        ],
     },
     {
         "name": "Ranger Emblem",
@@ -2152,7 +2676,11 @@ let items = [
         },
         "iconLocation": "images/icons/Ranger_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ranger_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Ranged",
+            "Damage"
+        ],
     },
     {
         "name": "Sorcerer Emblem",
@@ -2165,7 +2693,11 @@ let items = [
         },
         "iconLocation": "images/icons/Sorcerer_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sorcerer_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Magic",
+            "Damage"
+        ],
     },
     {
         "name": "Summoner Emblem",
@@ -2178,7 +2710,11 @@ let items = [
         },
         "iconLocation": "images/icons/Summoner_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Summoner_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Summon",
+            "Damage"
+        ],
     },
     {
         "name": "Star Cloak",
@@ -2191,7 +2727,10 @@ let items = [
         },
         "iconLocation": "images/icons/Star_Cloak.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Star_Cloak",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage"
+        ],
     },
     {
         "name": "Power Glove",
@@ -2204,7 +2743,10 @@ let items = [
         },
         "iconLocation": "images/icons/Power_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Power_Glove",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
     },
     {
         "name": "Flesh Knuckles",
@@ -2217,7 +2759,10 @@ let items = [
         },
         "iconLocation": "images/icons/Flesh_Knuckles.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Flesh_Knuckles",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Celestial Stone",
@@ -2230,7 +2775,15 @@ let items = [
         },
         "iconLocation": "images/icons/Celestial_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Stone",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage",
+            "Health",
+            "Defense",
+            "Building",
+            "Summon",
+            "Melee"
+        ],
     },
     {
         "name": "Moon Shell",
@@ -2243,7 +2796,10 @@ let items = [
         },
         "iconLocation": "images/icons/Moon_Shell.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moon_Shell",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Sun Stone",
@@ -2256,7 +2812,15 @@ let items = [
         },
         "iconLocation": "images/icons/Sun_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sun_Stone",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage",
+            "Melee",
+            "Health",
+            "Defense",
+            "Building",
+            "Summon"
+        ],
     },
     {
         "name": "Moon Stone",
@@ -2269,7 +2833,15 @@ let items = [
         },
         "iconLocation": "images/icons/Moon_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moon_Stone",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage",
+            "Melee",
+            "Health",
+            "Defense",
+            "Building",
+            "Summon"
+        ],
     },
     {
         "name": "Philosopher's Stone",
@@ -2282,7 +2854,10 @@ let items = [
         },
         "iconLocation": "images/icons/Philosopher's_Stone.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Philosopher%27s_Stone",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Health"
+        ],
     },
     {
         "name": "Coin Ring",
@@ -2295,7 +2870,10 @@ let items = [
         },
         "iconLocation": "images/icons/Coin_Ring.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Coin_Ring",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Gold Ring",
@@ -2308,7 +2886,10 @@ let items = [
         },
         "iconLocation": "images/icons/Gold_Ring.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Gold_Ring",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Lucky Coin",
@@ -2321,7 +2902,10 @@ let items = [
         },
         "iconLocation": "images/icons/Lucky_Coin.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Coin",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Destroyer Emblem",
@@ -2334,7 +2918,10 @@ let items = [
         },
         "iconLocation": "images/icons/Destroyer_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Destroyer_Emblem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage"
+        ],
     },
     {
         "name": "Eye of the Golem",
@@ -2347,7 +2934,10 @@ let items = [
         },
         "iconLocation": "images/icons/Eye_of_the_Golem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Eye_of_the_Golem",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage"
+        ],
     },
     {
         "name": "Yoyo Glove",
@@ -2360,7 +2950,10 @@ let items = [
         },
         "iconLocation": "images/icons/Yoyo_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Glove",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
     },
     {
         "name": "Fast Clock",
@@ -2373,7 +2966,10 @@ let items = [
         },
         "iconLocation": "images/icons/Fast_Clock.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fast_Clock",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Trifold Map",
@@ -2386,7 +2982,10 @@ let items = [
         },
         "iconLocation": "images/icons/Trifold_Map.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Trifold_Map",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Rifle Scope",
@@ -2399,7 +2998,10 @@ let items = [
         },
         "iconLocation": "images/icons/Rifle_Scope.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Rifle_Scope",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
     },
     {
         "name": "Cross Necklace",
@@ -2412,7 +3014,10 @@ let items = [
         },
         "iconLocation": "images/icons/Cross_Necklace.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Cross_Necklace",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage"
+        ],
     },
     {
         "name": "Necromantic Scroll",
@@ -2425,7 +3030,10 @@ let items = [
         },
         "iconLocation": "images/icons/Necromantic_Scroll.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Necromantic_Scroll",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Summon"
+        ],
     },
     {
         "name": "Hercules Beetle",
@@ -2438,7 +3046,10 @@ let items = [
         },
         "iconLocation": "images/icons/Hercules_Beetle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hercules_Beetle",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Summon"
+        ],
     },
     {
         "name": "Titan Glove",
@@ -2451,7 +3062,10 @@ let items = [
         },
         "iconLocation": "images/icons/Titan_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Titan_Glove",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
     },
     {
         "name": "Sniper Scope",
@@ -2464,7 +3078,10 @@ let items = [
         },
         "iconLocation": "images/icons/Sniper_Scope.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Sniper_Scope",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
     },
     {
         "name": "Blindfold",
@@ -2477,7 +3094,10 @@ let items = [
         },
         "iconLocation": "images/icons/Blindfold.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Blindfold",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Pocket Mirror",
@@ -2490,7 +3110,10 @@ let items = [
         },
         "iconLocation": "images/icons/Pocket_Mirror.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Pocket_Mirror",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
     },
     {
         "name": "Magic Quiver",
@@ -2503,7 +3126,10 @@ let items = [
         },
         "iconLocation": "images/icons/Magic_Quiver.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Magic_Quiver",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
     },
 
     {
@@ -2517,7 +3143,10 @@ let items = [
         },
         "iconLocation": "images/icons/Moon_Charm.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moon_Charm",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Neptune's Shell",
@@ -2530,7 +3159,10 @@ let items = [
         },
         "iconLocation": "images/icons/Neptune's_Shell.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Neptune%27s_Shell",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Tabi",
@@ -2543,7 +3175,10 @@ let items = [
         },
         "iconLocation": "images/icons/Tabi.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Tabi",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Mobility"
+        ],
     },
     {
         "name": "Black Belt",
@@ -2556,7 +3191,10 @@ let items = [
         },
         "iconLocation": "images/icons/Black_Belt.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Black_Belt",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Defense"
+        ],
     },
     {
         "name": "Discount Card",
@@ -2569,7 +3207,10 @@ let items = [
         },
         "iconLocation": "images/icons/Discount_Card.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Discount_Card",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Other"
+        ],
     },
     {
         "name": "Frozen Turtle Shell",
@@ -2582,7 +3223,10 @@ let items = [
         },
         "iconLocation": "images/icons/Frozen_Turtle_Shell.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Turtle_Shell",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Defense"
+        ],
     },
     {
         "name": "Paladin's Shield",
@@ -2595,7 +3239,11 @@ let items = [
         },
         "iconLocation": "images/icons/Paladin's_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Paladin%27s_Shield",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Damage",
+            "Immunity"
+        ],
     },
     {
         "name": "Mechanical Glove",
@@ -2608,7 +3256,10 @@ let items = [
         },
         "iconLocation": "images/icons/Mechanical_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Glove",
-        "hardmode": true
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
     },
 
 
@@ -2626,6 +3277,9 @@ let items = [
         "iconLocation": "images/icons/Ankh_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Shield",
         "hardmode": true,
+        "tags": [
+            "Immunity"
+        ],
         "finalCraft": true
     },
     {
@@ -2640,6 +3294,9 @@ let items = [
         "iconLocation": "images/icons/Arcane_Flower.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Arcane_Flower",
         "hardmode": true,
+        "tags": [
+            "Magic"
+        ],
         "finalCraft": true
     },
     {
@@ -2654,6 +3311,10 @@ let items = [
         "iconLocation": "images/icons/Bee_Cloak.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Bee_Cloak",
         "hardmode": true,
+        "tags": [
+            "Damage",
+            "Health"
+        ],
         "finalCraft": true
     },
     {
@@ -2668,6 +3329,9 @@ let items = [
         "iconLocation": "images/icons/Berserker's_Glove.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Berserker%27s_Glove",
         "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
         "finalCraft": true
     },
     {
@@ -2682,6 +3346,9 @@ let items = [
         "iconLocation": "images/icons/Celestial_Emblem.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Emblem",
         "hardmode": true,
+        "tags": [
+            "Magic"
+        ],
         "finalCraft": true
     },
     {
@@ -2696,6 +3363,15 @@ let items = [
         "iconLocation": "images/icons/Celestial_Shell.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Shell",
         "hardmode": true,
+        "tags": [
+            "Other",
+            "Damage",
+            "Melee",
+            "Health",
+            "Defense",
+            "Building",
+            "Summon"
+        ],
         "finalCraft": true
     },
     {
@@ -2710,6 +3386,9 @@ let items = [
         "iconLocation": "images/icons/Charm_of_Myths.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Charm_of_Myths",
         "hardmode": true,
+        "tags": [
+            "Health"
+        ],
         "finalCraft": true
     },
     {
@@ -2724,6 +3403,9 @@ let items = [
         "iconLocation": "images/icons/Fire_Gauntlet.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fire_Gauntlet",
         "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
         "finalCraft": true
     },
     {
@@ -2738,6 +3420,10 @@ let items = [
         "iconLocation": "images/icons/Frozen_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Shield",
         "hardmode": true,
+        "tags": [
+            "Immunity",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -2752,6 +3438,9 @@ let items = [
         "iconLocation": "images/icons/Greedy_Ring.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Greedy_Ring",
         "hardmode": true,
+        "tags": [
+            "Other"
+        ],
         "finalCraft": true
     },
     {
@@ -2766,6 +3455,10 @@ let items = [
         "iconLocation": "images/icons/Hero_Shield.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hero_Shield",
         "hardmode": true,
+        "tags": [
+            "Immunity",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -2780,6 +3473,10 @@ let items = [
         "iconLocation": "images/icons/Mana_Cloak.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Cloak",
         "hardmode": true,
+        "tags": [
+            "Magic",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -2794,6 +3491,10 @@ let items = [
         "iconLocation": "images/icons/Master_Ninja_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Master_Ninja_Gear",
         "hardmode": true,
+        "tags": [
+            "Mobility",
+            "Defense"
+        ],
         "finalCraft": true
     },
     {
@@ -2808,6 +3509,9 @@ let items = [
         "iconLocation": "images/icons/Molten_Quiver.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Molten_Quiver",
         "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
         "finalCraft": true
     },
     {
@@ -2822,6 +3526,9 @@ let items = [
         "iconLocation": "images/icons/Papyrus_Scarab.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
         "hardmode": true,
+        "tags": [
+            "Summon"
+        ],
         "finalCraft": true
     },
     {
@@ -2836,6 +3543,9 @@ let items = [
         "iconLocation": "images/icons/Recon_Scope.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Recon_Scope",
         "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
         "finalCraft": true
     },
     {
@@ -2850,6 +3560,9 @@ let items = [
         "iconLocation": "images/icons/Stalker's_Quiver.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Stalker%27s_Quiver",
         "hardmode": true,
+        "tags": [
+            "Ranged"
+        ],
         "finalCraft": true
     },
     {
@@ -2864,6 +3577,10 @@ let items = [
         "iconLocation": "images/icons/Star_Veil.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Star_Veil",
         "hardmode": true,
+        "tags": [
+            "Defense",
+            "Damage"
+        ],
         "finalCraft": true
     },
     {
@@ -2878,6 +3595,9 @@ let items = [
         "iconLocation": "images/icons/Yoyo_Bag.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Bag",
         "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
         "finalCraft": true
     }
 
