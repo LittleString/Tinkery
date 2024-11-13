@@ -5,12 +5,9 @@ import { recipes } from './recipes.js';
 TODO LIST:
 
 - Fix page resizing issues
-- Add tag filtering
-- Fix filter popup
 - Create rawItems.js with overworld items involved in crafting recipes
 - Create tag display in infoPanel
 - Add music boxes
-- Add pressure plates
 - Add "Where to find" visual on infoPanel
 - Add title above iconPanel
 - Add key under iconPanel
@@ -233,3 +230,83 @@ function rotateImages(imageElement, imagePaths) {
 }
 
 initIconPanel();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testing D3 library 
+const data = {
+    name: "Eve",
+    children: [
+      {name: "Cain"},
+      {name: "Seth", children: [{name: "Enos"}, {name: "Noam"}]},
+      {name: "Abel"},
+      {name: "Awan", children: [{name: "Enoch"}]},
+      {name: "Azura"}
+    ]
+};
+
+// Set up the dimensions and margins for the SVG container
+const width = 500;
+const height = 300;
+
+// Select the div and append an SVG element
+const svg = d3.select("#recipeContent")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(40,0)"); // Position to leave some margin for nodes
+
+// Create a D3 hierarchy from the data
+const root = d3.hierarchy(data);
+
+// Create a tree layout and assign size
+const treeLayout = d3.tree().size([height, width - 100]);
+treeLayout(root);
+
+// Create links between nodes
+const links = svg.selectAll(".link")
+  .data(root.links())
+  .enter()
+  .append("path")
+    .attr("class", "link")
+    .attr("d", d3.linkVertical()
+        .x(d => d.y)
+        .y(d => d.x)
+    );
+
+// Create nodes
+const nodes = svg.selectAll(".node")
+  .data(root.descendants())
+  .enter()
+  .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.y},${d.x})`);
+
+// Append circles to the nodes
+nodes.append("circle")
+  .attr("r", 5);
+
+// Append labels to the nodes
+nodes.append("text")
+  .attr("dy", 3)
+  .attr("x", d => d.children ? -8 : 8)
+  .style("text-anchor", d => d.children ? "end" : "start")
+  .text(d => d.data.name);
+*/

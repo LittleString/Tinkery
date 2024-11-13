@@ -1,6 +1,6 @@
 // All information about every item in Tinkerer's Workshop recipes
 
-let items = [
+export let items = [
 
     // --- Pre-hardmode Items ---
     {
@@ -662,7 +662,7 @@ let items = [
         ]
     },
     {
-        "name": "Flipper",
+        "name": "Flipper", // *
         "tooltip": "Grants the ability to swim",
         "value": {
             "copper": 0,
@@ -678,7 +678,7 @@ let items = [
         ]
     },
     {
-        "name": "Diving Helmet",
+        "name": "Diving Helmet", // *
         "tooltip": "Greatly extends underwater breathing",
         "value": {
             "copper": 0,
@@ -1354,8 +1354,8 @@ let items = [
         ]
     },
     {
-        "name": "Shackle", // ????????
-        "tooltip": "", // ???
+        "name": "Shackle",
+        "tooltip": "Grants 1 point of defense",
         "value": {
             "copper": 0,
             "silver": 20,
@@ -1365,7 +1365,9 @@ let items = [
         "iconLocation": "images/icons/Shackle.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Shackle",
         "hardmode": false,
-        "tags": []
+        "tags": [
+            "Defense"
+        ],
     },
     {
         "name": "Magma Skull",
@@ -1414,20 +1416,6 @@ let items = [
         "tags": [
             "Magic"
         ]
-    },
-    {
-        "name": "Mana Potion", //????????
-        "tooltip": "Heals mana by 100",
-        "value": {
-            "copper": 50,
-            "silver": 0,
-            "gold": 0,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Mana_Potion.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Potion",
-        "hardmode": false,
-        "tags": []
     },
     {
         "name": "Band of Starpower",
@@ -2069,6 +2057,27 @@ let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ]
+    },
+    {
+        "name": "Weighted Pressure Plate",
+        "tooltip": "Triggered by player when stepping on or off it",
+        "value": {
+            "copper": 0,
+            "silver": 10,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": [
+            "images/icons/Cyan_Weighted_Pressure_Plate.png",
+            "images/icons/Orange_Weighted_Pressure_Plate.png",
+            "images/icons/Pink_Weighted_Pressure_Plate.png",
+            "images/icons/Purple_Weighted_Pressure_Plate.png"
+        ],
+        "wikiLink": "https://terraria.fandom.com/wiki/Pressure_Plates",
+        "hardmode": false,
+        "tags": [
+            "Building"
         ]
     },
     {
@@ -3667,8 +3676,6 @@ I'm currently not sure how to incorporate them into this app
 - soul of sight ^
 - soul of fright ^
 - Fallen starts (for fishing bobber)
-- mana potion
-- bezoar??
 - wire (for grand design)
 - mining helmet (for ultrabright helmet)
 - night vision helmet (for ultrabright helmet)
@@ -3679,9 +3686,5 @@ Look into:
 - are all fishing bobbers the same?
 - weighted pressure plates???
 - music boxes
-- yoyo counter weights?
 
 */
-
-// Export all items for use throughout the app
-export { items }
