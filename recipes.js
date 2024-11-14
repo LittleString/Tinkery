@@ -1,6 +1,7 @@
 // All information about every recipe in Tinkerer's Workshop
 
-let recipes = [
+/*
+export let recipes = [
     {
         "name": "Bundle of Balloons",
         "ingredients": [
@@ -11,32 +12,52 @@ let recipes = [
         "nextRecipe": [
             
         ]
-    },
-    {
-        "name": "Obsidian Skull",
-        "ingredients": [
-            "Obsidian x20"
-        ],
-        "nextRecipe": [
-            "Magma Skull",
-            "Molten Charm",
-            "Obsidian Horseshoe",
-            "Obsidian Shield",
-            "Obsidian Skull Rose",
-            "Obsidian Water Walking Boots"
-        ]
-    },
-    {
-        "name": "Obsidian Horseshoe",
-        "ingredients": [
-            "Obsidian Skull",
-            "Lucky Horseshoe"
-        ],
-        "nextRecipe": [
-            
-        ]
     }
 ]
+*/
 
-// Export all recipes for use throughout the app
-export { recipes }
+export let recipes = [
+    {
+        name: "Bundle of Balloons",
+        ingredients: [
+            { name: "Cloud in a Balloon" },
+            { name: "Blizzard in a Balloon" },
+            { name: "Sandstorm in a Balloon" }
+        ]
+    },
+    {
+        name: "Cloud in a Balloon",
+        ingredients: [
+            { name: "Cloud in a Bottle" },
+            { name: "Shiny Red Balloon" }
+        ]
+    },
+    {
+        name: "Blizzard in a Balloon",
+        ingredients: [
+            { name: "Blizzard in a Bottle" },
+            { name: "Shiny Red Balloon" }
+        ]
+    },
+    {
+        name: "Fart in a Balloon",
+        ingredients: [
+            { name: "Fart in a Bottle" },
+            { name: "Shiny Red Balloon" }
+        ]
+    },
+    {
+        name: "Honey Balloon",
+        ingredients: [
+            { name: "Honey Comb" },
+            { name: "Shiny Red Balloon" }
+        ]
+    },
+    {
+        name: "Sandstorm in a Balloon",
+        ingredients: [
+            { name: "Sandstorm in a Bottle" },
+            { name: "Shiny Red Balloon" }
+        ]
+    },
+];

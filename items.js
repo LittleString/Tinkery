@@ -758,22 +758,6 @@ export let items = [
         ]
     },
     {
-        "name": "Whoopie Cushion",
-        "tooltip": "'May annoy others'",
-        "value": {
-            "copper": 20,
-            "silver": 0,
-            "gold": 0,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Whoopie_Cushion.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
-        "hardmode": false,
-        "tags": [
-            "Other"
-        ]
-    },
-    {
         "name": "Magma Stone",
         "tooltip": "Melee attacks inflict fire damage",
         "value": {

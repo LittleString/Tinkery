@@ -208,5 +208,18 @@ export let rawItems = [
         "iconLocation": "images/icons/Lead_Bar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lead_Bar",
         "hardmode": false,
+    },
+    {
+        "name": "Whoopie Cushion",
+        "tooltip": "'May annoy others'",
+        "value": {
+            "copper": 20,
+            "silver": 0,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Whoopie_Cushion.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
+        "hardmode": false,
     }
 ]

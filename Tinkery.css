@@ -344,3 +344,15 @@ body {
 #location {
     display: none;
 }
+
+.treeIcon {
+    width: 60px;
+    height: 60px;
+    user-select: none;
+}
+
+.treeIcon:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}

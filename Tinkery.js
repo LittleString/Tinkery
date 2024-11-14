@@ -143,11 +143,23 @@ function applyFilters() {
 
 // When clicking an icon in left panel, info panel updates with details about the item, and recipes are drawn
 function iconOnClick() {
+    // Clear prior HTML
+    document.getElementById("iconPicContainer").innerHTML = "";
+    document.getElementById("recipeContent").innerHTML = "";
 
     // Get and assign item attributes from items array
     let name = this.getAttribute('data-name');
     let item = items.find(i => i.name === name); // Get data of item from items array
 
+    // Fill info panel with item's details
+    fillInfoPanel(item, this.classList.value);
+
+    // Call recipe tree
+    getRecipe(name);
+}
+
+// Takes in an item and a classList for icon styling and fills out information panel on the right
+function fillInfoPanel(item, classList) {
     // Assign item data to variables
     let tooltip = item.tooltip;
     let wikiLink = item.wikiLink;
@@ -155,7 +167,7 @@ function iconOnClick() {
     // Create icon image and clear current icon
     let imageDiv = document.createElement('div');
     let image = document.createElement('img');
-    imageDiv.classList.value = this.classList.value; // Give icon in info panel same styling
+    imageDiv.classList.value = classList; // Give icon in info panel same styling
 
     // Check if iconLocation is an Array; if so, cycle through images
     if(Array.isArray(item.iconLocation)) {
@@ -165,7 +177,7 @@ function iconOnClick() {
         image.src = item.iconLocation;
     }    
     imageDiv.appendChild(image);
-    document.getElementById("iconPicContainer").innerHTML = "";
+    
 
     // Hook up info panel icon to item's wiki URL
     let url = document.createElement('a');
@@ -211,14 +223,13 @@ function iconOnClick() {
     });
     
     // Set attributes in info panel
-    document.getElementById("selectedItemName").innerHTML = name;
+    document.getElementById("selectedItemName").innerHTML = item.name;
     document.getElementById("iconPicContainer").appendChild(url);
     document.getElementById("iconPicContainer").appendChild(urlIcon);
     document.getElementById("tooltipVal").innerHTML = tooltip.replace(/\n/g, "<br>");
-
-    // Call recipe tree
 }
 
+// Function to cycle through images
 function rotateImages(imageElement, imagePaths) {
     let index = 0;
     
@@ -245,68 +256,158 @@ initIconPanel();
 
 
 
+/*
+Final craft = true -> that will be highest node in tree
 
-
-
-
-/* Testing D3 library 
-const data = {
-    name: "Eve",
-    children: [
-      {name: "Cain"},
-      {name: "Seth", children: [{name: "Enos"}, {name: "Noam"}]},
-      {name: "Abel"},
-      {name: "Awan", children: [{name: "Enoch"}]},
-      {name: "Azura"}
-    ]
-};
-
-// Set up the dimensions and margins for the SVG container
-const width = 500;
-const height = 300;
-
-// Select the div and append an SVG element
-const svg = d3.select("#recipeContent")
-  .append("svg")
-    .attr("width", width)
-    .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(40,0)"); // Position to leave some margin for nodes
-
-// Create a D3 hierarchy from the data
-const root = d3.hierarchy(data);
-
-// Create a tree layout and assign size
-const treeLayout = d3.tree().size([height, width - 100]);
-treeLayout(root);
-
-// Create links between nodes
-const links = svg.selectAll(".link")
-  .data(root.links())
-  .enter()
-  .append("path")
-    .attr("class", "link")
-    .attr("d", d3.linkVertical()
-        .x(d => d.y)
-        .y(d => d.x)
-    );
-
-// Create nodes
-const nodes = svg.selectAll(".node")
-  .data(root.descendants())
-  .enter()
-  .append("g")
-    .attr("class", "node")
-    .attr("transform", d => `translate(${d.y},${d.x})`);
-
-// Append circles to the nodes
-nodes.append("circle")
-  .attr("r", 5);
-
-// Append labels to the nodes
-nodes.append("text")
-  .attr("dy", 3)
-  .attr("x", d => d.children ? -8 : 8)
-  .style("text-anchor", d => d.children ? "end" : "start")
-  .text(d => d.data.name);
+will need to get recipe index of selected icon
 */
+
+// Formatting all recipe data for the clicked item
+function getRecipe(recipeName) {
+    // Get the recipe of clicked item
+    let recipe = recipes.find(r => r.name === recipeName);
+
+    // If recipe from above is undefined, that means you selected a raw element - it doesn't have a crafting recipe.
+    let data;
+    if(recipe === undefined) {
+        data = {
+            name: recipeName
+        }
+    } else {
+        // Format data for D3
+        data = {
+            name: recipe.name,
+            children: recipe.ingredients
+        };
+    }
+
+    // Function to recursively add ingredients as children if they exist as recipes
+    function addIngredients(node) {
+        if (!node.children) return; // Base case: if no children, stop recursion
+
+        // Check if supplied recipe ingredients are have their own recipe; add ingredients if so; do this recursively for all ingredients until the end of the tree
+        for (let i = 0; i < node.children.length; i++) {
+            let ingredientRecipe = recipes.find(r => r.name === node.children[i].name);
+            
+            if (ingredientRecipe) {
+                // Add the "ingredients" of the found recipe as children
+                node.children[i].children = ingredientRecipe.ingredients;
+                // Recursively add children for this ingredient if needed
+                addIngredients(node.children[i]);
+            }
+        }
+    }
+
+    // Function to recursively add parent recipes (upward direction)
+    function addParents(node) {
+        // Find all recipes where this node is used as an ingredient
+        let parentRecipes = recipes.filter(r =>
+            r.ingredients && r.ingredients.some(ing => ing.name === node.name)
+        );
+
+        if (parentRecipes.length === 0) return; // Base case: no parents found, stop recursion
+
+        // Wrap the current node in a new parent structure if there are parent recipes
+        parentRecipes.forEach(parentRecipe => {
+            // Create a parent node for each recipe that uses the current recipe as an ingredient
+            let parentNode = {
+                name: parentRecipe.name,
+                children: parentRecipe.ingredients.map(ing =>
+                    ing.name === node.name ? node : { name: ing.name }
+                )
+            };
+
+            // Recursively add parents for each of these parent nodes
+            addParents(parentNode);
+
+            // Attach the new parent node above the current node structure
+            // You can replace `data` with a list of parent nodes if needed
+            data = parentNode; // Reassigning to 'data' will change the entire tree to root on this parent
+        });
+    }
+
+    // Get all children items from this recipe
+    addIngredients(data);
+    addParents(data);
+
+    // Create the recipe tree
+    createTree(data);
+}
+
+
+function createTree(treeData) {
+    // Create a D3 hierarchy from the data
+    const root = d3.hierarchy(treeData);
+
+    // Set a node spacing factor for each level of depth
+    const nodeHeight = 100;  // Adjust this for more or less vertical spacing between nodes
+    const calculatedHeight = (root.height + 1) * nodeHeight;
+    const width = 1000;
+
+    // Select the div and append an SVG element
+    const svg = d3.select("#recipeContent")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", calculatedHeight + 100)
+    .append("g")
+    .attr("transform", "translate(0, 50)"); // Add top margin for root node
+
+    // Create a tree layout and assign size (vertically aligned)
+    const treeLayout = d3.tree().size([width - 100, calculatedHeight]);
+    treeLayout(root);
+
+    // Draw straight line links between nodes
+    const links = svg.selectAll(".link")
+    .data(root.links())
+    .enter()
+    .append("line")
+    .attr("class", "link")
+    .attr("x1", d => d.source.x)
+    .attr("y1", d => d.source.y)
+    .attr("x2", d => d.target.x)
+    .attr("y2", d => d.target.y)
+    .style("stroke", "#000")  // Custom stroke color
+    .style("stroke-width", 2);
+
+    // Create nodes
+    const nodes = svg.selectAll(".node")
+    .data(root.descendants())
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    
+    nodes.append("rect")
+    .attr("class", "treeIcon")
+    .attr("rx", 10)
+    .attr("x", -30)
+    .attr("y", -30)
+    .attr("fill", "blue")
+    
+
+    // Append images to each node with the correct icon path
+    nodes.append("image")
+    .attr("xlink:href", d => {
+        // Find the matching item in items array based on node name
+        const item = items.find(item => item.name === d.data.name);
+        return item ? item.iconLocation : ""; // Default to empty string if no match
+    })
+    .attr("width", 32)
+    .attr("height", 32)
+    .attr("x", -15)
+    .attr("y", -15);
+
+
+
+    // Append labels to the nodes
+    /*
+    nodes.append("text")
+    .attr("dy", 3)
+    .attr("x", d => d.children ? -8 : 8)
+    .style("text-anchor", d => d.children ? "end" : "start")
+    .text(d => d.data.name);
+    */
+}
+
+
