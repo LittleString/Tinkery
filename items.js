@@ -261,6 +261,22 @@ export let items = [
         ]
     },
     {
+        "name": "Jellyfish Necklace",
+        "tooltip": "Generates a very subtle glow which becomes more vibrant underwater\nProvides light under water",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Jellyfish_Necklace.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Jellyfish_Necklace",
+        "hardmode": false,
+        "tags": [
+            "Other"
+        ]
+    },
+    {
         "name": "Fishing Bobber",
         "tooltip": "Increases fishing power by 10",
         "value": {
@@ -1707,22 +1723,6 @@ export let items = [
         ]
     },
     {
-        "name": "Shellphone",
-        "tooltip": "Displays everything\nRight click to toggle destination\n'If you listen closely, you can hear something about your car's warranty'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 10,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Shellphone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shellphone",
-        "hardmode": false,
-        "tags": [
-            "Tools"
-        ]
-    },
-    {
         "name": "Magic Conch",
         "tooltip": "If you listen closely, you can hear the ocean",
         "value": {
@@ -1868,7 +1868,7 @@ export let items = [
         ]
     },
     {
-        "name": "Ruler",
+        "name": "Mechanical Ruler",
         "tooltip": "Creates measurement lines on screen for block placement",
         "value": {
             "copper": 0,
@@ -1876,7 +1876,7 @@ export let items = [
             "gold": 0,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Ruler.png",
+        "iconLocation": "images/icons/Mechanical_Ruler.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Ruler",
         "hardmode": false,
         "tags": [
@@ -2090,10 +2090,60 @@ export let items = [
 
         }
     },
+    {
+        "name": "Molten Skull Rose",
+        "tooltip": "Provides 7 seconds of immunity to lava\nGrants immunity to fire blocks\nReduces damage from touching lava",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 5,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Molten_Skull_Rose.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
+        "hardmode": false,
+        "tags": [
+            "Immunity",
+            "Damage"
+        ]
+    },
+    {
+        "name": "Cell Phone",
+        "tooltip": "Displays everything\nAllows you to return home at will",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Cell_Phone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ]
+    },
 
 
 
     // --- Pre-hardmode Items; Final Craft ---
+    {
+        "name": "Shellphone",
+        "tooltip": "Displays everything\nRight click to toggle destination\n'If you listen closely, you can hear something about your car's warranty'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Shellphone.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Shellphone",
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ],
+        "finalCraft": true
+    },
     {
         "name": "Amphibian Boots",
         "tooltip": "The wearer can run super fast\nIncreases jump speed and allows auto-jump\nIncreases fall resistance",
@@ -2299,23 +2349,6 @@ export let items = [
         "finalCraft": true
     },
     {
-        "name": "Cell Phone",
-        "tooltip": "Displays everything\nAllows you to return home at will",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Cell_Phone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
-        "hardmode": false,
-        "tags": [
-            "Tools"
-        ],
-        "finalCraft": true
-    },
-    {
         "name": "Fairy Boots",
         "tooltip": "Allows flight\nThe wearer can run super fast\nFlowers grow on the grass you walk on",
         "value": {
@@ -2363,24 +2396,6 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
-        ],
-        "finalCraft": true
-    },
-    {
-        "name": "Molten Skull Rose",
-        "tooltip": "Provides 7 seconds of immunity to lava\nGrants immunity to fire blocks\nReduces damage from touching lava",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 5,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Molten_Skull_Rose.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
-        "hardmode": false,
-        "tags": [
-            "Immunity",
-            "Damage"
         ],
         "finalCraft": true
     },

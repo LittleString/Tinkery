@@ -210,6 +210,19 @@ export let rawItems = [
         "hardmode": false,
     },
     {
+        "name": "Pressure Plate",
+        "tooltip": "Activation mechanisms",
+        "value": {
+            "copper": 0,
+            "silver": 10,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Gray_Pressure_Plate.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Alternative_crafting_ingredients#Any_Pressure_Plate",
+        "hardmode": false,
+    },
+    {
         "name": "Whoopie Cushion",
         "tooltip": "'May annoy others'",
         "value": {

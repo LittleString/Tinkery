@@ -11,20 +11,51 @@
         <!-- Entire page content -->
         <div id="mainBodyContent">
 
-            <!-- Icon panel on the left -->
-            <div id="leftPanel">
-                <div id="searchContainer">
-                    <input type="text" id="iconSearchBar" autocomplete="off" placeholder="Search for an item...">
-                    <button id="filterSearch" title="Filter by tags"><img src="styling/filter-solid.svg" id="filterImage"></button>
-                </div>
-                <div id="iconContainer"></div>
-            </div>
+            <div id="leftBody">
 
-            <!-- Filter popup when you click filter button -->
-            <div id="filterPopup" class="popup">
-                <div id="filterOptions">
-                  <!-- <label><input type="checkbox" name="filter1"> Filter Option 1</label> -->
+                <div id="TinkeryTitle">Tinkery</div>
+
+                <!-- Icon panel on the left -->
+                <div id="leftPanel">
+                    <div id="searchContainer">
+                        <input type="text" id="iconSearchBar" autocomplete="off" placeholder="Search for an item...">
+                        <button id="filterSearch" title="Filter by tags"><img src="styling/filter-solid.svg" id="filterImage"></button>
+                    </div>
+                    <div id="iconContainer"></div>
                 </div>
+
+                <div id="key">
+                    <h2>Key</h2>
+                    <div class="keyIconContainer">
+                        <div class="keyIcon prehardmode" disabled></div>
+                        <div>Prehardmode item</div>
+                    </div>
+                    <div class="keyIconContainer">
+                        <div class="keyIcon hardmode" disabled></div>
+                        <div>Hardmode item</div>
+                    </div>
+                    <div class="keyIconContainer">
+                        <div class="keyIcon prehardmode finalCraft" disabled></div>
+                        <div>Prehardmode item final craft</div>
+                    </div>
+                    <div class="keyIconContainer">
+                        <div class="keyIcon hardmode finalCraft" disabled></div>
+                        <div>Hardmode item final craft</div>
+                    </div>
+                    <div class="keyIconContainer">
+                        <div class="keyIcon rawItem" disabled></div>
+                        <div>Raw item</div>
+                    </div>
+                    
+                </div>
+
+                <!-- Filter popup when you click filter button -->
+                <div id="filterPopup" class="popup">
+                    <div id="filterOptions">
+                    <!-- <label><input type="checkbox" name="filter1"> Filter Option 1</label> -->
+                    </div>
+                </div>
+
             </div>
 
             <!-- Main panel where recipe trees are shown -->
@@ -47,6 +78,11 @@
                 </div>
 
             </div>
+
+        </div>
+
+        <div id="footer">
+            Made by LittleString899. This is a fan-made project inspired by Terraria. This project is not affiliated with, endorsed by, or associated with Re-Logic.
         </div>
 
         <script type="module" src="d3/d3.v7.min.js"></script>

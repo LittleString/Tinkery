@@ -46,15 +46,61 @@ body {
 /* Ensure main container takes up full screen */
 #mainBodyContent {
     display: flex;
-    height: 100vh;
+    height: 97vh;
     width: 100vw;
     padding: 15px;
     gap: 20px;
 }
 
+/* Container for all left panel content (Tinkery title, icon container, and key container */
+#leftBody {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tinkery title styling */
+#TinkeryTitle {
+    font-size: 52px;
+    color: #ffffff;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#footer {
+    text-align: center;
+    color: #9b1717;
+}
+
+/* Key styling */
+#key {
+    background-color: rgb(51 54 125 / 76%);
+    border: 3px solid rgb(29 26 38 / 41%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+    overflow: auto;
+}
+
+.keyIcon {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.keyIconContainer {
+    display: flex;
+    padding: 3px;
+    padding-left: 8px;
+    gap: 5px;
+}
+
 /* Left Panel styling */
 #leftPanel {
     width: 22vw;
+    height: 65vh;
     min-width: 250px;
     background-color: rgb(51 54 125 / 76%);
     border: 3px solid rgb(29 26 38 / 41%);
@@ -155,7 +201,6 @@ body {
     flex-grow: 1;
     padding: 20px;
     display: flex;
-    flex-direction: column;
     background-color: rgb(51 54 125 / 76%);
     border: 3px solid rgb(29 26 38 / 41%);
     border-radius: 10px;
@@ -165,24 +210,23 @@ body {
 #infoPanel {
     padding: 20px;
     border-radius: 10px;
-    position: absolute;
-    right: 40px;
     width: 15vw;
     min-height: 35vh;
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    height: 45vh;
+    overflow: auto;
 }
 
 /* Item icon styling*/
 .icon {
     width: 60px;
     height: 60px;
-    background-color: #5f63d3;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(29 26 38 / 41%);
     border-radius: 10px;
     user-select: none;
 }
@@ -200,6 +244,16 @@ body {
 /* Class for icons when not searched on */
 .hidden {
     display: none;
+}
+
+.rawItem {
+    background-color: #916f57;
+    border: 3px solid rgb(29 26 38 / 41%);
+}
+
+.prehardmode {
+    background-color: #5f63d3;
+    border: 3px solid rgb(29 26 38 / 41%);
 }
 
 /* If item is hardmode only, give it red background instead */
@@ -345,14 +399,21 @@ body {
     display: none;
 }
 
-.treeIcon {
-    width: 60px;
-    height: 60px;
-    user-select: none;
+.recipeNode rect {
+    stroke-width: 3px;
 }
 
-.treeIcon:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    filter: brightness(1.2);
+.recipeNode.prehardmode rect {
+    fill: #5f63d3;
+    stroke: rgb(29 26 38 / 41%);
+}
+
+.recipeNode.hardmode rect {
+    fill: #db406b;
+    stroke: #b31c2b;
+}
+
+.recipeNode.rawItem rect {
+    fill: #916f57;
+    stroke: rgb(29 26 38 / 41%);
 }

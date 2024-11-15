@@ -1,18 +1,28 @@
 import { items } from './items.js';
 import { recipes } from './recipes.js';
+import { rawItems } from './rawItems.js';
 
 /*
 TODO LIST:
 
 - Fix page resizing issues
-- Create rawItems.js with overworld items involved in crafting recipes
 - Create tag display in infoPanel
-- Add music boxes
 - Add "Where to find" visual on infoPanel
 - Add title above iconPanel
 - Add key under iconPanel
 - Add footer with disclaimer
-
+- Check how to display amount per recipe (souls, moss, fallen stars, etc.)
+- Check how to display different crafting recipes for one recipe 
+        avenger emblem, 
+        bundle of horseshoe balloons, 
+        cell phone, 
+        weighted pressure plates,
+        frog gear, 
+        gps,
+        lava waders,
+        molten skull rose,
+        spectre boots,
+        yoyo bag??
 */
 
 
@@ -33,6 +43,8 @@ function initIconPanel() {
         iconDiv.classList.add('icon');
         if (items[i].hardmode === true) {
             iconDiv.classList.add('hardmode');
+        } else {
+            iconDiv.classList.add('prehardmode');
         }
         if (items[i].finalCraft === true) {
             iconDiv.classList.add('finalCraft');
@@ -145,17 +157,25 @@ function applyFilters() {
 function iconOnClick() {
     // Clear prior HTML
     document.getElementById("iconPicContainer").innerHTML = "";
-    document.getElementById("recipeContent").innerHTML = "";
 
     // Get and assign item attributes from items array
     let name = this.getAttribute('data-name');
     let item = items.find(i => i.name === name); // Get data of item from items array
+    if (item === undefined) {
+        item = rawItems.find(i => i.name === name);
+    }
 
     // Fill info panel with item's details
     fillInfoPanel(item, this.classList.value);
 
     // Call recipe tree
-    getRecipe(name);
+    if(this.classList.contains("recipeNode")) {
+        // Don't clear recipe in main panel
+    } else {
+        document.getElementById("recipeContent").innerHTML = "";
+        getRecipe(name);
+    }
+    
 }
 
 // Takes in an item and a classList for icon styling and fills out information panel on the right
@@ -185,7 +205,7 @@ function fillInfoPanel(item, classList) {
     urlIcon.src = "styling/arrow-up-right-from-square-solid.svg";
     urlIcon.classList.add("urlIcon");
     url.href = wikiLink;
-    url.title = "Go to " + name + " official wiki";
+    url.title = "Go to " + item.name + " official wiki";
     url.target = "_blank";
     url.appendChild(imageDiv);
 
@@ -281,6 +301,7 @@ function getRecipe(recipeName) {
         };
     }
 
+
     // Function to recursively add ingredients as children if they exist as recipes
     function addIngredients(node) {
         if (!node.children) return; // Base case: if no children, stop recursion
@@ -297,6 +318,42 @@ function getRecipe(recipeName) {
             }
         }
     }
+
+    /*
+    // Function to recursively add parent recipes (upward direction)
+    function addParents(node) {
+        // Find all recipes where this node is used as an ingredient
+        let parentRecipes = recipes.filter(r =>
+            r.ingredients && r.ingredients.some(ing => ing.name === node.name)
+        );
+
+        if (parentRecipes.length === 0) return; // Base case: no parents found, stop recursion
+
+        // Create a "parents" property to store all parent nodes if it doesn't exist
+        if (!node.parents) {
+            node.parents = [];
+        }
+
+        // Iterate through all parent recipes
+        parentRecipes.forEach(parentRecipe => {
+            // Create a new parent node
+            let parentNode = {
+                name: parentRecipe.name,
+                children: parentRecipe.ingredients.map(ing =>
+                    // If the ingredient is the current node, use the node reference
+                    ing.name === node.name ? node : { name: ing.name }
+                )
+            };
+
+            // Recursively add parents for the newly created parent node
+            addParents(parentNode);
+
+            // Attach this parent node to the `parents` array
+            node.parents.push(parentNode);
+        });
+    }
+    */
+
 
     // Function to recursively add parent recipes (upward direction)
     function addParents(node) {
@@ -321,20 +378,22 @@ function getRecipe(recipeName) {
             addParents(parentNode);
 
             // Attach the new parent node above the current node structure
-            // You can replace `data` with a list of parent nodes if needed
+            // You can replace data with a list of parent nodes if needed
             data = parentNode; // Reassigning to 'data' will change the entire tree to root on this parent
         });
     }
 
     // Get all children items from this recipe
-    addIngredients(data);
     addParents(data);
+    addIngredients(data);
+    
+    // console.log(data);
 
     // Create the recipe tree
     createTree(data);
 }
 
-
+// Create the recipe tree using D3 library
 function createTree(treeData) {
     // Create a D3 hierarchy from the data
     const root = d3.hierarchy(treeData);
@@ -369,6 +428,57 @@ function createTree(treeData) {
     .style("stroke", "#000")  // Custom stroke color
     .style("stroke-width", 2);
 
+
+
+    // --- Gradient shit ---
+    // Add <defs> for gradients to the SVG
+    const defs = svg.append("defs");
+
+    // Define the blue "finalCraftGradient"
+    const finalCraftGradient = defs.append("linearGradient")
+        .attr("id", "finalCraftGradient")
+        .attr("gradientTransform", "rotate(135)");
+
+    finalCraftGradient.append("stop").attr("offset", "0%").attr("stop-color", "#5f63d3");
+    finalCraftGradient.append("stop").attr("offset", "25%").attr("stop-color", "#6fa4ff");
+    finalCraftGradient.append("stop").attr("offset", "50%").attr("stop-color", "#36d1dc");
+    finalCraftGradient.append("stop").attr("offset", "75%").attr("stop-color", "#76ffb8");
+    finalCraftGradient.append("stop").attr("offset", "100%").attr("stop-color", "#5f63d3");
+
+    finalCraftGradient.attr("gradientTransform", "rotate(135)")
+    .append("animateTransform")
+    .attr("attributeName", "gradientTransform")
+    .attr("type", "translate")
+    .attr("from", "0 0")
+    .attr("to", "0 100")
+    .attr("dur", "8s")
+    .attr("repeatCount", "indefinite");
+
+    // Define the red "hardmodeFinalCraftGradient"
+    const hardmodeFinalCraftGradient = defs.append("linearGradient")
+        .attr("id", "hardmodeFinalCraftGradient")
+        .attr("gradientTransform", "rotate(135)");
+
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "0%").attr("stop-color", "#db406b");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "25%").attr("stop-color", "#ff6b8a");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "50%").attr("stop-color", "#ff8e4a");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "75%").attr("stop-color", "#ffd27f");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "100%").attr("stop-color", "#db406b");
+
+    // Animate the position of the gradient
+    hardmodeFinalCraftGradient.attr("gradientTransform", "rotate(135)")
+    .append("animateTransform")
+    .attr("attributeName", "gradientTransform")
+    .attr("type", "translate")
+    .attr("from", "0 0")
+    .attr("to", "0 100")
+    .attr("dur", "8s")
+    .attr("repeatCount", "indefinite");
+
+    // --- End gradient shit
+
+
+
     // Create nodes
     const nodes = svg.selectAll(".node")
     .data(root.descendants())
@@ -377,37 +487,68 @@ function createTree(treeData) {
     .attr("class", "node")
     .attr("transform", d => `translate(${d.x},${d.y})`);
 
+    // Create an inner `g` group for hover effects
+    const hoverGroup = nodes.append("g")
+    .attr("class", d => {
+        // Find the corresponding item in the items array
+        const item = items.find(item => item.name === d.data.name);
+        // Create a class list based on item properties
+        let classList = "icon recipeNode";
+        if (item) {
+            if (item.hardmode) {
+                classList += " hardmode";
+            } else {
+                classList += " prehardmode";
+            }
+            if (item.finalCraft) classList += " finalCraft";
+        }
+
+        // If the item is undefined, that means it's a raw item - look there instead
+        if (item === undefined) {
+            classList += " rawItem";
+        }
+
+        return classList;
+    })
+    .attr("data-name", d => d.data.name)
+    .on("click", function(event, d) {
+        iconOnClick.call(this, event, d)});
     
-    nodes.append("rect")
-    .attr("class", "treeIcon")
+    
+    // Create rect element on node
+    hoverGroup.append("rect")
     .attr("rx", 10)
     .attr("x", -30)
     .attr("y", -30)
-    .attr("fill", "blue")
-    
+    .attr("height", 60)
+    .attr("width", 60)
+    .style("fill", function(d) {
+        const item = items.find(item => item.name === d.data.name);
+        if (item === undefined) { return; }
+        if (item.finalCraft) {
+            return item.hardmode ? "url(#hardmodeFinalCraftGradient)" : "url(#finalCraftGradient)"
+        }
+    })
+    .style("stroke", function(d) {
+        const item = items.find(item => item.name === d.data.name);
+        if (item) {
+            return item.hardmode ? "#b31c2b" : "rgb(29 26 38 / 41%)";
+        }
+    });
+
 
     // Append images to each node with the correct icon path
-    nodes.append("image")
+    hoverGroup.append("image")
     .attr("xlink:href", d => {
         // Find the matching item in items array based on node name
-        const item = items.find(item => item.name === d.data.name);
+        let item = items.find(item => item.name === d.data.name);
+        if (item === undefined) {
+            item = rawItems.find(item => item.name === d.data.name);
+        }
         return item ? item.iconLocation : ""; // Default to empty string if no match
     })
     .attr("width", 32)
     .attr("height", 32)
     .attr("x", -15)
     .attr("y", -15);
-
-
-
-    // Append labels to the nodes
-    /*
-    nodes.append("text")
-    .attr("dy", 3)
-    .attr("x", d => d.children ? -8 : 8)
-    .style("text-anchor", d => d.children ? "end" : "start")
-    .text(d => d.data.name);
-    */
 }
-
-
