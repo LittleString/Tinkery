@@ -13,6 +13,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Mana_Potion.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Potion",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Mana Crystal",
@@ -26,6 +29,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Mana_Crystal.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Mana_Crystal",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Soul of Might",
@@ -39,6 +45,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Soul_of_Might.gif",
         "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Might",
         "hardmode": true,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Soul of Sight",
@@ -52,6 +61,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Soul_of_Sight.gif",
         "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Sight",
         "hardmode": true,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Soul of Fright",
@@ -65,6 +77,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Soul_of_Fright.gif",
         "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Fright",
         "hardmode": true,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Fallen Star",
@@ -78,6 +93,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Fallen_Star.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fallen_Star",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Wire",
@@ -91,6 +109,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Wire.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Wire",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Obsidian",
@@ -104,6 +125,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Obsidian.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Argon Moss",
@@ -117,6 +141,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Argon_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Helium Moss",
@@ -130,6 +157,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Helium_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Krypton Moss",
@@ -143,6 +173,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Krypton_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Lava Moss",
@@ -156,6 +189,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Lava_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Neon Moss",
@@ -169,6 +205,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Neon_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Xenon Moss",
@@ -182,6 +221,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Xenon_Moss.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Moss",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Iron Bar",
@@ -195,6 +237,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Iron_Bar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Iron_Bar",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Lead Bar",
@@ -208,6 +253,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Lead_Bar.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Lead_Bar",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Pressure Plate",
@@ -221,6 +269,9 @@ export let rawItems = [
         "iconLocation": "images/icons/Gray_Pressure_Plate.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Alternative_crafting_ingredients#Any_Pressure_Plate",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     },
     {
         "name": "Whoopie Cushion",
@@ -234,5 +285,8 @@ export let rawItems = [
         "iconLocation": "images/icons/Whoopie_Cushion.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
         "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
     }
 ]

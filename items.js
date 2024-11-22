@@ -1096,22 +1096,6 @@ export let items = [
         ]
     },
     {
-        "name": "Hand of Creation",
-        "tooltip": "Increases mining speed by 25%\nIncreases block & wall placement speed\nIncreases block placement & tool range by 3\nIncreases pickup range for items\nAutomatically paints or coats placed objects\nHold Up to reach higher",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 8,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Hand_of_Creation.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hand_Of_Creation",
-        "hardmode": false,
-        "tags": [
-            "Building"
-        ]
-    },
-    {
         "name": "Ancient Chisel",
         "tooltip": "Increases mining speed by 25%\n'Ancient problems require ancient solutions'",
         "value": {
@@ -1144,7 +1128,7 @@ export let items = [
         ]
     },
     {
-        "name": "Step stool",
+        "name": "Step Stool",
         "tooltip": "Hold Up to reach higher",
         "value": {
             "copper": 0,
@@ -1271,22 +1255,6 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
-        ]
-    },
-    {
-        "name": "Lavaproof Tackle Bag",
-        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10\nAllows fishing in lava",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Lavaproof_Tackle_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Tackle_Bag",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
         ]
     },
     {
@@ -1980,6 +1948,22 @@ export let items = [
         ]
     },
     {
+        "name": "Architect Gizmo Pack",
+        "tooltip": "Increases block & wall placement speed\nIncreases block placement & tool range by 3\nAutomatically paints or coats placed objects",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
+        "hardmode": false,
+        "tags": [
+            "Building"
+        ],
+    },
+    {
         "name": "Mining Helmet",
         "tooltip": "Provides light when worn",
         "value": {
@@ -2123,10 +2107,91 @@ export let items = [
             "Tools"
         ]
     },
+    {
+        "name": "Angler Tackle Bag",
+        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Angler_Tackle_Bag.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ],
+    },
+    {
+        "name": "Blue Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
+    },
+    {
+        "name": "White Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
+    },
+    {
+        "name": "Yellow Horseshoe Balloon",
+        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 3,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
+        "hardmode": false,
+        "tags": [
+            "Mobility"
+        ]
+    },
 
 
 
     // --- Pre-hardmode Items; Final Craft ---
+    {
+        "name": "Lavaproof Tackle Bag",
+        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10\nAllows fishing in lava",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 4,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Lavaproof_Tackle_Bag.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Tackle_Bag",
+        "hardmode": false,
+        "tags": [
+            "Fishing"
+        ],
+        "finalCraft": true
+    },
     {
         "name": "Shellphone",
         "tooltip": "Displays everything\nRight click to toggle destination\n'If you listen closely, you can hear something about your car's warranty'",
@@ -2162,40 +2227,6 @@ export let items = [
         "finalCraft": true
     },
     {
-        "name": "Angler Tackle Bag",
-        "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Angler_Tackle_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ],
-        "finalCraft": true
-    },
-    {
-        "name": "Architect Gizmo Pack",
-        "tooltip": "Increases block & wall placement speed\nIncreases block placement & tool range by 3\nAutomatically paints or coats placed objects",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 4,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
-        "hardmode": false,
-        "tags": [
-            "Building"
-        ],
-        "finalCraft": true
-    },
-    {
         "name": "Arctic Diving Gear",
         "tooltip": "Grants the ability to swim and greatly extends underwater breathing\nProvides extra mobility on ice\nGenerates a very subtle glow which becomes more vibrant underwater",
         "value": {
@@ -2206,57 +2237,6 @@ export let items = [
         },
         "iconLocation": "images/icons/Arctic_Diving_Gear.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Arctic_Diving_Gear",
-        "hardmode": false,
-        "tags": [
-            "Mobility"
-        ],
-        "finalCraft": true
-    },
-    {
-        "name": "Blue Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
-        "hardmode": false,
-        "tags": [
-            "Mobility"
-        ],
-        "finalCraft": true
-    },
-    {
-        "name": "White Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
-        "hardmode": false,
-        "tags": [
-            "Mobility"
-        ],
-        "finalCraft": true
-    },
-    {
-        "name": "Yellow Horseshoe Balloon",
-        "tooltip": "Allows the holder to double jump\nIncreases jump height and negates fall damage",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 3,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2522,6 +2502,23 @@ export let items = [
             "Tools"
         ],
         "finalCraft": true
+    },
+    {
+        "name": "Hand of Creation",
+        "tooltip": "Increases mining speed by 25%\nIncreases block & wall placement speed\nIncreases block placement & tool range by 3\nIncreases pickup range for items\nAutomatically paints or coats placed objects\nHold Up to reach higher",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 8,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Hand_of_Creation.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Hand_Of_Creation",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Building"
+        ]
     },
 
 

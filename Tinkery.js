@@ -1,16 +1,12 @@
 import { items } from './items.js';
-import { recipes } from './recipes.js';
+import { allRecipes } from './recipes.js';
 import { rawItems } from './rawItems.js';
 
 /*
 TODO LIST:
 
 - Fix page resizing issues
-- Create tag display in infoPanel
 - Add "Where to find" visual on infoPanel
-- Add title above iconPanel
-- Add key under iconPanel
-- Add footer with disclaimer
 - Check how to display amount per recipe (souls, moss, fallen stars, etc.)
 - Check how to display different crafting recipes for one recipe 
         avenger emblem, 
@@ -157,6 +153,7 @@ function applyFilters() {
 function iconOnClick() {
     // Clear prior HTML
     document.getElementById("iconPicContainer").innerHTML = "";
+    document.getElementById("tagsContainer").innerHTML = "";
 
     // Get and assign item attributes from items array
     let name = this.getAttribute('data-name');
@@ -173,7 +170,7 @@ function iconOnClick() {
         // Don't clear recipe in main panel
     } else {
         document.getElementById("recipeContent").innerHTML = "";
-        getRecipe(name);
+        getFullCraftingRecipe(name);
     }
     
 }
@@ -197,7 +194,6 @@ function fillInfoPanel(item, classList) {
         image.src = item.iconLocation;
     }    
     imageDiv.appendChild(image);
-    
 
     // Hook up info panel icon to item's wiki URL
     let url = document.createElement('a');
@@ -241,7 +237,18 @@ function fillInfoPanel(item, classList) {
         // Append the coin item container to the main container
         fullValueContainer.appendChild(coinContainer);
     });
+
+    // Add tags
+    if(item.tags) {
+        for(let i = 0; i < item.tags.length; i++) {
+            let tag = document.createElement("li");
+            tag.innerHTML = item.tags[i];
+            tag.classList.add("tag");
+            document.getElementById("tagsContainer").appendChild(tag);
+        }
+    };
     
+
     // Set attributes in info panel
     document.getElementById("selectedItemName").innerHTML = item.name;
     document.getElementById("iconPicContainer").appendChild(url);
@@ -267,153 +274,405 @@ initIconPanel();
 
 
 
-
-
-
-
-
-
-
-
-
 /*
-Final craft = true -> that will be highest node in tree
-
-will need to get recipe index of selected icon
+- determine how many recipes
+- create a data structure for the recipes
+- send those recipes off to have the ingredients examined
+- repeat
 */
 
-// Formatting all recipe data for the clicked item
-function getRecipe(recipeName) {
-    // Get the recipe of clicked item
-    let recipe = recipes.find(r => r.name === recipeName);
 
-    // If recipe from above is undefined, that means you selected a raw element - it doesn't have a crafting recipe.
-    let data;
-    if(recipe === undefined) {
-        data = {
+
+
+
+
+
+
+
+// Formatting all recipe data for the clicked item
+function getFullCraftingRecipe(recipeName) {
+    let recipe = allRecipes.find(r => r.name === recipeName);
+    
+    if(!recipe || recipe.recipes === undefined) {
+        recipe = {
             name: recipeName
         }
+        addParents(recipe);
     } else {
-        // Format data for D3
-        data = {
-            name: recipe.name,
-            children: recipe.ingredients
-        };
+        addParents(recipe);
+        addIngredients(recipe.recipes);
     }
 
+    // Adds first layer of parent recipes for a clicked item
+    function addParents(recipe) {
+        const recipeName = recipe.name;
 
-    // Function to recursively add ingredients as children if they exist as recipes
-    function addIngredients(node) {
-        if (!node.children) return; // Base case: if no children, stop recursion
-
-        // Check if supplied recipe ingredients are have their own recipe; add ingredients if so; do this recursively for all ingredients until the end of the tree
-        for (let i = 0; i < node.children.length; i++) {
-            let ingredientRecipe = recipes.find(r => r.name === node.children[i].name);
-            
-            if (ingredientRecipe) {
-                // Add the "ingredients" of the found recipe as children
-                node.children[i].children = ingredientRecipe.ingredients;
-                // Recursively add children for this ingredient if needed
-                addIngredients(node.children[i]);
-            }
-        }
-    }
-
-    /*
-    // Function to recursively add parent recipes (upward direction)
-    function addParents(node) {
-        // Find all recipes where this node is used as an ingredient
-        let parentRecipes = recipes.filter(r =>
-            r.ingredients && r.ingredients.some(ing => ing.name === node.name)
+        // Find all recipes where this item is used as an ingredient
+        let parentRecipes = allRecipes.filter(r =>
+            r.recipes.some(recipe =>
+                recipe.ingredients.some(ing => ing.name === recipeName)
+            )
         );
 
         if (parentRecipes.length === 0) return; // Base case: no parents found, stop recursion
 
-        // Create a "parents" property to store all parent nodes if it doesn't exist
-        if (!node.parents) {
-            node.parents = [];
+        // Ensure the recipe has a `parents` property to store parent nodes
+        if (!recipe.parents) {
+            recipe.parents = [];
         }
 
         // Iterate through all parent recipes
         parentRecipes.forEach(parentRecipe => {
-            // Create a new parent node
-            let parentNode = {
-                name: parentRecipe.name,
-                children: parentRecipe.ingredients.map(ing =>
-                    // If the ingredient is the current node, use the node reference
-                    ing.name === node.name ? node : { name: ing.name }
-                )
-            };
+            let recipeContainsItemAsIngredient = false;
+            if (!recipe.parents.some(parent => parent.name === parentRecipe.name)) {
+                // Create a parent node for each recipe entry in the parent recipe
+                parentRecipe.recipes.forEach(parentRecipeEntry => {
+                    if (parentRecipeEntry.ingredients.some(ing => ing.name === recipeName)) {
+                        // Set flag to true
+                        recipeContainsItemAsIngredient = true;
+                    }
+                });
 
-            // Recursively add parents for the newly created parent node
-            addParents(parentNode);
-
-            // Attach this parent node to the `parents` array
-            node.parents.push(parentNode);
-        });
-    }
-    */
-
-
-    // Function to recursively add parent recipes (upward direction)
-    function addParents(node) {
-        // Find all recipes where this node is used as an ingredient
-        let parentRecipes = recipes.filter(r =>
-            r.ingredients && r.ingredients.some(ing => ing.name === node.name)
-        );
-
-        if (parentRecipes.length === 0) return; // Base case: no parents found, stop recursion
-
-        // Wrap the current node in a new parent structure if there are parent recipes
-        parentRecipes.forEach(parentRecipe => {
-            // Create a parent node for each recipe that uses the current recipe as an ingredient
-            let parentNode = {
-                name: parentRecipe.name,
-                children: parentRecipe.ingredients.map(ing =>
-                    ing.name === node.name ? node : { name: ing.name }
-                )
-            };
-
-            // Recursively add parents for each of these parent nodes
-            addParents(parentNode);
-
-            // Attach the new parent node above the current node structure
-            // You can replace data with a list of parent nodes if needed
-            data = parentNode; // Reassigning to 'data' will change the entire tree to root on this parent
+                // If flag is true, add that recipe to parents
+                if(recipeContainsItemAsIngredient) {
+                    let parentNode = {
+                        name: parentRecipe.name,
+                        children: parentRecipe.recipes.map(r => ({
+                            ingredients: r.ingredients.map(ing => ({ name: ing.name }))
+                        }))
+                    };
+                    
+                    // Attach the parent node to the current recipe
+                    recipe.parents.push(parentNode);
+                }
+            }
         });
     }
 
-    // Get all children items from this recipe
-    addParents(data);
-    addIngredients(data);
+    // Function to recursively add ingredients if they exist as recipes
+    function addIngredients(ingredientList) {
+        // ingredientList is the list of ingredients for the item that was clicked. It's an array containing separate objects for each recipe that crafts the clicked item.
+        // e.g., Bundle of Balloons -> ingredientList = Cloud in a Balloon, Blizzard in a Balloon, and Sandstorm in a Balloon
+        // Format: {name: 'Cloud in a Balloon', recipes: Array(1)}
+        // "recipes" within 'Cloud in a Balloon' contains an array of objects, where each object is a way of crafting the 'Cloud in a Balloon'
+        // For each "recipes" object, there's an array of ingredients
+
+        // Base case: if no ingredients, stop recursion
+        if (ingredientList.length === 0) {
+            return
+        };
+
+        // Check if supplied recipe ingredients are have their own recipe; add ingredients if so; do this recursively for all ingredients until the end of the tree
+        for (let i = 0; i < ingredientList.length; i++) { // For list of recipes of the clicked item
+            for (let j = 0; j < ingredientList[i].ingredients.length; j++) { // For list of ingredients for each recipe
+                let ingredientRecipe = allRecipes.find(r => r.name === ingredientList[i].ingredients[j].name);
+                if(ingredientRecipe) {
+                    ingredientList[i].ingredients[j].children = ingredientRecipe.recipes;
+                    console.log(ingredientList[i].ingredients[j]);
+                    addIngredients(ingredientList[i].ingredients[j].children);
+                }
+            }
+        }
+    }
+
     
-    // console.log(data);
 
+    
+    function renameProperties(obj) {
+        // Check if the object is an array or object
+        if (Array.isArray(obj)) {
+            return obj.map(item => renameProperties(item));
+        } else if (typeof obj === "object" && obj !== null) {
+            const newObj = {};
+            for (const key in obj) {
+                let newKey = key;
+                // Rename the keys if they match
+                if (key === "recipes" || key === "ingredients") {
+                    newKey = "children";
+                }
+                // Recurse for nested objects or arrays
+                newObj[newKey] = renameProperties(obj[key]);
+            }
+            // Check and handle the "nested children array" case
+            if (newObj.children && Array.isArray(newObj.children)) {
+                newObj.children = flattenChildren(newObj.children);
+            }
+            return newObj;
+        }
+        // Return primitive values unchanged
+        return obj;
+    }
+    
+    // Helper function to flatten nested children arrays
+    function flattenChildren(childrenArray) {
+        // Check if the array only contains one object with its own "children" array
+        if (
+            childrenArray.length === 1 &&
+            childrenArray[0].children &&
+            Array.isArray(childrenArray[0].children)
+        ) {
+            // Replace the current array with the nested "children" array
+            return flattenChildren(childrenArray[0].children);
+        }
+        return childrenArray.map(child => renameProperties(child)); // Ensure all children are processed
+    }
+
+    function normalizeChildren(node) {
+        // If the node has children and they are not an array, wrap it in an array
+        if (node.children && !Array.isArray(node.children)) {
+            node.children = [node.children];
+        }
+    
+        // Recursively normalize each child
+        if (node.children) {
+            node.children.forEach(normalizeChildren);
+        }
+    }
+    
+
+    // console.log(recipe);
+    let treeData = renameProperties(recipe);
+    // console.log(treeData);
+    
     // Create the recipe tree
-    createTree(data);
+    createTree(treeData);
 }
 
-// Create the recipe tree using D3 library
+
 function createTree(treeData) {
-    // Create a D3 hierarchy from the data
+    // Create a D3 hierarchy from the processed data
     const root = d3.hierarchy(treeData);
 
+    // Set dimensions and layout
+    const nodeWidth = 100; // Horizontal spacing between nodes
+    const nodeHeight = 150; // Vertical spacing between nodes
+    const container = d3.select("#recipeContent");
+    const containerWidth = container.node().clientWidth;
+    const containerHeight = container.node().clientHeight;
+
+    const svg = container
+        .append("svg")
+        .attr("width", "100%")
+        .attr("height", "95%")
+        .append("g")
+        .attr("transform", `translate(${containerWidth / 2}, 50)`); // Center horizontally
+
+    const treeLayout = d3.tree().nodeSize([nodeWidth, nodeHeight]);
+    treeLayout(root);
+
+    // Draw links (paths connecting nodes)
+    /*
+    svg.selectAll(".link")
+        .data(root.links())
+        .enter()
+        .append("path")
+        .attr("class", "link")
+        .attr("d", d3
+            .linkVertical()
+            .x(d => d.x)
+            .y(d => d.y)
+        )
+        .style("fill", "none")
+        .style("stroke", "#555")
+        .style("stroke-width", 2);
+    */
+    const links = svg.selectAll(".link")
+    .data(root.links())
+    .enter()
+    .append("line")
+    .attr("class", "link")
+    .attr("x1", d => d.source.x)
+    .attr("y1", d => d.source.y)
+    .attr("x2", d => d.target.x)
+    .attr("y2", d => d.target.y)
+    .style("stroke", "#313562")  // Custom stroke color
+    .style("stroke-width", 3);
+
+    // --- Gradient shit ---
+    // Add <defs> for gradients to the SVG
+    const defs = svg.append("defs");
+
+    // Define the blue "finalCraftGradient"
+    const finalCraftGradient = defs.append("linearGradient")
+        .attr("id", "finalCraftGradient")
+        .attr("gradientTransform", "rotate(135)");
+
+    finalCraftGradient.append("stop").attr("offset", "0%").attr("stop-color", "#5f63d3");
+    finalCraftGradient.append("stop").attr("offset", "25%").attr("stop-color", "#6fa4ff");
+    finalCraftGradient.append("stop").attr("offset", "50%").attr("stop-color", "#36d1dc");
+    finalCraftGradient.append("stop").attr("offset", "75%").attr("stop-color", "#76ffb8");
+    finalCraftGradient.append("stop").attr("offset", "100%").attr("stop-color", "#5f63d3");
+
+    finalCraftGradient.attr("gradientTransform", "rotate(135)")
+    .append("animateTransform")
+    .attr("attributeName", "gradientTransform")
+    .attr("type", "translate")
+    .attr("from", "0 0")
+    .attr("to", "0 100")
+    .attr("dur", "8s")
+    .attr("repeatCount", "indefinite");
+
+    // Define the red "hardmodeFinalCraftGradient"
+    const hardmodeFinalCraftGradient = defs.append("linearGradient")
+        .attr("id", "hardmodeFinalCraftGradient")
+        .attr("gradientTransform", "rotate(135)");
+
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "0%").attr("stop-color", "#db406b");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "25%").attr("stop-color", "#ff6b8a");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "50%").attr("stop-color", "#ff8e4a");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "75%").attr("stop-color", "#ffd27f");
+    hardmodeFinalCraftGradient.append("stop").attr("offset", "100%").attr("stop-color", "#db406b");
+
+    // Animate the position of the gradient
+    hardmodeFinalCraftGradient.attr("gradientTransform", "rotate(135)")
+    .append("animateTransform")
+    .attr("attributeName", "gradientTransform")
+    .attr("type", "translate")
+    .attr("from", "0 0")
+    .attr("to", "0 100")
+    .attr("dur", "8s")
+    .attr("repeatCount", "indefinite");
+
+    // --- End gradient shit
+
+    // Create nodes
+    const nodes = svg.selectAll(".node")
+    .data(root.descendants().filter(d => !d.data.invisible))
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    // Create an inner `g` group for hover effects
+    
+    const hoverGroup = nodes.append("g")
+    .attr("class", d => {
+        // Find the corresponding item in the items array
+        const item = items.find(item => item.name === d.data.name);
+        // Create a class list based on item properties
+        let classList = "icon recipeNode";
+        if (item) {
+            if (item.hardmode) {
+                classList += " hardmode";
+            } else {
+                classList += " prehardmode";
+            }
+            if (item.finalCraft) classList += " finalCraft";
+        }
+
+        // If the item is undefined, that means it's a raw item - look there instead
+        if (item === undefined) {
+            classList += " rawItem";
+        }
+
+        return classList;
+    })
+    .attr("data-name", d => d.data.name)
+    .on("click", function(event, d) {
+        iconOnClick.call(this, event, d)});
+    
+
+    // Create rect element on node
+    hoverGroup.append("rect")
+    .attr("rx", 10)
+    .attr("x", -30)
+    .attr("y", -30)
+    .attr("height", 60)
+    .attr("width", 60)
+    .style("fill", function(d) {
+        const item = items.find(item => item.name === d.data.name);
+        if (item === undefined) { return; }
+        if (item.finalCraft) {
+            return item.hardmode ? "url(#hardmodeFinalCraftGradient)" : "url(#finalCraftGradient)"
+        }
+    })
+    .style("stroke", function(d) {
+        const item = items.find(item => item.name === d.data.name);
+        if (item) {
+            return item.hardmode ? "#b31c2b" : "rgb(29 26 38 / 41%)";
+        }
+    });
+
+
+    // Append images to each node with the correct icon path
+    hoverGroup.append("image")
+    .attr("xlink:href", d => {
+        // Find the matching item in items array based on node name
+        let item = items.find(item => item.name === d.data.name);
+        if (item === undefined) {
+            item = rawItems.find(item => item.name === d.data.name);
+        }
+        return item ? item.iconLocation : ""; // Default to empty string if no match
+    })
+    .attr("width", 32)
+    .attr("height", 32)
+    .attr("x", -15)
+    .attr("y", -15);
+
+
+}
+
+
+// Create the recipe tree using D3 library
+function createTree1(treeData) {
+    // Create a D3 hierarchy from the data
+    const root = d3.hierarchy(treeData, d => d.ingredients);
+
     // Set a node spacing factor for each level of depth
-    const nodeHeight = 100;  // Adjust this for more or less vertical spacing between nodes
+    const nodeHeight = 75;  // Adjust this for more or less vertical spacing between nodes
+    const nodeWidth = 75;
     const calculatedHeight = (root.height + 1) * nodeHeight;
     const width = 1000;
+
+    const container = d3.select("#recipeContent");
+    const containerWidth = container.node().clientWidth;
+    const containerHeight = container.node().clientHeight;
+
+    // const treeLayout = d3.tree().size([containerWidth, containerHeight]);
+    // const treeLayout = d3.tree().nodeSize([nodeWidth, nodeHeight]);
+    // treeLayout(root);
 
     // Select the div and append an SVG element
     const svg = d3.select("#recipeContent")
     .append("svg")
+    .attr("width", "100%")
+    .attr("height", "95%") // If set to 100%, it overflows by default, for some reason
+    .attr("viewBox", `0 0 ${containerWidth} ${containerHeight}`)
+    /*
     .attr("width", width)
     .attr("height", calculatedHeight + 100)
+    */
     .append("g")
-    .attr("transform", "translate(0, 50)"); // Add top margin for root node
+    .attr("transform", `translate(0, 50) scale(0.9)`); // Add top margin for root node
+    //.attr("transform", `translate(${containerWidth * .5}, 50) scale(0.9)`); // Add top margin for root node
+    
 
     // Create a tree layout and assign size (vertically aligned)
     const treeLayout = d3.tree().size([width - 100, calculatedHeight]);
+    // const treeLayout = d3.tree().nodeSize(nodeWidth, nodeHeight);
     treeLayout(root);
+
+    // Draw right-angled links between nodes
+    /* This code doesn't work exactly. The goal was to make the node links horizontal and vertical at 90 degree angles, similar to this picture:
+    https://i.sstatic.net/MUE4z.png
+
+    const links = svg.selectAll(".link")
+    .data(root.links())
+    .enter()
+    .append("path")
+    .attr("class", "link")
+    .attr("d", d => {
+    // Path for right-angled links
+    return `
+        M${d.source.x},${d.source.y} 
+        V${d.target.y} 
+        H${d.target.x}
+    `;
+    })
+    .style("fill", "none") // Ensure no fill color
+    .style("stroke", "#313562") // Custom stroke color
+    .style("stroke-width", 3); // Line thickness
+    */
 
     // Draw straight line links between nodes
     const links = svg.selectAll(".link")
@@ -425,9 +684,8 @@ function createTree(treeData) {
     .attr("y1", d => d.source.y)
     .attr("x2", d => d.target.x)
     .attr("y2", d => d.target.y)
-    .style("stroke", "#000")  // Custom stroke color
-    .style("stroke-width", 2);
-
+    .style("stroke", "#313562")  // Custom stroke color
+    .style("stroke-width", 3);
 
 
     // --- Gradient shit ---
@@ -481,13 +739,14 @@ function createTree(treeData) {
 
     // Create nodes
     const nodes = svg.selectAll(".node")
-    .data(root.descendants())
+    .data(root.descendants().filter(d => !d.data.invisible))
     .enter()
     .append("g")
     .attr("class", "node")
     .attr("transform", d => `translate(${d.x},${d.y})`);
 
     // Create an inner `g` group for hover effects
+    
     const hoverGroup = nodes.append("g")
     .attr("class", d => {
         // Find the corresponding item in the items array
@@ -514,7 +773,7 @@ function createTree(treeData) {
     .on("click", function(event, d) {
         iconOnClick.call(this, event, d)});
     
-    
+
     // Create rect element on node
     hoverGroup.append("rect")
     .attr("rx", 10)

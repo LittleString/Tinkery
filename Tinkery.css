@@ -206,6 +206,13 @@ body {
     border-radius: 10px;
 }
 
+#recipeContent {
+    flex: 1;
+    padding-right: 15px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
 /* Optional styling for the infoPanel within mainPanel */
 #infoPanel {
     padding: 20px;
@@ -334,12 +341,34 @@ body {
     padding-left: 5px;
 }
 
-#selectedItemDetails div {
+#valueAndTags {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+#valueVal div {
     padding: 5px 10px 5px 10px;
 }
 
 #tooltipVal {
     text-align: center;
+}
+
+#tagsContainer {
+    flex: 1;
+}
+
+.tag {
+    display: inline-flex;
+    padding: 3px;
+    list-style: none;
+    background-color: #3236a7ad;
+    border: 3px solid rgb(29 26 38 / 41%);
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 2px;
 }
 
 
