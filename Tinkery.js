@@ -7,6 +7,8 @@ TODO LIST:
 
 - Add parent recipes
 - Add "toggle tree traversal" checkbox
+- Revise tags
+- Organize icon panel
 
 
 NOTES:
