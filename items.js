@@ -3406,7 +3406,7 @@ export let items = [
             "gold": 8,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Hand_Of_Creation.png",
+        "iconLocation": "images/icons/Hand_of_Creation.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Hand_Of_Creation",
         "hardmode": false,
         "finalCraft": true,
