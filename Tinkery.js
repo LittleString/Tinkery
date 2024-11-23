@@ -5,11 +5,8 @@ import { rawItems } from './rawItems.js';
 /*
 TODO LIST:
 
-- Fix page resizing issues
 - Add parent recipes
 - Add "toggle tree traversal" checkbox
-- Add "Where to find" visual on infoPanel
-- turn off double click as zoom
 
 
 NOTES:
@@ -554,6 +551,7 @@ function createTree(treeData) {
 
     // Disable double-click to zoom
     d3.select("svg").on("dblclick.zoom", null);
+
     
     // --- END ZOOM AND PAN ---
 
@@ -749,5 +747,14 @@ function createTree(treeData) {
     .each(function() { 
         const bbox = this.getBBox();
         d3.select(this).attr("x", -bbox.width / 2);
+    });
+
+    // Turn off zoom and pan when hovering over an icon
+    d3.selectAll('.icon')
+    .on('mouseover', () => {
+        svg.on('.zoom', null);
+    })
+    .on('mouseout', () => {
+        svg.call(zoom);
     });
 }

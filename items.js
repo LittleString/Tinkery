@@ -3398,23 +3398,6 @@ export let items = [
         "finalCraft": true
     },
     {
-        "name": "Ultrabright Helmet",
-        "tooltip": "Improves vision and provides light when worn\n'The darkness holds no secrets for you'",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 2,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Ultrabright_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
-        "hardmode": false,
-        "tags": [
-            "Tools"
-        ],
-        "finalCraft": true
-    },
-    {
         "name": "Hand of Creation",
         "tooltip": "Increases mining speed by 25%\nIncreases block & wall placement speed\nIncreases block placement & tool range by 3\nIncreases pickup range for items\nAutomatically paints or coats placed objects\nHold Up to reach higher",
         "value": {
@@ -3431,6 +3414,24 @@ export let items = [
             "Building"
         ]
     },
+    {
+        "name": "Ultrabright Helmet",
+        "tooltip": "Improves vision and provides light when worn\n'The darkness holds no secrets for you'",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 2,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ultrabright_Helmet.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
+        "hardmode": false,
+        "tags": [
+            "Tools"
+        ],
+        "finalCraft": true
+    },
+    
 
 
 

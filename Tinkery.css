@@ -237,18 +237,19 @@ body {
     cursor: grabbing;
 }
 
-/* Optional styling for the infoPanel within mainPanel */
 #infoPanel {
     padding: 20px;
     border-radius: 10px;
     width: 15vw;
-    min-height: 35vh;
+    min-height: 15vh;
+    max-height: 80vh;
     background-color: white;
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    height: 65vh;
-    overflow: auto;
+    overflow-y: auto;
+    align-self: flex-start;
+    flex: none;
 }
 
 /* Item icon styling*/
