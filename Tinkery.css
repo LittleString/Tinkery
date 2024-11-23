@@ -82,6 +82,16 @@ body {
     margin-top: 10px;
     color: white;
     overflow: auto;
+    width: 22vw;
+    height: 21vh;
+}
+
+#keyBody {
+    display: flex;
+}
+
+#keyCol1, #keyCol2 {
+    flex: 1;
 }
 
 .keyIcon {
@@ -97,10 +107,18 @@ body {
     gap: 5px;
 }
 
+.recipeOption {
+    border-radius: 50% !important;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 22px;
+}
+
 /* Left Panel styling */
 #leftPanel {
     width: 22vw;
-    height: 65vh;
+    height: 69vh;
     min-width: 250px;
     background-color: rgb(51 54 125 / 76%);
     border: 3px solid rgb(29 26 38 / 41%);
@@ -211,6 +229,12 @@ body {
     padding-right: 15px;
     overflow-x: auto;
     overflow-y: auto;
+    cursor: grab;
+    user-select: none;
+}
+
+#recipeContent:active {
+    cursor: grabbing;
 }
 
 /* Optional styling for the infoPanel within mainPanel */
@@ -223,7 +247,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    height: 45vh;
+    height: 65vh;
     overflow: auto;
 }
 
@@ -422,10 +446,54 @@ body {
 
 
 
-/* Location information about root items */
+/* Location information about root items 
 
 #location {
     display: none;
+}
+
+*/
+
+#itemLocationTable {
+    display: none;
+    width: 100%;
+    border-collapse: collapse; /* Ensures no cellspacing */
+    border: 3px solid rgb(79, 79, 130); /* Maintains your existing table border */
+    border-radius: 3px;
+}
+
+#itemLocationTable td, #itemLocationTable th {
+    padding: 3px; /* Padding left and right */
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers text vertically */
+
+}
+
+#itemLocationTableBody tr {
+    background-color: #a7aae7d6;
+    color: #000000;
+    border-bottom: 2px solid #4f4f82
+}
+
+#oddsTable tr:nth-child(odd) {
+    background-color: #dcddff; /* Light gray for alternating row color */
+}
+
+#oddsTable tr:nth-child(even) {
+    background-color: #ffffff; /* White for alternating row color */
+}
+
+#oddsTable {
+    width: 100%;
+}
+
+#itemLocationTable thead {
+    background-color: #7376c3;
+    color: white;
+}
+
+#itemLocationTable th {
+    padding-left: 4px;
 }
 
 .recipeNode rect {

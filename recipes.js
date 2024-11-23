@@ -157,7 +157,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Glowing Fishing Bobber" },
-                    { name: "Argon Moss" }
+                    { name: "Argon Moss", text: "5x" }
                 ]
             }
         ]
@@ -201,6 +201,17 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Cloud in a Balloon" },
+                    { name: "Lucky Horseshoe" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Yellow Horseshoe Balloon",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Sandstorm in a Balloon" },
                     { name: "Lucky Horseshoe" }
                 ]
             }
@@ -284,20 +295,32 @@ export let allRecipes = [
         ]
     },
     {
-        name: "Weighted Pressure Plate",
+        name: "Obsidian Skull",
         recipes: [
             {
                 ingredients: [
+                    { name: "Obsidian", text: "20x" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Weighted Pressure Plate",
+        recipes: [
+            {
+                invisible: true,
+                ingredients: [
                     { name: "Pressure Plate" },
-                    { name: "Iron Bar" },
-                    { name: "Wire" }
+                    { name: "Iron Bar", text: "2x" },
+                    { name: "Wire", text: "1x" }
                 ]
             },
             {
+                invisible: true,
                 ingredients: [
                     { name: "Pressure Plate" },
-                    { name: "Lead Bar" },
-                    { name: "Wire" }
+                    { name: "Lead Bar", text: "2x" },
+                    { name: "Wire", text: "1x" }
                 ]
             }
         ]
@@ -438,7 +461,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Fishing Bobber" },
-                    { name: "Fallen Star" }
+                    { name: "Fallen Star", text: "5x" }
                 ]
             }
         ]
@@ -517,7 +540,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Glowing Fishing Bobber" },
-                    { name: "Helium Moss" }
+                    { name: "Helium Moss", text: "5x" }
                 ]
             }
         ]
@@ -561,7 +584,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Glowing Fishing Bobber" },
-                    { name: "Krypton Moss" }
+                    { name: "Krypton Moss", text: "5x" }
                 ]
             }
         ]
@@ -682,7 +705,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Nature's Gift" },
-                    { name: "Mana Potion" }
+                    { name: "Mana Potion", text: "1x" }
                 ]
             }
         ]
@@ -728,36 +751,36 @@ export let allRecipes = [
                 invisible: true,
                 ingredients: [
                     { name: "Warrior Emblem" },
-                    { name: "Soul of Might" },
-                    { name: "Soul of Sight" },
-                    { name: "Soul of Fight" }
+                    { name: "Soul of Might", text: "5x" },
+                    { name: "Soul of Sight", text: "5x" },
+                    { name: "Soul of Fright", text: "5x" }
                 ]
             },
             {
                 invisible: true,
                 ingredients: [
                     { name: "Ranger Emblem" },
-                    { name: "Soul of Might" },
-                    { name: "Soul of Sight" },
-                    { name: "Soul of Fight" }
+                    { name: "Soul of Might", text: "5x" },
+                    { name: "Soul of Sight", text: "5x" },
+                    { name: "Soul of Fright", text: "5x" }
                 ]
             },
             {
                 invisible: true,
                 ingredients: [
                     { name: "Sorcerer Emblem" },
-                    { name: "Soul of Might" },
-                    { name: "Soul of Sight" },
-                    { name: "Soul of Fight" }
+                    { name: "Soul of Might", text: "5x" },
+                    { name: "Soul of Sight", text: "5x" },
+                    { name: "Soul of Fright", text: "5x" }
                 ]
             },
             {
                 invisible: true,
                 ingredients: [
                     { name: "Summoner Emblem" },
-                    { name: "Soul of Might" },
-                    { name: "Soul of Sight" },
-                    { name: "Soul of Fight" }
+                    { name: "Soul of Might", text: "5x" },
+                    { name: "Soul of Sight", text: "5x" },
+                    { name: "Soul of Fright", text: "5x" }
                 ]
             },
         ]
@@ -852,7 +875,7 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Glowing Fishing Bobber" },
-                    { name: "Neon Moss" }
+                    { name: "Neon Moss", text: "5x" }
                 ]
             }
         ]
@@ -1034,7 +1057,7 @@ export let allRecipes = [
                 invisible: true,
                 ingredients: [
                     { name: "White Horseshoe Balloon" },
-                    { name: "Cloud in a Ballon", text: "Any Cloud Balloon" },
+                    { name: "Cloud in a Balloon", text: "Any Cloud Balloon" },
                     { name: "Sandstorm in a Balloon", text: "Any Sandstorm Balloon" }
                 ]
             },
@@ -1042,7 +1065,7 @@ export let allRecipes = [
                 invisible: true,
                 ingredients: [
                     { name: "Yellow Horseshoe Balloon" },
-                    { name: "Blizzard in a Ballon", text: "Any Blizzard Balloon" },
+                    { name: "Blizzard in a Balloon", text: "Any Blizzard Balloon" },
                     { name: "Cloud in a Balloon", text: "Any Cloud Balloon" }
                 ]
             }
@@ -1186,7 +1209,17 @@ export let allRecipes = [
                     { name: "Multicolor Wrench" },
                     { name: "Mechanical Lens" },
                     { name: "Mechanical Ruler" },
-                    { name: "Wire" }
+                    { name: "Wire", text: "60x" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "White String",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Cobweb", text: "30x" }
                 ]
             }
         ]
@@ -1253,7 +1286,61 @@ export let allRecipes = [
             {
                 ingredients: [
                     { name: "Glowing Fishing Bobber" },
-                    { name: "Xenon Moss" }
+                    { name: "Xenon Moss", text: "5x" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Gold Watch",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Gold Bar", text: "10x" },
+                    { name: "Chain" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Magic Mirror",
+        recipes: [
+            {
+                invisible: true,
+                ingredients: [
+                    { name: "Gold Bar", text: "8x" },
+                    { name: "Glass", text: "10x" },
+                    { name: "Diamond", text: "3x" }
+                ]
+            },
+            {
+                invisible: true,
+                ingredients: [
+                    { name: "Platinum Bar", text: "8x" },
+                    { name: "Glass", text: "10x" },
+                    { name: "Diamond", text: "3x" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Platinum Watch",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Platinum Bar", text: "10x" },
+                    { name: "Chain" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Lava Moss Fishing Bobber",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Glowing Fishing Bobber" },
+                    { name: "Lava Moss", text: "5x" }
                 ]
             }
         ]

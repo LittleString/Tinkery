@@ -17,6 +17,9 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Fishing"
+        ],
+        "location": [
+            {place: "Angler Quest", odds: "2.5%"}
         ]
     },
     {
@@ -50,6 +53,11 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {place: "Azure Crate", odds: "25%"},
+            {place: "Sky Crate", odds: "25%"},
+            {place: "Skyware Chest", odds: "25%"}
         ]
     },
     {
@@ -66,6 +74,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {
+                place: "Iron Crate", 
+                odds: "4.26%"
+            },
+            {
+                place: "Mythril Crate", 
+                odds: "4.19%"
+            },
+            {
+                place: "Pearlwood Crate", 
+                odds: "2.49%"
+            },
+            {
+                place: "Wooden Crate", 
+                odds: "2.5%"
+            }
         ]
     },
     {
@@ -82,6 +108,15 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {
+                "place": "Fishing catch", 
+                "odds": [
+                    {"Fishing Power 50%": "0.2%"},
+                    {"Fishing Power 100%": "0.4%"}
+                ]
+            }
         ]
     },
     {
@@ -98,6 +133,9 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Fishing"
+        ],
+        "location": [
+            {place: "Angler Quest", odds: "2.5%"}
         ]
     },
     {
@@ -114,6 +152,9 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Fishing"
+        ],
+        "location": [
+            {place: "Angler Quest", odds: "2.5%"}
         ]
     },
     {
@@ -194,6 +235,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -210,6 +257,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -226,6 +279,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -242,6 +301,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -274,6 +339,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Other"
+        ],
+        location: [
+            {
+                place: "Blue Jellyfish", 
+                odds: "1%"
+            },
+            {
+                place: "Green Jellyfish",
+                odds: "1%"
+            },
+            {
+                place: "Pink Jellyfish",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -290,6 +369,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Fishing"
+        ],
+        location: [
+            {
+                place: "Angler Quest", 
+                odds: "2.94%"
+            }
         ]
     },
     {
@@ -419,6 +504,9 @@ export let items = [
         "tags": [
             "Health",
             "Damage"
+        ],
+        "location": [
+            {place: "Queen Bee drop", odds: "33%"}
         ]
     },
     {
@@ -451,6 +539,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Boreal Crate", 
+                odds: "16.67%"
+            },
+            {
+                place: "Frozen Chest",
+                odds: "15.51%"
+            },
+            {
+                place: "Frozen Crate",
+                odds: "16.67%"
+            }
         ]
     },
     {
@@ -467,6 +569,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Gold chests in underground and caverns", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -483,6 +591,11 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {place: "Azure Crate", odds: "25%"},
+            {place: "Sky Crate", odds: "25%"},
+            {place: "Skyware Chest", odds: "25%"}
         ]
     },
     {
@@ -547,6 +660,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Magic"
+        ],
+        location: [
+            {
+                place: "Azure Crate", 
+                odds: "25%"
+            },
+            {
+                place: "Sky Crate",
+                odds: "25%"
+            },
+            {
+                place: "Skyware Chest",
+                odds: "25%"
+            }
         ]
     },
     {
@@ -595,6 +722,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Gold chests in underground and caverns", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -611,6 +744,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Frozen chests in Ice biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -627,6 +766,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Health"
+        ],
+        location: [
+            {
+                place: "Gold chests in underground and caverns", 
+                odds: "N/A"
+            },
+            {
+                place: "Living mahogany trees in underground jungle",
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -643,6 +792,40 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        location: [
+            {
+                place: "Green Jellyfish", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Blood Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Dark Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Pixie",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
         ]
     },
     {
@@ -659,6 +842,48 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        location: [
+            {
+                place: "Crimson Axe", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Cursed Hammer",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Cursed Skull",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Enchanted Sword",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Giant Cursed Skull",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
         ]
     },
     {
@@ -678,7 +903,7 @@ export let items = [
         ]
     },
     {
-        "name": "Flipper", // *
+        "name": "Flipper",
         "tooltip": "Grants the ability to swim",
         "value": {
             "copper": 0,
@@ -691,10 +916,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Ocean Crate", 
+                odds: "22.5%"
+            },
+            {
+                place: "Seaside Crate",
+                odds: "22.5%"
+            },
+            {
+                place: "Water Chest",
+                odds: "22.5%"
+            }
         ]
     },
     {
-        "name": "Diving Helmet", // *
+        "name": "Diving Helmet",
         "tooltip": "Greatly extends underwater breathing",
         "value": {
             "copper": 0,
@@ -707,6 +946,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Orca", 
+                odds: [
+                    {"Classic": "5%"},
+                    {"Expert": "N/A"},
+                    {"Master": "N/A"}
+                ]
+            },
+            {
+                place: "Shark",
+                odds: [
+                    {"Classic": "2%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
         ]
     },
     {
@@ -739,6 +996,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Other"
+        ],
+        location: [
+            {
+                place: "Bramble Crate", 
+                odds: "5%"
+            },
+            {
+                place: "Jungle Crate", 
+                odds: "5%"
+            },
+            {
+                place: "Ivy Chest", 
+                odds: "4.57%"
+            }
         ]
     },
     {
@@ -787,6 +1058,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Melee"
+        ],
+        "location": [
+            {
+                place: "Hellbat", 
+                odds: "0.67%"
+            },
+            {
+                place: "Lava Bat",
+                odds: "2%"
+            }
         ]
     },
     {
@@ -821,6 +1102,12 @@ export let items = [
         "tags": [
             "Fishing",
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Angler Quest", 
+                odds: "3.33%"
+            }
         ]
     },
     {
@@ -837,6 +1124,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Angler Quest", 
+                odds: "3.33%"
+            }
         ]
     },
     {
@@ -853,6 +1146,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Angler Quest", 
+                odds: "3.33%"
+            }
         ]
     },
     {
@@ -949,6 +1248,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Boreal Crate", 
+                odds: "16.67%"
+            },
+            {
+                place: "Frozen Chest", 
+                odds: "15.51%"
+            },
+            {
+                place: "Frozen Crate", 
+                odds: "16.67%"
+            }
         ]
     },
     {
@@ -981,6 +1294,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Lost Girl", 
+                odds: [
+                    {"Classic": "50%"},
+                    {"Expert": "100%"},
+                    {"Master": "100%"}
+                ]
+            },
+            {
+                place: "Nymph",
+                odds: [
+                    {"Classic": "50%"},
+                    {"Expert": "100%"},
+                    {"Master": "100%"}
+                ]
+            }
         ]
     },
     {
@@ -997,6 +1328,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1013,6 +1350,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1033,7 +1376,7 @@ export let items = [
     },
     {
         "name": "Gold Watch",
-        "tooltip": "Tells the time",
+        "tooltip": "Tells the time\nCrafted at a table with a chair",
         "value": {
             "copper": 0,
             "silver": 20,
@@ -1061,6 +1404,40 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Cave Bat", 
+                odds: "1%"
+            },
+            {
+                place: "Crawdad",
+                odds: "1.25%"
+            },
+            {
+                place: "Giant Bat",
+                odds: "1%"
+            },
+            {
+                place: "Giant Shelly",
+                odds: "1.25%"
+            },
+            {
+                place: "Ice Bat",
+                odds: "1%"
+            },
+            {
+                place: "Jungle Bat",
+                odds: "1%"
+            },
+            {
+                place: "Salamander",
+                odds: "1.25%"
+            },
+            {
+                place: "Spore Bat",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1077,11 +1454,45 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Armored Viking", 
+                odds: "2%"
+            },
+            {
+                place: "Crawdad",
+                odds: "1.23%"
+            },
+            {
+                place: "Mother Slime",
+                odds: "2%"
+            },
+            {
+                place: "Giant Shelly",
+                odds: "1.25%"
+            },
+            {
+                place: "Piranha",
+                odds: "1.33%"
+            },
+            {
+                place: "Snow Flinx",
+                odds: "2%"
+            },
+            {
+                place: "Salamander",
+                odds: "1.23%"
+            },
+            {
+                place: "Undead Viking",
+                odds: "2%"
+            }
         ]
     },
     {
         "name": "Platinum Watch",
-        "tooltip": "Tells the time",
+        "tooltip": "Tells the time\nCrafted at a table with a chair",
         "value": {
             "copper": 0,
             "silver": 30,
@@ -1109,6 +1520,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Mirage Crate", 
+                odds: "12.5%"
+            },
+            {
+                place: "Oasis Crate",
+                odds: "12.5%"
+            },
+            {
+                place: "Sandstone Chest",
+                odds: "14.29%"
+            }
         ]
     },
     {
@@ -1125,6 +1550,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Obsidian Lock Box", 
+                odds: "20%"
+            },
+            {
+                place: "Shadow Chest",
+                odds: "20%"
+            }
         ]
     },
     {
@@ -1141,6 +1576,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Chest", 
+                odds: "8.33%"
+            },
+            {
+                place: "Wooden Crate",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1157,6 +1602,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Other"
+        ],
+        location: [
+            {
+                place: "Hellstone Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Obsidian Crate",
+                odds: "19%"
+            }
         ]
     },
     {
@@ -1207,6 +1662,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Ocean Crate", 
+                odds: "10%"
+            },
+            {
+                place: "Seaside Crate",
+                odds: "10%"
+            },
+            {
+                place: "Ocean Crate",
+                odds: "10%"
+            }
         ]
     },
     {
@@ -1223,6 +1692,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        location: [
+            {
+                place: "Hellstone Crate", 
+                odds: "5%"
+            },
+            {
+                place: "Obsidian Crate",
+                odds: "5%"
+            }
         ]
     },
     {
@@ -1239,6 +1718,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Damage"
+        ],
+        location: [
+            {
+                place: "Fire Imp", 
+                odds: "5%"
+            }
         ]
     },
     {
@@ -1271,6 +1756,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Fishing"
+        ],
+        location: [
+            {
+                place: "Hellstone Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Obsidian Crate",
+                odds: "19%"
+            }
         ]
     },
     {
@@ -1287,6 +1782,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Bramble Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Jungle Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Ivy Chest", 
+                odds: "21.72%"
+            }
         ]
     },
     {
@@ -1303,6 +1812,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Chest", 
+                odds: "8.33%"
+            },
+            {
+                place: "Pearlwood Crate", 
+                odds: "1%"
+            },
+            {
+                place: "Wooden Crate", 
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1336,6 +1859,20 @@ export let items = [
         "tags": [
             "Defense"
         ],
+        location: [
+            {
+                place: "Frozen Zombie", 
+                odds: "2%"
+            },
+            {
+                place: "Raincoat Zombie",
+                odds: "2%"
+            },
+            {
+                place: "Zombie",
+                odds: "2%"
+            }
+        ]
     },
     {
         "name": "Magma Skull",
@@ -1383,6 +1920,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Magic"
+        ],
+        location: [
+            {
+                place: "Harvested from rare flower on Jungle grass in Underground Jungle", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1399,6 +1942,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Magic"
+        ],
+        location: [
+            {
+                place: "Corrupt Crate", 
+                odds: "20%"
+            },
+            {
+                place: "Defiled Crate",
+                odds: "20%"
+            },
+            {
+                place: "Shadow Orb",
+                odds: "20%"
+            }
         ]
     },
     {
@@ -1415,6 +1972,32 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        "location": [
+            {
+                place: "Hornet", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Moss Hornet",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Toxic Sludge",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
         ]
     },
     {
@@ -1464,6 +2047,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1480,6 +2069,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1496,6 +2091,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1512,6 +2113,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1528,6 +2135,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1544,6 +2157,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        location: [
+            {
+                place: "Golden Lock Box", 
+                odds: "14.29%"
+            }
         ]
     },
     {
@@ -1592,6 +2211,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Melee"
+        ],
+        location: [
+            {
+                place: "Bramble Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Jungle Crate", 
+                odds: "19%"
+            },
+            {
+                place: "Ivy Chest", 
+                odds: "21.72%"
+            }
         ]
     },
     {
@@ -1608,6 +2241,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Angry Bones", 
+                odds: "1%"
+            },
+            {
+                place: "Cursed Skull",
+                odds: "1%"
+            },
+            {
+                place: "Dark Caster",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1624,6 +2271,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1640,6 +2293,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        "location": [
+            {
+                place: "Chest", 
+                odds: "8.33%"
+            },
+            {
+                place: "Pearlwood Crate",
+                odds: "1%"
+            },
+            {
+                place: "Wooden Crate",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1656,6 +2323,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Mirage Crate", 
+                odds: "2.86%"
+            },
+            {
+                place: "Oasis Crate",
+                odds: "2.86%"
+            }
         ]
     },
     {
@@ -1672,6 +2349,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {
+                place: "Iron Crate", 
+                odds: "4.04%"
+            },
+            {
+                place: "Mythril Crate", 
+                odds: "3.98%"
+            },
+            {
+                place: "Pearlwood Crate", 
+                odds: "2.24%"
+            },
+            {
+                place: "Wooden Crate", 
+                odds: "2.44%"
+            }
         ]
     },
     {
@@ -1688,6 +2383,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {
+                place: "Fishing in any biome", 
+                odds: "0.16%"
+            }
         ]
     },
     {
@@ -1704,6 +2405,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Mirage Crate", 
+                odds: "12.5%"
+            },
+            {
+                place: "Oasis Chest", 
+                odds: "12.5%"
+            },
+            {
+                place: "Sandstone Chest", 
+                odds: "14.29%"
+            }
         ]
     },
     {
@@ -1719,7 +2434,13 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Demon_Conch",
         "hardmode": false,
         "tags": [
-            "Mobility"
+            "Tools"
+        ],
+        location: [
+            {
+                place: "Fishing in lava", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1736,6 +2457,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Chests in underground and caverns", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1752,6 +2479,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Purchased from Goblin Tinkerer", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1768,6 +2501,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Boreal Crate", 
+                odds: "16.67%"
+            },
+            {
+                place: "Frozen Chest", 
+                odds: "15.51%"
+            },
+            {
+                place: "Frozen Crate", 
+                odds: "16.67%"
+            }
         ]
     },
     {
@@ -1784,6 +2531,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        location: [
+            {
+                place: "Mirage Crate", 
+                odds: "12.5%"
+            },
+            {
+                place: "Oasis Chest", 
+                odds: "12.5%"
+            },
+            {
+                place: "Sandstone Chest", 
+                odds: "14.29%"
+            }
         ]
     },
     {
@@ -1800,6 +2561,24 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Damage"
+        ],
+        location: [
+            {
+                place: "Blood Zombie", 
+                odds: [
+                    {"Classic": "0.67%"},
+                    {"Expert": "1.33%"},
+                    {"Master": "1.33%"}
+                ]
+            },
+            {
+                place: "Drippler",
+                odds: [
+                    {"Classic": "0.67%"},
+                    {"Expert": "1.33%"},
+                    {"Master": "1.33%"}
+                ]
+            }
         ]
     },
     {
@@ -1817,6 +2596,20 @@ export let items = [
         "tags": [
             "Mobility",
             "Damage"
+        ],
+        location: [
+            {
+                place: "Crimson Crate", 
+                odds: "20%"
+            },
+            {
+                place: "Crimson Heart", 
+                odds: "20%"
+            },
+            {
+                place: "Hematic Crate", 
+                odds: "20%"
+            }
         ]
     },
     {
@@ -1833,6 +2626,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1849,6 +2648,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Purchased from the Mechanic", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1865,6 +2670,20 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
+        ],
+        "location": [
+            {
+                place: "Chest", 
+                odds: "8.33%"
+            },
+            {
+                place: "Pearlwood Crate",
+                odds: "1%"
+            },
+            {
+                place: "Wooden Crate",
+                odds: "1%"
+            }
         ]
     },
     {
@@ -1881,22 +2700,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Mobility"
-        ]
-    },
-    {
-        "name": "Ultra Absorbant Sponge",
-        "tooltip": "Capable of soaking up an endless amount of liquid",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 30,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Ultra_Absorbant_Sponge.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ultra_Absorbant_Sponge",
-        "hardmode": false,
-        "tags": [
-            "Building"
+        ],
+        location: [
+            {
+                place: "Gold chests in underground and caverns", 
+                odds: "N/A"
+            },
+            {
+                place: "Rich mahogany chests in underground jungle", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1913,6 +2726,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Angler Quest (after complething 10th quest)", 
+                odds: "1.43%"
+            }
         ]
     },
     {
@@ -1929,6 +2748,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Fishing in lava", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -1945,6 +2770,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Building"
+        ],
+        location: [
+            {
+                place: "Pre-hardmode Angler Quest for Bumblebee Tuna", 
+                odds: "25%"
+            },
+            {
+                place: "Hardmode Angler Quest for Bumblebee Tuna", 
+                odds: "50%"
+            }
         ]
     },
     {
@@ -1977,6 +2812,12 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Undead Miner", 
+                odds: "5%"
+            }
         ]
     },
     {
@@ -1993,6 +2834,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Tools"
+        ],
+        location: [
+            {
+                place: "Granite Elemental", 
+                odds: "3.3%"
+            },
+            {
+                place: "Granite Golem", 
+                odds: "3.3%"
+            }
         ]
     },
     {
@@ -2009,6 +2860,16 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Melee"
+        ],
+        location: [
+            {
+                place: "Granite Elemental", 
+                odds: "3.3%"
+            },
+            {
+                place: "Granite Golem", 
+                odds: "3.3%"
+            }
         ]
     },
     {
@@ -2025,6 +2886,32 @@ export let items = [
         "hardmode": false,
         "tags": [
             "Immunity"
+        ],
+        location: [
+            {
+                place: "Angler Fish", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Rusty Armored Bones",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Werewolf",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
         ]
     },
     {
@@ -2070,9 +2957,16 @@ export let items = [
         "tags": [
             "Melee"
         ],
-        "location" : {
-
-        }
+        location: [
+            {
+                place: "Purchased from Traveling Merchant", 
+                odds: "N/A"
+            },
+            {
+                place: "Purchased from Skeleton Merchant", 
+                odds: "N/A"
+            }
+        ]
     },
     {
         "name": "Molten Skull Rose",
@@ -2175,6 +3069,23 @@ export let items = [
 
 
     // --- Pre-hardmode Items; Final Craft ---
+    {
+        "name": "Ultra Absorbant Sponge",
+        "tooltip": "Capable of soaking up an endless amount of liquid",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 30,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Ultra_Absorbant_Sponge.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Ultra_Absorbant_Sponge",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Building"
+        ]
+    },
     {
         "name": "Lavaproof Tackle Bag",
         "tooltip": "Fishing line will never break, decreases chance of bait consumption, increases fishing power by 10\nAllows fishing in lava",
@@ -2604,6 +3515,12 @@ export let items = [
             "Damage",
             "Other"
         ],
+        location: [
+            {
+                place: "Corrupt Mimic", 
+                odds: "20%"
+            }
+        ]
     },
     {
         "name": "Armor Polish",
@@ -2620,6 +3537,24 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Armored Skeleton", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Blue Armored Bones",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Vitamins",
@@ -2636,6 +3571,24 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Corruptor", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Floaty Gross",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Avenger Emblem",
@@ -2669,6 +3622,12 @@ export let items = [
             "Melee",
             "Damage"
         ],
+        location: [
+            {
+                place: "Wall of Flesh drop", 
+                odds: "25%"
+            }
+        ]
     },
     {
         "name": "Ranger Emblem",
@@ -2686,6 +3645,12 @@ export let items = [
             "Ranged",
             "Damage"
         ],
+        location: [
+            {
+                place: "Wall of Flesh drop", 
+                odds: "25%"
+            }
+        ]
     },
     {
         "name": "Sorcerer Emblem",
@@ -2703,6 +3668,12 @@ export let items = [
             "Magic",
             "Damage"
         ],
+        location: [
+            {
+                place: "Wall of Flesh drop", 
+                odds: "25%"
+            }
+        ]
     },
     {
         "name": "Summoner Emblem",
@@ -2720,6 +3691,12 @@ export let items = [
             "Summon",
             "Damage"
         ],
+        location: [
+            {
+                place: "Wall of Flesh drop", 
+                odds: "25%"
+            }
+        ]
     },
     {
         "name": "Star Cloak",
@@ -2736,6 +3713,12 @@ export let items = [
         "tags": [
             "Damage"
         ],
+        location: [
+            {
+                place: "Mimic", 
+                odds: "16.67%"
+            }
+        ]
     },
     {
         "name": "Power Glove",
@@ -2768,6 +3751,12 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Crimson Mimic", 
+                odds: "20%"
+            }
+        ]
     },
     {
         "name": "Celestial Stone",
@@ -2826,6 +3815,12 @@ export let items = [
             "Building",
             "Summon"
         ],
+        location: [
+            {
+                place: "Golem drop", 
+                odds: "14.29%"
+            }
+        ]
     },
     {
         "name": "Moon Stone",
@@ -2847,6 +3842,16 @@ export let items = [
             "Building",
             "Summon"
         ],
+        location: [
+            {
+                place: "Vampire (human or bat)", 
+                odds: [
+                    {"Classic": "2.86%"},
+                    {"Expert": "5.63%"},
+                    {"Master": "5.63%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Philosopher's Stone",
@@ -2863,6 +3868,12 @@ export let items = [
         "tags": [
             "Health"
         ],
+        location: [
+            {
+                place: "Mimic", 
+                odds: "16.67%"
+            }
+        ]
     },
     {
         "name": "Coin Ring",
@@ -2895,6 +3906,32 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Flying Dutchman", 
+                odds: "6.67%"
+            },
+            {
+                place: "Pirate Captain", 
+                odds: "0.4%"
+            },
+            {
+                place: "Pirate Corsair", 
+                odds: "0.1%"
+            },
+            {
+                place: "Pirate Crossbower", 
+                odds: "0.1%"
+            },
+            {
+                place: "Pirate Deadeye", 
+                odds: "0.1%"
+            },
+            {
+                place: "Pirate Deckhand", 
+                odds: "0.1%"
+            }
+        ]
     },
     {
         "name": "Lucky Coin",
@@ -2911,6 +3948,32 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Flying Dutchman", 
+                odds: "6.67%"
+            },
+            {
+                place: "Pirate Captain", 
+                odds: "0.1%"
+            },
+            {
+                place: "Pirate Corsair", 
+                odds: "0.025%"
+            },
+            {
+                place: "Pirate Crossbower", 
+                odds: "0.025%"
+            },
+            {
+                place: "Pirate Deadeye", 
+                odds: "0.025%"
+            },
+            {
+                place: "Pirate Deckhand", 
+                odds: "0.025%"
+            }
+        ]
     },
     {
         "name": "Destroyer Emblem",
@@ -2943,6 +4006,12 @@ export let items = [
         "tags": [
             "Damage"
         ],
+        location: [
+            {
+                place: "Golem drop", 
+                odds: "14.29%"
+            }
+        ]
     },
     {
         "name": "Yoyo Glove",
@@ -2959,6 +4028,12 @@ export let items = [
         "tags": [
             "Melee"
         ],
+        location: [
+            {
+                place: "Purchased from Skeleton Merchant in Hardmode", 
+                odds: "N/A"
+            }
+        ]
     },
     {
         "name": "Fast Clock",
@@ -2975,6 +4050,32 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Mummy", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Pixie",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Wraith",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Trifold Map",
@@ -2991,6 +4092,40 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Clown", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Giant Bat",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Light Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Spectral Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Rifle Scope",
@@ -3007,6 +4142,16 @@ export let items = [
         "tags": [
             "Ranged"
         ],
+        location: [
+            {
+                place: "Skeleton Sniper",
+                odds: [
+                    {"Classic": "8.33%"},
+                    {"Expert": "15.97%"},
+                    {"Master": "15.97%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Cross Necklace",
@@ -3023,6 +4168,12 @@ export let items = [
         "tags": [
             "Damage"
         ],
+        location: [
+            {
+                place: "Mimic", 
+                odds: "16.67%"
+            }
+        ]
     },
     {
         "name": "Necromantic Scroll",
@@ -3039,6 +4190,16 @@ export let items = [
         "tags": [
             "Summon"
         ],
+        location: [
+            {
+                place: "Mourning Wood", 
+                odds: [
+                    {"Classic": "2-20%"},
+                    {"Expert": "5-20%"},
+                    {"Master": "5-20%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Hercules Beetle",
@@ -3055,6 +4216,12 @@ export let items = [
         "tags": [
             "Summon"
         ],
+        location: [
+            {
+                place: "Purchased from Witch Doctor in the Jungle post-Plantera", 
+                odds: "N/A"
+            }
+        ]
     },
     {
         "name": "Titan Glove",
@@ -3071,6 +4238,12 @@ export let items = [
         "tags": [
             "Melee"
         ],
+        location: [
+            {
+                place: "Mimic", 
+                odds: "16.67%"
+            }
+        ]
     },
     {
         "name": "Sniper Scope",
@@ -3103,6 +4276,56 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Corrupt Slime", 
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Shadow Slime",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "N/A"},
+                    {"Master": "N/A"}
+                ]
+            },
+            {
+                place: "Crimslime",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Blood Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Dark Mummy",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            },
+            {
+                place: "Slimeling",
+                odds: [
+                    {"Classic": "1%"},
+                    {"Expert": "2%"},
+                    {"Master": "2%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Pocket Mirror",
@@ -3119,6 +4342,16 @@ export let items = [
         "tags": [
             "Immunity"
         ],
+        location: [
+            {
+                place: "Medusa", 
+                odds: [
+                    {"Classic": "2.5%"},
+                    {"Expert": "5%"},
+                    {"Master": "5%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Magic Quiver",
@@ -3135,6 +4368,12 @@ export let items = [
         "tags": [
             "Ranged"
         ],
+        location: [
+            {
+                place: "Skeleton Archer", 
+                odds: "1.25%"
+            }
+        ]
     },
 
     {
@@ -3152,6 +4391,12 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Werewolf", 
+                odds: "1.67%"
+            }
+        ]
     },
     {
         "name": "Neptune's Shell",
@@ -3168,6 +4413,16 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Creature from the Deep", 
+                odds: [
+                    {"Classic": "2%"},
+                    {"Expert": "3.96%"},
+                    {"Master": "3.96%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Tabi",
@@ -3184,6 +4439,16 @@ export let items = [
         "tags": [
             "Mobility"
         ],
+        location: [
+            {
+                place: "Bone Lee", 
+                odds: [
+                    {"Classic": "8.33%"},
+                    {"Expert": "15.97%"},
+                    {"Master": "15.97%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Black Belt",
@@ -3200,6 +4465,16 @@ export let items = [
         "tags": [
             "Defense"
         ],
+        location: [
+            {
+                place: "Bone Lee", 
+                odds: [
+                    {"Classic": "8.33%"},
+                    {"Expert": "15.97%"},
+                    {"Master": "15.97%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Discount Card",
@@ -3216,6 +4491,32 @@ export let items = [
         "tags": [
             "Other"
         ],
+        location: [
+            {
+                place: "Flying Dutchman", 
+                odds: "6.67%"
+            },
+            {
+                place: "Pirate Captain", 
+                odds: "0.2%"
+            },
+            {
+                place: "Pirate Corsair", 
+                odds: "0.05%"
+            },
+            {
+                place: "Pirate Crossbower", 
+                odds: "0.05%"
+            },
+            {
+                place: "Pirate Deadeye", 
+                odds: "0.05%"
+            },
+            {
+                place: "Pirate Deckhand", 
+                odds: "0.05%"
+            }
+        ]
     },
     {
         "name": "Frozen Turtle Shell",
@@ -3232,6 +4533,12 @@ export let items = [
         "tags": [
             "Defense"
         ],
+        location: [
+            {
+                place: "Ice Tortoise", 
+                odds: "2%"
+            }
+        ]
     },
     {
         "name": "Paladin's Shield",
@@ -3249,6 +4556,16 @@ export let items = [
             "Damage",
             "Immunity"
         ],
+        location: [
+            {
+                place: "Paladin", 
+                odds: [
+                    {"Classic": "10%"},
+                    {"Expert": "19%"},
+                    {"Master": "19%"}
+                ]
+            }
+        ]
     },
     {
         "name": "Mechanical Glove",

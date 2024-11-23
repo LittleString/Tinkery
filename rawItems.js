@@ -15,8 +15,15 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Crafted or obtained from crates", 
+                odds: "N/A"
+            }
         ]
     },
+    /*
     {
         "name": "Mana Crystal",
         "tooltip": "Permanently increases maximum mana by 20",
@@ -33,6 +40,7 @@ export let rawItems = [
             "Raw Item"
         ]
     },
+    */
     {
         "name": "Soul of Might",
         "tooltip": "Used in crafting",
@@ -47,6 +55,12 @@ export let rawItems = [
         "hardmode": true,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Skeleton Prime (drops 25-40 souls)", 
+                odds: "100%"
+            }
         ]
     },
     {
@@ -63,6 +77,12 @@ export let rawItems = [
         "hardmode": true,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "The Twins (drops 25-40 souls)", 
+                odds: "100%"
+            }
         ]
     },
     {
@@ -79,6 +99,12 @@ export let rawItems = [
         "hardmode": true,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "The Destroyer (drops 25-40 souls)", 
+                odds: "100%"
+            }
         ]
     },
     {
@@ -95,11 +121,17 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Randomly fall from the sky at night", 
+                odds: "N/A"
+            }
         ]
     },
     {
         "name": "Wire",
-        "tooltip": "Used to connect mechanisms",
+        "tooltip": "Used to connect mechanisms\nPurchased from the Mechanic",
         "value": {
             "copper": 0,
             "silver": 1,
@@ -130,6 +162,22 @@ export let rawItems = [
         ]
     },
     {
+        "name": "Cobweb",
+        "tooltip": "Commonly found in underground areas",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Cobweb.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Cobweb",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
+    },
+    {
         "name": "Argon Moss",
         "tooltip": "'A sight to dwell upon and never forget'",
         "value": {
@@ -143,6 +191,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Argon moss biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -159,6 +213,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Helium moss biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -175,6 +235,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Krypton moss biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -191,6 +257,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Lava layers of caverns", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -207,6 +279,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Neon moss biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -223,6 +301,12 @@ export let rawItems = [
         "hardmode": false,
         "tags": [
             "Raw Item"
+        ],
+        location: [
+            {
+                place: "Xenon moss biome", 
+                odds: "N/A"
+            }
         ]
     },
     {
@@ -259,7 +343,7 @@ export let rawItems = [
     },
     {
         "name": "Pressure Plate",
-        "tooltip": "Activation mechanisms",
+        "tooltip": "Activation mechanisms\nPurchased from the Mechanic",
         "value": {
             "copper": 0,
             "silver": 10,
@@ -284,6 +368,104 @@ export let rawItems = [
         },
         "iconLocation": "images/icons/Whoopie_Cushion.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ],
+        "location": [
+            {
+                place: "Digger", 
+                odds: [
+                    {"Classic": "2%"},
+                    {"Expert": "4%"},
+                    {"Master": "4%"}
+                ]
+            },
+            {
+                place: "Giant Worm",
+                odds: [
+                    {"Classic": "2%"},
+                    {"Expert": "4%"},
+                    {"Master": "4%"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gold Bar",
+        "tooltip": "Smelted from gold ore",
+        "value": {
+            "copper": 0,
+            "silver": 20,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Gold_Bar.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Bar",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
+    },
+    {
+        "name": "Platinum Bar",
+        "tooltip": "Smelted from platinum ore",
+        "value": {
+            "copper": 0,
+            "silver": 18,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Platinum_Bar.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Platinum_Bar",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
+    },
+    {
+        "name": "Chain",
+        "tooltip": "Crafted from any iron bar",
+        "value": {
+            "copper": 40,
+            "silver": 0,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Chain.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Chain",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
+    },
+    {
+        "name": "Glass",
+        "tooltip": "Crafted from sand at a furnace",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Glass.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Glass",
+        "hardmode": false,
+        "tags": [
+            "Raw Item"
+        ]
+    },
+    {
+        "name": "Diamond",
+        "tooltip": "Found in underground and caverns",
+        "value": {
+            "copper": 0,
+            "silver": 30,
+            "gold": 0,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Diamond.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Diamond",
         "hardmode": false,
         "tags": [
             "Raw Item"

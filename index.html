@@ -25,28 +25,39 @@
                 </div>
 
                 <div id="key">
-                    <h2>Key</h2>
-                    <div class="keyIconContainer">
-                        <div class="keyIcon prehardmode" disabled></div>
-                        <div>Pre-hardmode item</div>
+                    <div id="keyTitle">
+                        <h3>Key</h3>
                     </div>
-                    <div class="keyIconContainer">
-                        <div class="keyIcon hardmode" disabled></div>
-                        <div>Hardmode item</div>
+                    <div id="keyBody">
+                        <div id="keyCol1">
+                            <div class="keyIconContainer">
+                                <div class="keyIcon prehardmode" disabled></div>
+                                <div>Pre-hardmode item</div>
+                            </div>
+                            <div class="keyIconContainer">
+                                <div class="keyIcon prehardmode finalCraft" disabled></div>
+                                <div>Pre-hardmode item final craft</div>
+                            </div>
+                            <div class="keyIconContainer">
+                                <div class="keyIcon recipeOption" disabled>~</div>
+                                <div>Recipe option</div>
+                            </div>
+                        </div>
+                        <div id="keyCol2">
+                            <div class="keyIconContainer">
+                                <div class="keyIcon hardmode" disabled></div>
+                                <div>Hardmode item</div>
+                            </div>
+                            <div class="keyIconContainer">
+                                <div class="keyIcon hardmode finalCraft" disabled></div>
+                                <div>Hardmode item final craft</div>
+                            </div>
+                            <div class="keyIconContainer">
+                                <div class="keyIcon rawItem" disabled></div>
+                                <div>Raw item</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="keyIconContainer">
-                        <div class="keyIcon prehardmode finalCraft" disabled></div>
-                        <div>Pre-hardmode item final craft</div>
-                    </div>
-                    <div class="keyIconContainer">
-                        <div class="keyIcon hardmode finalCraft" disabled></div>
-                        <div>Hardmode item final craft</div>
-                    </div>
-                    <div class="keyIconContainer">
-                        <div class="keyIcon rawItem" disabled></div>
-                        <div>Raw item</div>
-                    </div>
-                    
                 </div>
 
                 <!-- Filter popup when you click filter button -->
@@ -75,7 +86,7 @@
                             <div id="tagsContainer"></div>
                         </div>
                         <div id="location">
-                            <table id="itemLocationGrid"></table> <!-- Have 3 columns for each difficulty type with percent drop rate -->
+                            <table id="itemLocationTable"></table>
                         </div>
                     </div>
                 </div>
