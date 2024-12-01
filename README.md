@@ -26,10 +26,11 @@ Tinkery is based around vanilla, PC console Terraria.
      * Tags
      * Location and drop rates (if applicable)
     * Want more details? Click the item's icon in the info panel to open its wiki page in a new tab.
-4. Navigate Recipes
-    * Zoom in or out, and hold click to drag and move the recipe tree to focus on the info you need
-5. Select parent recipes
+4. Select parent recipes
     * Toggle tree traversal to show the crafting guide for an item's parent recipe
+5. Navigate Recipes
+    * Zoom in or out, and hold click to drag and move the recipe tree to focus on the info you need
+
 
 
 ## Overview of Tinkery
