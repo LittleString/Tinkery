@@ -5,16 +5,9 @@ import { rawItems } from './rawItems.js';
 /*
 TODO LIST:
 
-- Add parent recipes
-- Add "toggle tree traversal" checkbox
-- Revise tags
-- Organize icon panel
-
-
 NOTES:
 - i didn't include music box recipes or ecto mist recipes
 - i use details and percentages for PC version of terraria; if you're using different console, might not be perfectly right
-
 
 */
 
@@ -31,6 +24,7 @@ function initIconPanel() {
 
         // Add classes
         iconDiv.classList.add('icon');
+        iconDiv.classList.add('iconPanel');
         if (items[i].hardmode === true) {
             iconDiv.classList.add('hardmode');
         } else {
@@ -159,10 +153,16 @@ function iconOnClick() {
     // Fill info panel with item's details
     fillInfoPanel(item, this.classList.value);
 
+    let toggleTreeTraversal = document.getElementById("toggleTreeTraversal");
+
+    // console.log(this.classList.contains("icon"));
     // Call recipe tree
-    if(this.classList.contains("recipeNode")) {
-        // Don't clear recipe in main panel
-    } else {
+    if(this.classList.contains("iconPanel")) { // If it's in icon panel, always get recipe
+        document.getElementById("recipeContent").innerHTML = "";
+        getFullCraftingRecipe(name);
+    } else if (!toggleTreeTraversal.checked) {
+        // Don't get recipe if tree traversal isn't on
+    } else { // Get recipe if tree traversal is on
         document.getElementById("recipeContent").innerHTML = "";
         getFullCraftingRecipe(name);
     }
@@ -345,23 +345,30 @@ initIconPanel();
 
 
 
+
 // Formatting all recipe data for the clicked item
 function getFullCraftingRecipe(recipeName) {
     let recipe = allRecipes.find(r => r.name === recipeName);
+    let parentRecipes;
     
     if(!recipe || recipe.recipes === undefined) {
         recipe = {
             name: recipeName
         }
-        addParents(recipe);
+        parentRecipes = addParents(recipe);
     } else {
-        addParents(recipe);
+        parentRecipes = addParents(recipe);
         addIngredients(recipe.recipes);
     }
 
     // Adds first layer of parent recipes for a clicked item
     function addParents(recipe) {
         const recipeName = recipe.name;
+
+        let parentRecipeData = {
+            name: recipe.name,
+            children: []
+        };
 
         // Find all recipes where this item is used as an ingredient
         let parentRecipes = allRecipes.filter(r =>
@@ -370,17 +377,12 @@ function getFullCraftingRecipe(recipeName) {
             )
         );
 
-        if (parentRecipes.length === 0) return; // Base case: no parents found, stop recursion
-
-        // Ensure the recipe has a `parents` property to store parent nodes
-        if (!recipe.parents) {
-            recipe.parents = [];
-        }
+        if (parentRecipes.length === 0) return parentRecipeData; // Base case: no parents found, stop recursion
 
         // Iterate through all parent recipes
         parentRecipes.forEach(parentRecipe => {
             let recipeContainsItemAsIngredient = false;
-            if (!recipe.parents.some(parent => parent.name === parentRecipe.name)) {
+            if (!parentRecipeData.children.some(parent => parent.name === parentRecipe.name)) {
                 // Create a parent node for each recipe entry in the parent recipe
                 parentRecipe.recipes.forEach(parentRecipeEntry => {
                     if (parentRecipeEntry.ingredients.some(ing => ing.name === recipeName)) {
@@ -392,17 +394,16 @@ function getFullCraftingRecipe(recipeName) {
                 // If flag is true, add that recipe to parents
                 if(recipeContainsItemAsIngredient) {
                     let parentNode = {
-                        name: parentRecipe.name,
-                        children: parentRecipe.recipes.map(r => ({
-                            ingredients: r.ingredients.map(ing => ({ name: ing.name }))
-                        }))
+                        name: parentRecipe.name
                     };
                     
                     // Attach the parent node to the current recipe
-                    recipe.parents.push(parentNode);
+                    parentRecipeData.children.push(parentNode);
                 }
             }
         });
+
+        return parentRecipeData;
     }
 
     // Function to recursively add ingredients if they exist as recipes
@@ -467,62 +468,21 @@ function getFullCraftingRecipe(recipeName) {
     let treeData = renameProperties(recipe);
     
     // Create the recipe tree
-    createTree(treeData);
+    createTree(treeData, parentRecipes);
 }
 
-/*
-testing();
-
-function testing() {
-    const container = d3.select("#recipeContent");
-
-    const nodes = [
-        { id: 'main' },
-        { id: 'parent1' },
-        { id: 'parent2' },
-        // More nodes...
-    ];
-    
-    const links = [
-        { source: 'parent1', target: 'main' },
-        { source: 'parent2', target: 'main' },
-        // More links...
-    ];
-
-    let width = 50;
-    let height = 50;
-    
-    const simulation = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d => d.id))
-        .force('charge', d3.forceManyBody())
-        .force('center', d3.forceCenter(width / 2, height / 2));
-    
-    simulation.on('tick', () => {
-        d3.selectAll('line')
-            .attr('x1', d => d.source.x)
-            .attr('y1', d => d.source.y)
-            .attr('x2', d => d.target.x)
-            .attr('y2', d => d.target.y);
-    
-        d3.selectAll('circle')
-            .attr('cx', d => d.x)
-            .attr('cy', d => d.y);
-    });
-}
-*/
 
 
-function createTree(treeData) {
-    // Create a D3 hierarchy from the processed data
-    const root = d3.hierarchy(treeData);
 
-    // Set dimensions and layout
+// Draw full recipe tree with all styling
+function createTree(treeData, parentRecipes) {
+    // Set dimension variables
     const nodeWidth = 75; // Horizontal spacing between nodes
     const nodeHeight = 120; // Vertical spacing between nodes
     const container = d3.select("#recipeContent");
     const containerWidth = container.node().clientWidth;
-    // const containerHeight = container.node().clientHeight;
 
+    // Container that holds all trees and zoom g elements
     const svg = container
         .append("svg")
         .attr("width", "100%")
@@ -530,7 +490,7 @@ function createTree(treeData) {
 
     // --- ZOOM AND PAN ---
     // Add a 'g' element for zoom/pan transformations
-    const g = svg.append("g")
+    const zoomG = svg.append("g")
     .attr("transform", `translate(${containerWidth / 2}, 50) scale(0.9)`);
 
     const initialTransform = d3.zoomIdentity
@@ -541,7 +501,7 @@ function createTree(treeData) {
     const zoom = d3.zoom()
         .scaleExtent([0.5, 2]) // Min and max zoom levels
         .on("zoom", (event) => {
-            g.attr("transform", event.transform); // Apply transformations to the 'g' group
+            zoomG.attr("transform", event.transform); // Apply transformations to the 'g' group
         });
 
     // Apply zoom behavior to the SVG
@@ -549,7 +509,7 @@ function createTree(treeData) {
     .call(zoom.transform, initialTransform); // Set the initial zoom transform
 
     // Apply the same initial transform to the 'g' group
-    g.attr("transform", initialTransform);
+    zoomG.attr("transform", initialTransform);
 
     // Disable double-click to zoom
     d3.select("svg").on("dblclick.zoom", null);
@@ -557,43 +517,25 @@ function createTree(treeData) {
     
     // --- END ZOOM AND PAN ---
 
+
+
+
+
+
+    // Create a D3 hierarchy for data
+    const root = d3.hierarchy(treeData); // Complete recipe info
+    const parentNodes = d3.hierarchy(parentRecipes) // Direct parent recipes
+
+    // Define tree layout / spacing between nodes
     const treeLayout = d3.tree().nodeSize([nodeWidth, nodeHeight]);
     treeLayout.separation((a, b) => (a.parent === b.parent ? 1 : 1.5));
 
+    // Create tree layout for both datasets (recipes and parent recipes)
     treeLayout(root);
-
-    // Draw links (horizontal + vertical "L" connectors)
-    g.selectAll(".link")
-    .data(root.links())
-    .enter()
-    .append("path")
-    .attr("class", "link")
-    .attr("d", d => {
-        // Start at the bottom of the source node
-        const startX = d.source.x;
-        const startY = d.source.y;
-
-        // Go straight down to the vertical midpoint between source and target
-        const midY = (d.source.y + d.target.y) / 2;
-
-        // Go horizontally to the x-coordinate of the target node
-        const endX = d.target.x;
-        const endY = d.target.y;
-
-        // Construct a "T" shape path
-        return `M${startX},${startY} 
-                V${midY} 
-                H${endX} 
-                V${endY}`;
-    })
-    .style("fill", "none")
-    .style("stroke", "#313562") // Customize as needed
-    .style("stroke-width", 3);
+    treeLayout(parentNodes);
 
 
-
-
-    // --- Gradient shit ---
+    // --- Gradient stuff ---
     // Add <defs> for gradients to the SVG
     const defs = svg.append("defs");
 
@@ -638,21 +580,66 @@ function createTree(treeData) {
     .attr("dur", "8s")
     .attr("repeatCount", "indefinite");
 
-    // --- End gradient shit
+    // --- End gradient stuff
 
 
+    // Upward Tree
+    const gUpward = zoomG.append("g")
+    .attr("id", "upward-tree")
+    .attr("transform", "translate(0, 250)"); // Center root vertically
+
+    gUpward.selectAll("line")
+        .data(parentNodes.links())
+        .enter()
+        .append("line")
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => -d.source.y) // Reverse y-coordinates
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => -d.target.y) // Reverse y-coordinates
+        .attr("stroke", "#313562")
+        .style("stroke-width", 3);
 
 
-    // Create nodes
-    const nodes = g.selectAll(".node")
-    .data(root.descendants().filter(d => !d.data.invisible))
+    // Create downward recipe tree
+    const gDownward = zoomG.append("g")
+    .attr("id", "downward-tree")
+    .attr("transform", "translate(0, 250)"); // Center root vertically
+
+    // Draw links (horizontal + vertical "L" connectors) for downward tree
+    gDownward.selectAll(".link")
+    .data(root.links())
     .enter()
-    .append("g")
-    .attr("class", "node")
-    .attr("transform", d => `translate(${d.x},${d.y})`);
+    .append("path")
+    .attr("class", "link")
+    .attr("d", d => {
+        // Start at the bottom of the source node
+        const startX = d.source.x;
+        const startY = d.source.y;
 
+        // Go straight down to the vertical midpoint between source and target
+        const midY = (d.source.y + d.target.y) / 2;
+
+        // Go horizontally to the x-coordinate of the target node
+        const endX = d.target.x;
+        const endY = d.target.y;
+
+        // Construct a "T" shape path
+        return `M${startX},${startY} 
+                V${midY} 
+                H${endX} 
+                V${endY}`;
+    })
+    .style("fill", "none")
+    .style("stroke", "#313562") // Customize as needed
+    .style("stroke-width", 3);
+
+    addTreeStyling(root, gDownward, "down");
+    addTreeStyling(parentNodes, gUpward, "up");
+
+
+    // --- Recipe option
     // Create optional recipe crafting symbol on the tree
-    const optionalRecipe = g.selectAll(".optionalRecipe")
+    const optionalRecipe = gDownward.selectAll(".optionalRecipe")
     .data(root.descendants().filter(d => d.data.invisible))
     .enter()
     .append("g")
@@ -670,87 +657,6 @@ function createTree(treeData) {
         .attr("x", -4.5)
         .attr("y", 7.5);
 
-
-    // Create an inner `g` group for hover effects
-    const hoverGroup = nodes.append("g")
-    .attr("class", d => {
-        // Find the corresponding item in the items array
-        const item = items.find(item => item.name === d.data.name);
-        // Create a class list based on item properties
-        let classList = "icon recipeNode";
-        if (item) {
-            if (item.hardmode) {
-                classList += " hardmode";
-            } else {
-                classList += " prehardmode";
-            }
-            if (item.finalCraft) classList += " finalCraft";
-        }
-
-        // If the item is undefined, that means it's a raw item - look there instead
-        if (item === undefined) {
-            classList += " rawItem";
-        }
-
-        return classList;
-    })
-    .attr("data-name", d => d.data.name)
-    .on("click", function(event, d) {
-        iconOnClick.call(this, event, d)});
-    
-
-    // Create rect element on node
-    hoverGroup.append("rect")
-    .attr("rx", 10)
-    .attr("x", -30)
-    .attr("y", -30)
-    .attr("height", 60)
-    .attr("width", 60)
-    .style("fill", function(d) {
-        const item = items.find(item => item.name === d.data.name);
-        if (item === undefined) { return; }
-        if (item.finalCraft) {
-            return item.hardmode ? "url(#hardmodeFinalCraftGradient)" : "url(#finalCraftGradient)"
-        }
-    })
-    .style("stroke", function(d) {
-        const item = items.find(item => item.name === d.data.name);
-        if (item) {
-            return item.hardmode ? "#b31c2b" : "rgb(29 26 38 / 41%)";
-        }
-    });
-
-
-    // Append images to each node with the correct icon path
-    hoverGroup.append("image")
-    .attr("xlink:href", d => {
-        // Find the matching item in items array based on node name
-        let item = items.find(item => item.name === d.data.name);
-        if (item === undefined) {
-            item = rawItems.find(item => item.name === d.data.name);
-        } else if(Array.isArray(item.iconLocation)) {
-            return item.iconLocation[0];
-        }
-
-        return item ? item.iconLocation : "";
-    })
-    .attr("width", 32)
-    .attr("height", 32)
-    .attr("x", -15)
-    .attr("y", -15);
-
-    // Add text to nodes only if the data point has a 'text' attribute
-    nodes.append("text")
-    .filter(d => d.data.text)
-    .text(d => d.data.text)
-    .attr("y", 45)
-    .style("font-size", "16px")
-    .style("fill", "#fff")
-    .each(function() { 
-        const bbox = this.getBBox();
-        d3.select(this).attr("x", -bbox.width / 2);
-    });
-
     // Turn off zoom and pan when hovering over an icon
     d3.selectAll('.icon')
     .on('mouseover', () => {
@@ -759,4 +665,101 @@ function createTree(treeData) {
     .on('mouseout', () => {
         svg.call(zoom);
     });
+
+
+    // Creates tree with all styling (icon pic, gradient, onClick, etc.)
+    function addTreeStyling(data, gElement, upOrDown) {
+        // Create nodes
+        const nodes = gElement.selectAll(".node")
+        .data(data.descendants().filter(d => !d.data.invisible))
+        .enter()
+        .append("g")
+        .attr("class", "node")
+
+        if(upOrDown === "up") {
+            nodes.attr("transform", d => `translate(${d.x},${-d.y})`);
+        } else if (upOrDown === "down") {
+            nodes.attr("transform", d => `translate(${d.x},${d.y})`);
+        }
+        
+
+        // Create an inner `g` group for hover effects
+        const hoverGroup = nodes.append("g")
+        .attr("class", d => {
+            // Find the corresponding item in the items array
+            const item = items.find(item => item.name === d.data.name);
+            // Create a class list based on item properties
+            let classList = "icon recipeNode";
+            if (item) {
+                if (item.hardmode) {
+                    classList += " hardmode";
+                } else {
+                    classList += " prehardmode";
+                }
+                if (item.finalCraft) classList += " finalCraft";
+            }
+
+            // If the item is undefined, that means it's a raw item - look there instead
+            if (item === undefined) {
+                classList += " rawItem";
+            }
+
+            return classList;
+        })
+        .attr("data-name", d => d.data.name)
+        .on("click", function(event, d) {
+            iconOnClick.call(this, event, d)
+        });
+
+        // Create rect element on node
+        hoverGroup.append("rect")
+        .attr("rx", 10)
+        .attr("x", -30)
+        .attr("y", -30)
+        .attr("height", 60)
+        .attr("width", 60)
+        .style("fill", function(d) {
+            const item = items.find(item => item.name === d.data.name);
+            if (item === undefined) { return; }
+            if (item.finalCraft) {
+                return item.hardmode ? "url(#hardmodeFinalCraftGradient)" : "url(#finalCraftGradient)"
+            }
+        })
+        .style("stroke", function(d) {
+            const item = items.find(item => item.name === d.data.name);
+            if (item) {
+                return item.hardmode ? "#b31c2b" : "rgb(29 26 38 / 41%)";
+            }
+        });
+
+        // Append images to each node with the correct icon path
+        hoverGroup.append("image")
+        .attr("xlink:href", d => {
+            // Find the matching item in items array based on node name
+            let item = items.find(item => item.name === d.data.name);
+            if (item === undefined) {
+                item = rawItems.find(item => item.name === d.data.name);
+            } else if(Array.isArray(item.iconLocation)) {
+                return item.iconLocation[0];
+            }
+
+            return item ? item.iconLocation : "";
+        })
+        .attr("width", 32)
+        .attr("height", 32)
+        .attr("x", -15)
+        .attr("y", -15);
+
+        // Add text to nodes only if the data point has a 'text' attribute
+        nodes.append("text")
+        .filter(d => d.data.text)
+        .text(d => d.data.text)
+        .attr("y", 45)
+        .style("font-size", "16px")
+        .style("fill", "#fff")
+        .each(function() { 
+            const bbox = this.getBBox();
+            d3.select(this).attr("x", -bbox.width / 2);
+        });
+    }
 }

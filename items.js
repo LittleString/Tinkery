@@ -234,7 +234,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Brick_Layer",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -256,7 +256,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Extendo_Grip",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -278,7 +278,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Paint_Sprayer",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -300,7 +300,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Portable_Cement_Mixer",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -388,102 +388,6 @@ export let items = [
         },
         "iconLocation": "images/icons/Glowing_Fishing_Bobber.png",
         "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Glowing_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Argon Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Helium Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Krypton Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Lava Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Xenon Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
-        "hardmode": false,
-        "tags": [
-            "Fishing"
-        ]
-    },
-    {
-        "name": "Neon Moss Fishing Bobber",
-        "tooltip": "Increases fishing power by 10",
-        "value": {
-            "copper": 0,
-            "silver": 0,
-            "gold": 1,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -1519,7 +1423,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Ancient_Chisel",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -1575,7 +1479,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Step_Stool",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -1717,7 +1621,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Rose",
         "hardmode": false,
         "tags": [
-            "Damage"
+            "Immunity"
         ],
         location: [
             {
@@ -2013,8 +1917,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull_Rose",
         "hardmode": false,
         "tags": [
-            "Immunity",
-            "Damage"
+            "Immunity"
         ]
     },
     {
@@ -2030,7 +1933,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Multicolor_Wrench",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ]
     },
     {
@@ -2046,7 +1949,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2068,7 +1971,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2090,7 +1993,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2112,7 +2015,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2134,7 +2037,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Wire_Cutter",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2594,8 +2497,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Panic_Necklace",
         "hardmode": false,
         "tags": [
-            "Mobility",
-            "Damage"
+            "Mobility"
         ],
         location: [
             {
@@ -2625,7 +2527,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Lens",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2647,7 +2549,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Ruler",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2725,7 +2627,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Super_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2747,7 +2649,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Lava_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2769,7 +2671,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Honey_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         location: [
             {
@@ -2795,7 +2697,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
     },
     {
@@ -2811,7 +2713,8 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Mining_armor",
         "hardmode": false,
         "tags": [
-            "Tools"
+            "Tools",
+            "Defense"
         ],
         location: [
             {
@@ -2833,7 +2736,8 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Night_Vision_Helmet",
         "hardmode": false,
         "tags": [
-            "Tools"
+            "Tools",
+            "Defense"
         ],
         location: [
             {
@@ -2932,7 +2836,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Pressure_Plates",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ]
     },
     {
@@ -2981,8 +2885,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
         "hardmode": false,
         "tags": [
-            "Immunity",
-            "Damage"
+            "Immunity"
         ]
     },
     {
@@ -3068,7 +2971,115 @@ export let items = [
 
 
 
+
+
+
+
+
+
     // --- Pre-hardmode Items; Final Craft ---
+    {
+        "name": "Argon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
+    {
+        "name": "Helium Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
+    {
+        "name": "Krypton Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
+    {
+        "name": "Lava Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
+    {
+        "name": "Xenon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
+    {
+        "name": "Neon Moss Fishing Bobber",
+        "tooltip": "Increases fishing power by 10",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
+        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
+        "hardmode": false,
+        "finalCraft": true,
+        "tags": [
+            "Fishing"
+        ]
+    },
     {
         "name": "Ultra Absorbant Sponge",
         "tooltip": "Capable of soaking up an endless amount of liquid",
@@ -3083,7 +3094,7 @@ export let items = [
         "hardmode": false,
         "finalCraft": true,
         "tags": [
-            "Building"
+            "Tools"
         ]
     },
     {
@@ -3393,7 +3404,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/The_Grand_Design",
         "hardmode": false,
         "tags": [
-            "Building"
+            "Tools"
         ],
         "finalCraft": true
     },
@@ -3411,7 +3422,7 @@ export let items = [
         "hardmode": false,
         "finalCraft": true,
         "tags": [
-            "Building"
+            "Tools"
         ]
     },
     {
@@ -3427,7 +3438,8 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
         "hardmode": false,
         "tags": [
-            "Tools"
+            "Tools",
+            "Defense"
         ],
         "finalCraft": true
     },
@@ -3775,7 +3787,7 @@ export let items = [
             "Damage",
             "Health",
             "Defense",
-            "Building",
+            "Tools",
             "Summon",
             "Melee"
         ],
@@ -3813,7 +3825,7 @@ export let items = [
             "Melee",
             "Health",
             "Defense",
-            "Building",
+            "Tools",
             "Summon"
         ],
         location: [
@@ -3840,7 +3852,7 @@ export let items = [
             "Melee",
             "Health",
             "Defense",
-            "Building",
+            "Tools",
             "Summon"
         ],
         location: [
@@ -4167,7 +4179,7 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Cross_Necklace",
         "hardmode": true,
         "tags": [
-            "Damage"
+            "Immunity"
         ],
         location: [
             {
@@ -4554,8 +4566,8 @@ export let items = [
         "wikiLink": "https://terraria.fandom.com/wiki/Paladin%27s_Shield",
         "hardmode": true,
         "tags": [
-            "Damage",
-            "Immunity"
+            "Immunity",
+            "Defense"
         ],
         location: [
             {
@@ -4624,7 +4636,7 @@ export let items = [
     },
     {
         "name": "Bee Cloak",
-        "tooltip": "Causes starts to fall, releases bees, and douses the user in honey when damaged",
+        "tooltip": "Causes stars to fall, releases bees, and douses the user in honey when damaged",
         "value": {
             "copper": 0,
             "silver": 0,
@@ -4692,7 +4704,7 @@ export let items = [
             "Melee",
             "Health",
             "Defense",
-            "Building",
+            "Tools",
             "Summon"
         ],
         "finalCraft": true
@@ -4745,7 +4757,7 @@ export let items = [
         "hardmode": true,
         "tags": [
             "Immunity",
-            "Damage"
+            "Defense"
         ],
         "finalCraft": true
     },
@@ -4780,7 +4792,7 @@ export let items = [
         "hardmode": true,
         "tags": [
             "Immunity",
-            "Damage"
+            "Defense"
         ],
         "finalCraft": true
     },
@@ -4923,82 +4935,4 @@ export let items = [
         ],
         "finalCraft": true
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
 ]
-
-/* Template
-{
-    "name": "",
-    "tooltip": "",
-    "value": {
-        "copper": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-    },
-    "iconLocation": "images/icons/.png",
-    "wikiLink": "",
-    "hardmode": 
-}
-*/
-
-/*
-The following are items involved in crafting items for the Tinkerer's workshop, but they can be found in the overworld, or are materials or something
-I'm currently not sure how to incorporate them into this app
-
-- Obsidian
-- All moss variants (for fishing bobbers)
-- Soul of might (for avenger emblem)
-- soul of sight ^
-- soul of fright ^
-- Fallen starts (for fishing bobber)
-- wire (for grand design)
-- mining helmet (for ultrabright helmet)
-- night vision helmet (for ultrabright helmet)
-- mana crystal
-
-
-Look into:
-- are all fishing bobbers the same?
-- weighted pressure plates???
-- music boxes
-
-*/

@@ -52,6 +52,16 @@ body {
     gap: 20px;
 }
 
+#rightContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#treeTraversalContainer {
+    padding: 10px;
+    color: white;
+}
+
 /* Container for all left panel content (Tinkery title, icon container, and key container */
 #leftBody {
     display: flex;
@@ -62,7 +72,8 @@ body {
 #TinkeryTitle {
     font-size: 52px;
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10px;
     letter-spacing: 1.5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -83,6 +94,7 @@ body {
     color: white;
     overflow: auto;
     width: 22vw;
+    min-width: 250px;
     height: 21vh;
 }
 

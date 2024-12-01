@@ -23,24 +23,6 @@ export let rawItems = [
             }
         ]
     },
-    /*
-    {
-        "name": "Mana Crystal",
-        "tooltip": "Permanently increases maximum mana by 20",
-        "value": {
-            "copper": 0,
-            "silver": 25,
-            "gold": 0,
-            "platinum": 0
-        },
-        "iconLocation": "images/icons/Mana_Crystal.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Crystal",
-        "hardmode": false,
-        "tags": [
-            "Raw Item"
-        ]
-    },
-    */
     {
         "name": "Soul of Might",
         "tooltip": "Used in crafting",
