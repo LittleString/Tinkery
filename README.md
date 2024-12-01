@@ -11,7 +11,7 @@ Tinkery is based around vanilla, PC console Terraria.
 - Searchable & Filterable Icons: Quickly locate items through a responsive interface.
 - Detailed Item Information: Learn about an item's name, value, crafting sources, and drop locations.
 - Wiki Integration: One-click access to the Terraria wiki for additional details on any item.
-- Seamless Navigation: Intuitive UI for Terraria enthusiasts newcomers alike.
+- Seamless Navigation: Toggle tree traversal to see crafting guides for an item's parent recipes.
 
 ### How to Use
 1. Find your item
@@ -28,6 +28,8 @@ Tinkery is based around vanilla, PC console Terraria.
     * Want more details? Click the item's icon in the info panel to open its wiki page in a new tab.
 4. Navigate Recipes
     * Zoom in or out, and hold click to drag and move the recipe tree to focus on the info you need
+5. Select parent recipes
+    * Toggle tree traversal to show the crafting guide for an item's parent recipe
 
 
 ## Overview of Tinkery
