@@ -95,7 +95,7 @@ body {
     overflow: auto;
     width: 22vw;
     min-width: 250px;
-    height: 21vh;
+    height: 23vh;
 }
 
 #keyBody {
@@ -119,6 +119,13 @@ body {
     gap: 5px;
 }
 
+.dashedLine {
+    border-bottom: 2px dashed #000000;
+    width: 15%;
+    height: 9px;
+    border-radius: 0px !important;
+  }
+
 .recipeOption {
     border-radius: 50% !important;
     background-color: white;
@@ -130,7 +137,7 @@ body {
 /* Left Panel styling */
 #leftPanel {
     width: 22vw;
-    height: 69vh;
+    height: 67vh;
     min-width: 250px;
     background-color: rgb(51 54 125 / 76%);
     border: 3px solid rgb(29 26 38 / 41%);

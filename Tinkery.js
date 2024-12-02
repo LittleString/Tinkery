@@ -597,6 +597,7 @@ function createTree(treeData, parentRecipes) {
         .attr("x2", d => d.target.x)
         .attr("y2", d => -d.target.y) // Reverse y-coordinates
         .attr("stroke", "#313562")
+        .attr("stroke-dasharray", 6,6)
         .style("stroke-width", 3);
 
 
