@@ -95,7 +95,7 @@ body {
     overflow: auto;
     width: 22vw;
     min-width: 250px;
-    height: 23vh;
+    flex: 1;
 }
 
 #keyBody {
@@ -137,7 +137,7 @@ body {
 /* Left Panel styling */
 #leftPanel {
     width: 22vw;
-    height: 67vh;
+    height: 70vh;
     min-width: 250px;
     background-color: rgb(51 54 125 / 76%);
     border: 3px solid rgb(29 26 38 / 41%);
