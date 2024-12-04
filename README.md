@@ -16,8 +16,18 @@ Tinkery is based around vanilla, PC console Terraria.
 ### How to Use
 1. Find your item
    * Scroll through the icon panel, search for the item name, or filter based on item tags to find your item
+     
+
+https://github.com/user-attachments/assets/bf7b988f-caea-4e72-9b00-8a3abfa23d49
+
+
 2. View crafting recipes
    * Click the desired item to generate a hierarchical recipe tree containing a comprehensive ingredient list needed to create your item
+     
+
+https://github.com/user-attachments/assets/c2d9fc7e-50e3-4b8f-8097-2ee14ba26154
+
+
 3. Learn more about recipe ingredients
    * Click a node on the recipe tree to see info about it in the right panel, such as:
      * Name
@@ -26,10 +36,24 @@ Tinkery is based around vanilla, PC console Terraria.
      * Tags
      * Location and drop rates (if applicable)
     * Want more details? Click the item's icon in the info panel to open its wiki page in a new tab.
+      
+
+https://github.com/user-attachments/assets/5e62775c-e4d7-4671-a716-cccfae0e53e7
+
+
 4. Select parent recipes
     * Toggle tree traversal to show the crafting guide for an item's parent recipe
+      
+
+https://github.com/user-attachments/assets/17fcf2e2-fb94-4704-b667-341541fc5369
+
+
 5. Navigate Recipes
     * Zoom in or out, and hold click to drag and move the recipe tree to focus on the info you need
+
+
+https://github.com/user-attachments/assets/9a09f362-12c0-4533-b7c7-d4653f3a19f8
+
 
 
 
