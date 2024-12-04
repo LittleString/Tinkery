@@ -75,10 +75,9 @@ you can currently get, given your circumstances (for instance, if you are in har
 
 Members of online Terraria community forums have come up with visual aids to help in this process ([here](https://www.reddit.com/r/Terraria/comments/csam1f/mindmap_of_all_accessory_combinations_crafted_at/), 
 [here](https://www.reddit.com/r/Terraria/comments/h055q3/an_updated_tinkerers_workshop_spreadsheet/), and [here](https://www.reddit.com/r/Terraria/comments/hqacz5/all_accessory_combinations_tinkerers_workshop/), for instance).
-These aids are great (I've used them for years!), but they are not comprehensive. 
+These aids are great (I've used them for years!), but they do have limitations: searching for the exact item that you need, figuring out where to find the item in the overworld, and finding Tinkerer's Workshop items for a specific use case (like boosting melee damage) are some examples.
 
-Tinkery dynamically generates recipes on a per-need basis (i.e., clicking the icon of the item that you want) rather than an information overload of every recipe available. Tinkery also provides location information of items that can be found in the overworld, 
-including drop rates. And if you just want to see more details about the item, you can click the item's icon in the info panel to be directly routed to the item's wiki.
+Tinkery dynamically generates recipes on a per-need basis (i.e., clicking the icon of the item that you want). You can search for the exact item that you need with the search bar, or filter items based on their tags. Tinkery also provides location information of items that can be found in the overworld, including drop rates. And if there's info that you need that isn't displayed, you can click the item's icon in the info panel to be directly routed to the item's wiki.
 
 Tinkery eliminates the traditional 15+ open-tabs-of-the-wiki endeavor of using the Tinkerer's Workshop.
 
