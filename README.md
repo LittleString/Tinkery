@@ -62,10 +62,9 @@ https://github.com/user-attachments/assets/9a09f362-12c0-4533-b7c7-d4653f3a19f8
 Tinkery acts as a comprehensive UI for crafting recipes, item information, and more for anything involved in the "Tinkerer's Workshop" crafting station in the video game "Terraria." 
 
 ### How does it work?
-All items involved in any Tinkerer's Workshop recipe are displayed in a searchable and filterable icon panel. Upon clicking an icon, a hierarchical tree is generated to display the recipes required to create that item. An info panel on the right 
-displays information about the clicked item, such as its name, value, and where to find it, if applicable. 
+All items involved in any Tinkerer's Workshop recipe are displayed in a searchable and filterable icon panel. Upon clicking an icon, a hierarchical tree is generated to display the recipes required to create that item, as well as all of the parent recipes that that item is an ingredient for. The info panel on the right displays information about the clicked item, such as its name, value, and where to find it, if applicable. 
 
-Clicking the item icon in the info panel will open a new tab routed to the wiki page for that item. Clicking tree nodes when a recipe is generated will populate the info panel with the clicked item's information, but it will not change the displayed recipe.
+Clicking the item icon in the info panel will open a new tab routed to the wiki page for that item. Clicking tree nodes when a recipe is generated will populate the info panel with the clicked item's information, but it will not change the displayed recipe unless "Toggle Tree Traversal" is checked.
 
 ### Why is it needed?
 Tinkerer's Workshop crafting recipes are notoriously long and complicated. Recipes form a crafting hierarchy, as crafted items are then involved in other recipes as ingredients. Some recipes have over 20 items involved to reach the final product. 
