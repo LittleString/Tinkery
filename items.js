@@ -13,7 +13,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Tackle_Box.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tackle_Box",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Tackle_Box",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -32,7 +32,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Honey_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Honey_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Honey_Balloon",
         "hardmode": false,
         "tags": [
             "Health",
@@ -49,7 +49,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lucky_Horseshoe.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Horseshoe",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lucky_Horseshoe",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -70,7 +70,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sailfish_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sailfish_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sailfish_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -104,7 +104,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frog_Leg.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Leg",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frog_Leg",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -129,7 +129,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/High_Test_Fishing_Line.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/High_Test_Fishing_Line",
+        "wikiLink": "https://terraria.wiki.gg/wiki/High_Test_Fishing_Line",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -148,7 +148,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Angler_Earring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Earring",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Angler_Earring",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -167,7 +167,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Medicated_Bandage.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Medicated_Bandage",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Medicated_Bandage",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -183,7 +183,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Countercurse_Mantra.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Countercurse_Mantra",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Countercurse_Mantra",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -199,7 +199,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Shield",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -215,7 +215,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mana_Flower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Flower",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mana_Flower",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -231,7 +231,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Brick_Layer.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Brick_Layer",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Brick_Layer",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -253,7 +253,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Extendo_Grip.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Extendo_Grip",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Extendo_Grip",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -275,7 +275,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Paint_Sprayer.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Paint_Sprayer",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Paint_Sprayer",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -297,7 +297,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Portable_Cement_Mixer.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Portable_Cement_Mixer",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Portable_Cement_Mixer",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -319,7 +319,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Jellyfish_Diving_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Jellyfish_Diving_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Jellyfish_Diving_Gear",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -335,7 +335,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Jellyfish_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Jellyfish_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Jellyfish_Necklace",
         "hardmode": false,
         "tags": [
             "Other"
@@ -365,7 +365,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Fishing_Bobber",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -387,7 +387,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Glowing_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Glowing_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Glowing_Fishing_Bobber",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -403,7 +403,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Honey_Comb.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Honey_Comb",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Honey_Comb",
         "hardmode": false,
         "tags": [
             "Health",
@@ -423,7 +423,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Blizzard_in_a_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blizzard_in_a_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Blizzard_in_a_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -439,7 +439,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Blizzard_in_a_Bottle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blizzard_in_a_Bottle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Blizzard_in_a_Bottle",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -469,7 +469,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cloud_in_a_Bottle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Bottle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -491,7 +491,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Shiny_Red_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shiny_Red_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Shiny_Red_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -512,7 +512,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cloud_in_a_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cloud_in_a_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cloud_in_a_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -528,7 +528,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sandstorm_in_a_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sandstorm_in_a_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sandstorm_in_a_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -544,7 +544,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Bundle_of_Balloons.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Balloons",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Bundle_of_Balloons",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -560,7 +560,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Celestial_Magnet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Magnet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Celestial_Magnet",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -590,7 +590,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magic_Cuffs.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Cuffs",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Cuffs",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -606,7 +606,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/PDA.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/PDA",
+        "wikiLink": "https://terraria.wiki.gg/wiki/PDA",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -622,7 +622,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magic_Mirror.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Mirrors",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Mirrors",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -644,7 +644,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ice_Mirror.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Mirrors",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Mirrors",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -666,7 +666,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Band_of_Regeneration.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Band_of_Regeneration",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Band_of_Regeneration",
         "hardmode": false,
         "tags": [
             "Health"
@@ -692,7 +692,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Megaphone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Megaphone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Megaphone",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -742,7 +742,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Nazar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Nazar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Nazar",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -800,7 +800,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Diving_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Diving_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Diving_Gear",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -816,7 +816,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Flipper.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flipper",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Flipper",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -846,7 +846,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Diving_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Diving_Helmet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Diving_Helmet",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -880,7 +880,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Spectre_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Spectre_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Spectre_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -896,7 +896,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Flower_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flower_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Flower_Boots",
         "hardmode": false,
         "tags": [
             "Other"
@@ -926,7 +926,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fart_in_a_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fart_in_a_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fart_in_a_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -942,7 +942,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fart_in_a_Jar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fart_in_a_Jar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fart_in_a_Jar",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -958,7 +958,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magma_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magma_Stone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magma_Stone",
         "hardmode": false,
         "tags": [
             "Melee"
@@ -984,7 +984,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fish_Finder.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fish_Finder",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fish_Finder",
         "hardmode": false,
         "tags": [
             "Fishing",
@@ -1001,7 +1001,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fisherman's_Pocket_Guide.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fisherman%27s_Pocket_Guide",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fisherman%27s_Pocket_Guide",
         "hardmode": false,
         "tags": [
             "Fishing",
@@ -1024,7 +1024,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Weather_Radio.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Weather_Radio",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Weather_Radio",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1046,7 +1046,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sextant.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sextant",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sextant",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1068,7 +1068,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frog_Flipper.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Flipper",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frog_Flipper",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1084,7 +1084,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Tiger_Climbing_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tiger_Climbing_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Tiger_Climbing_Gear",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1100,7 +1100,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frog_Webbing.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Webbing",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frog_Webbing",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1116,7 +1116,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frostspark_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frostspark_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frostspark_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1132,7 +1132,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lightning_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lightning_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lightning_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1148,7 +1148,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ice_Skates.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ice_Skates",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ice_Skates",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1178,7 +1178,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Goblin_Tech.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Goblin_Tech",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Goblin_Tech",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1194,7 +1194,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Metal_Detector.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Metal_Detector",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Metal_Detector",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1228,7 +1228,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Stopwatch.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Stopwatch",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Stopwatch",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1250,7 +1250,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/DPS_Meter.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/DPS_Meter",
+        "wikiLink": "https://terraria.wiki.gg/wiki/DPS_Meter",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1272,7 +1272,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/GPS.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/GPS",
+        "wikiLink": "https://terraria.wiki.gg/wiki/GPS",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1288,7 +1288,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Gold_Watch.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Watch",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Gold_Watch",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1304,7 +1304,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Depth_Meter.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Depth_Meter",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Depth_Meter",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1354,7 +1354,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Compass.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Compass",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Compass",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1404,7 +1404,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Platinum_Watch.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Platinum_Watch",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Platinum_Watch",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1420,7 +1420,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ancient_Chisel.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ancient_Chisel",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ancient_Chisel",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1450,7 +1450,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Treasure_Magnet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Treasure_Magnet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Treasure_Magnet",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1476,7 +1476,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Step_Stool.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Step_Stool",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Step_Stool",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1502,7 +1502,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Flame_Waker_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flame_Waker_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Flame_Waker_Boots",
         "hardmode": false,
         "tags": [
             "Other"
@@ -1528,7 +1528,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lava_Waders.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lava_Waders",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lava_Waders",
         "hardmode": false,
         "tags": [
             "Mobility",
@@ -1545,7 +1545,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Water_Walking_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Water_Walking_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Water_Walking_Boots",
         "hardmode": false,
         "tags": [
             "Mobility",
@@ -1562,7 +1562,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Water_Walking_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Water_Walking_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Water_Walking_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1592,7 +1592,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lava_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lava_Charm",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lava_Charm",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1618,7 +1618,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Rose.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Rose",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Rose",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1640,7 +1640,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Molten_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Charm",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Molten_Charm",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1656,7 +1656,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lavaproof_Fishing_Hook.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Fishing_Hook",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lavaproof_Fishing_Hook",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -1682,7 +1682,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Anklet_of_the_Wind.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Anklet_of_the_Wind",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Anklet_of_the_Wind",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1712,7 +1712,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Aglet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Aglet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Aglet",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -1742,7 +1742,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mana_Regeneration_Band.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Regeneration_Band",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mana_Regeneration_Band",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -1758,7 +1758,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Shackle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shackle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Shackle",
         "hardmode": false,
         "tags": [
             "Defense"
@@ -1788,7 +1788,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magma_Skull.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magma_Skull",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magma_Skull",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1804,7 +1804,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Skull.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Skull",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1820,7 +1820,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Nature's_Gift.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Nature%27s_Gift",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Nature%27s_Gift",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -1842,7 +1842,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Band_of_Starpower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Band_of_Starpower",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Band_of_Starpower",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -1872,7 +1872,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Bezoar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bezoar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Bezoar",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1914,7 +1914,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Skull_Rose.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Skull_Rose",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Skull_Rose",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -1930,7 +1930,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Multicolor_Wrench.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Multicolor_Wrench",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Multicolor_Wrench",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1946,7 +1946,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Red_Wrench.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wrenches",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1968,7 +1968,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Blue_Wrench.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wrenches",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -1990,7 +1990,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Green_Wrench.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wrenches",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2012,7 +2012,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Yellow_Wrench.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wrenches",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wrenches",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2034,7 +2034,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Wire_Cutter.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wire_Cutter",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wire_Cutter",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2056,7 +2056,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cobalt_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cobalt_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cobalt_Shield",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -2078,7 +2078,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/R.E.K._3000.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/R.E.K._3000",
+        "wikiLink": "https://terraria.wiki.gg/wiki/R.E.K._3000",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2094,7 +2094,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sharkron_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sharkron_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sharkron_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2110,7 +2110,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Feral_Claws.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Feral_Claws",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Feral_Claws",
         "hardmode": false,
         "tags": [
             "Melee"
@@ -2140,7 +2140,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Tally_Counter.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tally_Counter",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Tally_Counter",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2170,7 +2170,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lifeform_Analyzer.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lifeform_Analyzer",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lifeform_Analyzer",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2192,7 +2192,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Radar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Radar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Radar",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2222,7 +2222,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sandstorm_in_a_Bottle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sandstorm_in_a_Bottle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sandstorm_in_a_Bottle",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2248,7 +2248,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Tsunami_in_a_Bottle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tsunami_in_a_Bottle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Tsunami_in_a_Bottle",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2282,7 +2282,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Balloon_Pufferfish.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Balloon_Pufferfish",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Balloon_Pufferfish",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2304,7 +2304,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magic_Conch.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Conch",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Conch",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2334,7 +2334,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Demon_Conch.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Demon_Conch",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Demon_Conch",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2356,7 +2356,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Hermes_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hermes_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Hermes_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2378,7 +2378,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Rocket_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Rocket_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Rocket_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2400,7 +2400,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Flurry_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flurry_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Flurry_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2430,7 +2430,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Dunerider_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Dunerider_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Dunerider_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2460,7 +2460,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Shark_Tooth_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shark_Tooth_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace",
         "hardmode": false,
         "tags": [
             "Damage"
@@ -2494,7 +2494,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Panic_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Panic_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Panic_Necklace",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2524,7 +2524,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mechanical_Lens.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Lens",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mechanical_Lens",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2546,7 +2546,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mechanical_Ruler.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Ruler",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mechanical_Ruler",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2568,7 +2568,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Climbing_Claws.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Climbing_Claws",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Climbing_Claws",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2598,7 +2598,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Shoe_Spikes.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shoe_Spikes",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Shoe_Spikes",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2624,7 +2624,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Super_Absorbant_Sponge.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Super_Absorbant_Sponge",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Super_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2646,7 +2646,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lava_Absorbant_Sponge.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lava_Absorbant_Sponge",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lava_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2668,7 +2668,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Honey_Absorbant_Sponge.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Honey_Absorbant_Sponge",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Honey_Absorbant_Sponge",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2694,7 +2694,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Architect_Gizmo_Pack.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Architect_Gizmo_Pack",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Architect_Gizmo_Pack",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2710,7 +2710,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mining_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mining_armor",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mining_armor",
         "hardmode": false,
         "tags": [
             "Tools",
@@ -2733,7 +2733,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Night_Vision_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Night_Vision_Helmet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Night_Vision_Helmet",
         "hardmode": false,
         "tags": [
             "Tools",
@@ -2760,7 +2760,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/White_String.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Strings",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Strings",
         "hardmode": false,
         "tags": [
             "Melee"
@@ -2786,7 +2786,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Adhesive_Bandage.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Adhesive_Bandage",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Adhesive_Bandage",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -2833,7 +2833,7 @@ export let items = [
             "images/icons/Pink_Weighted_Pressure_Plate.png",
             "images/icons/Purple_Weighted_Pressure_Plate.png"
         ],
-        "wikiLink": "https://terraria.fandom.com/wiki/Pressure_Plates",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Pressure_Plates",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2856,7 +2856,7 @@ export let items = [
             "images/icons/Purple_Counterweight.png",
             "images/icons/Green_Counterweight.png"
         ],
-        "wikiLink": "https://terraria.fandom.com/wiki/Counterweights",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Counterweights",
         "hardmode": false,
         "tags": [
             "Melee"
@@ -2882,7 +2882,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Molten_Skull_Rose.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Skull_Rose",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Molten_Skull_Rose",
         "hardmode": false,
         "tags": [
             "Immunity"
@@ -2898,7 +2898,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cell_Phone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cell_Phone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cell_Phone",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -2914,7 +2914,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Angler_Tackle_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Angler_Tackle_Bag",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Angler_Tackle_Bag",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -2930,7 +2930,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Blue_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blue_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2946,7 +2946,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/White_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/White_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/White_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2962,7 +2962,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Yellow_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yellow_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Yellow_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -2988,7 +2988,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Argon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Argon_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3005,7 +3005,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Helium_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Helium_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3022,7 +3022,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Krypton_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Krypton_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3039,7 +3039,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lava_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Lava_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3056,7 +3056,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Xenon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Xenon_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3073,7 +3073,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Neon_Moss_Fishing_Bobber.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fishing_Bobbers#Neon_Moss_Fishing_Bobber",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3090,7 +3090,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ultra_Absorbant_Sponge.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ultra_Absorbant_Sponge",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ultra_Absorbant_Sponge",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3107,7 +3107,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lavaproof_Tackle_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lavaproof_Tackle_Bag",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lavaproof_Tackle_Bag",
         "hardmode": false,
         "tags": [
             "Fishing"
@@ -3124,7 +3124,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Shellphone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Shellphone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Shellphone",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -3141,7 +3141,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Amphibian_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Amphibian_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Amphibian_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3158,7 +3158,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Arctic_Diving_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Arctic_Diving_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Arctic_Diving_Gear",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3175,7 +3175,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Green_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Green_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Green_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3192,7 +3192,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Pink_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Pink_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Pink_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3209,7 +3209,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Amber_Horseshoe_Balloon.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Amber_Horseshoe_Balloon",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Amber_Horseshoe_Balloon",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3226,7 +3226,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Bundle_of_Horseshoe_Balloons.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bundle_of_Horseshoe_Balloons",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Bundle_of_Horseshoe_Balloons",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3243,7 +3243,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Celestial_Cuffs.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Cuffs",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Celestial_Cuffs",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -3260,7 +3260,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fairy_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fairy_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fairy_Boots",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3277,7 +3277,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frog_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frog_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frog_Gear",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3294,7 +3294,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Hellfire_Treads.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hellfire_Treads",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Hellfire_Treads",
         "hardmode": false,
         "tags": [
             "Mobility"
@@ -3311,7 +3311,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magnet_Flower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magnet_Flower",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magnet_Flower",
         "hardmode": false,
         "tags": [
             "Magic"
@@ -3328,7 +3328,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian_Horseshoe.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian_Horseshoe",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian_Horseshoe",
         "hardmode": false,
         "tags": [
             "Mobility",
@@ -3346,7 +3346,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Stinger_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Stinger_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Stinger_Necklace",
         "hardmode": false,
         "tags": [
             "Damage",
@@ -3364,7 +3364,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sweetheart_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sweetheart_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sweetheart_Necklace",
         "hardmode": false,
         "tags": [
             "Mobility",
@@ -3383,7 +3383,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Terraspark_Boots.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Terraspark_Boots",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Terraspark_Boots",
         "hardmode": false,
         "tags": [
             "Mobility",
@@ -3401,7 +3401,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/The_Grand_Design.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/The_Grand_Design",
+        "wikiLink": "https://terraria.wiki.gg/wiki/The_Grand_Design",
         "hardmode": false,
         "tags": [
             "Tools"
@@ -3418,7 +3418,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Hand_of_Creation.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hand_Of_Creation",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Hand_Of_Creation",
         "hardmode": false,
         "finalCraft": true,
         "tags": [
@@ -3435,7 +3435,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ultrabright_Helmet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ultrabright_Helmet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ultrabright_Helmet",
         "hardmode": false,
         "tags": [
             "Tools",
@@ -3458,7 +3458,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ankh_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Charm",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ankh_Charm",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3474,7 +3474,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Armor_Bracing.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Bracing",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Armor_Bracing",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3490,7 +3490,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/The_Plan.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/The_Plan",
+        "wikiLink": "https://terraria.wiki.gg/wiki/The_Plan",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3506,7 +3506,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Reflective_Shades.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Reflective_Shades",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Reflective_Shades",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3522,7 +3522,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Putrid_Scent.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Putrid_Scent",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Putrid_Scent",
         "hardmode": true,
         "tags": [
             "Damage",
@@ -3545,7 +3545,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Armor_Polish.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Armor_Polish",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Armor_Polish",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3579,7 +3579,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Vitamins.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Vitamins",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Vitamins",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -3613,7 +3613,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Avenger_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Avenger_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Avenger_Emblem",
         "hardmode": true,
         "tags": [
             "Damage"
@@ -3629,7 +3629,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Warrior_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Warrior_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Warrior_Emblem",
         "hardmode": true,
         "tags": [
             "Melee",
@@ -3652,7 +3652,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ranger_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ranger_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ranger_Emblem",
         "hardmode": true,
         "tags": [
             "Ranged",
@@ -3675,7 +3675,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sorcerer_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sorcerer_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sorcerer_Emblem",
         "hardmode": true,
         "tags": [
             "Magic",
@@ -3698,7 +3698,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Summoner_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Summoner_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Summoner_Emblem",
         "hardmode": true,
         "tags": [
             "Summon",
@@ -3721,7 +3721,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Star_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Star_Cloak",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Star_Cloak",
         "hardmode": true,
         "tags": [
             "Damage"
@@ -3743,7 +3743,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Power_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Power_Glove",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Power_Glove",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -3759,7 +3759,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Flesh_Knuckles.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Flesh_Knuckles",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Flesh_Knuckles",
         "hardmode": true,
         "tags": [
             "Other"
@@ -3781,7 +3781,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Celestial_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Stone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Celestial_Stone",
         "hardmode": true,
         "tags": [
             "Damage",
@@ -3802,7 +3802,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Moon_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Shell",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moon_Shell",
         "hardmode": true,
         "tags": [
             "Other"
@@ -3818,7 +3818,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sun_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sun_Stone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sun_Stone",
         "hardmode": true,
         "tags": [
             "Damage",
@@ -3845,7 +3845,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Moon_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Stone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moon_Stone",
         "hardmode": true,
         "tags": [
             "Damage",
@@ -3876,7 +3876,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Philosopher's_Stone.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Philosopher%27s_Stone",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Philosopher%27s_Stone",
         "hardmode": true,
         "tags": [
             "Health"
@@ -3898,7 +3898,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Coin_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Coin_Ring",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Coin_Ring",
         "hardmode": true,
         "tags": [
             "Other"
@@ -3914,7 +3914,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Gold_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Ring",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Gold_Ring",
         "hardmode": true,
         "tags": [
             "Other"
@@ -3956,7 +3956,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lucky_Coin.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lucky_Coin",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lucky_Coin",
         "hardmode": true,
         "tags": [
             "Other"
@@ -3998,7 +3998,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Destroyer_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Destroyer_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Destroyer_Emblem",
         "hardmode": true,
         "tags": [
             "Damage"
@@ -4014,7 +4014,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Eye_of_the_Golem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Eye_of_the_Golem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Eye_of_the_Golem",
         "hardmode": true,
         "tags": [
             "Damage"
@@ -4036,7 +4036,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Yoyo_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Glove",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Yoyo_Glove",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -4058,7 +4058,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fast_Clock.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fast_Clock",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fast_Clock",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4100,7 +4100,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Trifold_Map.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Trifold_Map",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Trifold_Map",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4150,7 +4150,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Rifle_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Rifle_Scope",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Rifle_Scope",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4176,7 +4176,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cross_Necklace.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cross_Necklace",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cross_Necklace",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4198,7 +4198,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Necromantic_Scroll.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Necromantic_Scroll",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Necromantic_Scroll",
         "hardmode": true,
         "tags": [
             "Summon"
@@ -4224,7 +4224,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Hercules_Beetle.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hercules_Beetle",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Hercules_Beetle",
         "hardmode": true,
         "tags": [
             "Summon"
@@ -4246,7 +4246,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Titan_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Titan_Glove",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Titan_Glove",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -4268,7 +4268,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Sniper_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Sniper_Scope",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Sniper_Scope",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4284,7 +4284,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Blindfold.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Blindfold",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Blindfold",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4350,7 +4350,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Pocket_Mirror.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Pocket_Mirror",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Pocket_Mirror",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4376,7 +4376,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Magic_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Magic_Quiver",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Quiver",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4399,7 +4399,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Moon_Charm.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moon_Charm",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moon_Charm",
         "hardmode": true,
         "tags": [
             "Other"
@@ -4421,7 +4421,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Neptune's_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Neptune%27s_Shell",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Neptune%27s_Shell",
         "hardmode": true,
         "tags": [
             "Other"
@@ -4447,7 +4447,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Tabi.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Tabi",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Tabi",
         "hardmode": true,
         "tags": [
             "Mobility"
@@ -4473,7 +4473,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Black_Belt.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Black_Belt",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Black_Belt",
         "hardmode": true,
         "tags": [
             "Defense"
@@ -4499,7 +4499,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Discount_Card.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Discount_Card",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Discount_Card",
         "hardmode": true,
         "tags": [
             "Other"
@@ -4541,7 +4541,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frozen_Turtle_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Turtle_Shell",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frozen_Turtle_Shell",
         "hardmode": true,
         "tags": [
             "Defense"
@@ -4563,7 +4563,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Paladin's_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Paladin%27s_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Paladin%27s_Shield",
         "hardmode": true,
         "tags": [
             "Immunity",
@@ -4590,7 +4590,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mechanical_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mechanical_Glove",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mechanical_Glove",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -4610,7 +4610,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Ankh_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Ankh_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Ankh_Shield",
         "hardmode": true,
         "tags": [
             "Immunity"
@@ -4627,7 +4627,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Arcane_Flower.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Arcane_Flower",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Arcane_Flower",
         "hardmode": true,
         "tags": [
             "Magic"
@@ -4644,7 +4644,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Bee_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Bee_Cloak",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Bee_Cloak",
         "hardmode": true,
         "tags": [
             "Damage",
@@ -4662,7 +4662,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Berserker's_Glove.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Berserker%27s_Glove",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Berserker%27s_Glove",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -4679,7 +4679,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Celestial_Emblem.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Emblem",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Celestial_Emblem",
         "hardmode": true,
         "tags": [
             "Magic"
@@ -4696,7 +4696,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Celestial_Shell.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Celestial_Shell",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Celestial_Shell",
         "hardmode": true,
         "tags": [
             "Other",
@@ -4719,7 +4719,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Charm_of_Myths.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Charm_of_Myths",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Charm_of_Myths",
         "hardmode": true,
         "tags": [
             "Health"
@@ -4736,7 +4736,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fire_Gauntlet.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fire_Gauntlet",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fire_Gauntlet",
         "hardmode": true,
         "tags": [
             "Melee"
@@ -4753,7 +4753,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Frozen_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Frozen_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Frozen_Shield",
         "hardmode": true,
         "tags": [
             "Immunity",
@@ -4771,7 +4771,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Greedy_Ring.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Greedy_Ring",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Greedy_Ring",
         "hardmode": true,
         "tags": [
             "Other"
@@ -4788,7 +4788,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Hero_Shield.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Hero_Shield",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Hero_Shield",
         "hardmode": true,
         "tags": [
             "Immunity",
@@ -4806,7 +4806,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mana_Cloak.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Cloak",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mana_Cloak",
         "hardmode": true,
         "tags": [
             "Magic",
@@ -4824,7 +4824,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Master_Ninja_Gear.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Master_Ninja_Gear",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Master_Ninja_Gear",
         "hardmode": true,
         "tags": [
             "Mobility",
@@ -4842,7 +4842,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Molten_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Molten_Quiver",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Molten_Quiver",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4859,7 +4859,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Papyrus_Scarab.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Papyrus_Scarab",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Papyrus_Scarab",
         "hardmode": true,
         "tags": [
             "Summon"
@@ -4876,7 +4876,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Recon_Scope.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Recon_Scope",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Recon_Scope",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4893,7 +4893,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Stalker's_Quiver.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Stalker%27s_Quiver",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Stalker%27s_Quiver",
         "hardmode": true,
         "tags": [
             "Ranged"
@@ -4910,7 +4910,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Star_Veil.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Star_Veil",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Star_Veil",
         "hardmode": true,
         "tags": [
             "Defense",
@@ -4928,7 +4928,7 @@ export let items = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Yoyo_Bag.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Yoyo_Bag",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Yoyo_Bag",
         "hardmode": true,
         "tags": [
             "Melee"

@@ -11,7 +11,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Mana_Potion.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Mana_Potion",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Mana_Potion",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -33,7 +33,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Soul_of_Might.gif",
-        "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Might",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Soul_of_Might",
         "hardmode": true,
         "tags": [
             "Raw Item"
@@ -55,7 +55,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Soul_of_Sight.gif",
-        "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Sight",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Soul_of_Sight",
         "hardmode": true,
         "tags": [
             "Raw Item"
@@ -77,7 +77,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Soul_of_Fright.gif",
-        "wikiLink": "https://terraria.fandom.com/wiki/Soul_of_Fright",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Soul_of_Fright",
         "hardmode": true,
         "tags": [
             "Raw Item"
@@ -99,7 +99,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Fallen_Star.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Fallen_Star",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Fallen_Star",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -121,7 +121,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Wire.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Wire",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Wire",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -137,7 +137,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Obsidian.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Obsidian",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Obsidian",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -153,7 +153,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Cobweb.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Cobweb",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Cobweb",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -169,7 +169,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Argon_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -191,7 +191,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Helium_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -213,7 +213,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Krypton_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -235,7 +235,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lava_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -257,7 +257,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Neon_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -279,7 +279,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Xenon_Moss.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Moss",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Moss",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -301,7 +301,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Iron_Bar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Iron_Bar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Iron_Bar",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -317,7 +317,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Lead_Bar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Lead_Bar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Lead_Bar",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -333,7 +333,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Gray_Pressure_Plate.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Alternative_crafting_ingredients#Any_Pressure_Plate",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Alternative_crafting_ingredients#Any_Pressure_Plate",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -349,7 +349,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Whoopie_Cushion.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Whoopie_Cushion",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Whoopie_Cushion",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -383,7 +383,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Gold_Bar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Gold_Bar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Gold_Bar",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -399,7 +399,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Platinum_Bar.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Platinum_Bar",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Platinum_Bar",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -415,7 +415,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Chain.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Chain",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Chain",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -431,7 +431,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Glass.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Glass",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Glass",
         "hardmode": false,
         "tags": [
             "Raw Item"
@@ -447,7 +447,7 @@ export let rawItems = [
             "platinum": 0
         },
         "iconLocation": "images/icons/Diamond.png",
-        "wikiLink": "https://terraria.fandom.com/wiki/Diamond",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Diamond",
         "hardmode": false,
         "tags": [
             "Raw Item"
