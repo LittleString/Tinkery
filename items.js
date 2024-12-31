@@ -41,7 +41,7 @@ export let items = [
     },
     {
         "name": "Lucky Horseshoe",
-        "tooltip": "Negates fall damage\n'Said to bring good fortunate and keep evil spirits at bay'",
+        "tooltip": "Negates fall damage\n'Said to bring good fortune and keep evil spirits at bay'",
         "value": {
             "copper": 0,
             "silver": 54,
