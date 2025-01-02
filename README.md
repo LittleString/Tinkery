@@ -100,9 +100,6 @@ git push origin feature/<feature-name>
 **Attribution**: Please keep the footer text as is:
 > Made by LittleString899. This is a fan-made project inspired by Terraria. This project is not affiliated with, endorsed by, or associated with Re-Logic.
 
-If you would like, you can update the footer text as follows:
-> Made by LittleString899, updated by (your-name). This is a fan-made project inspired by Terraria. This project is not affiliated with, endorsed by, or associated with Re-Logic.
-
 ### Technologies Used
 - **HTML** for structuring the content.
 - **CSS** for styling.
