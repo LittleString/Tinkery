@@ -1324,6 +1324,18 @@ export let allRecipes = [
         ]
     },
     {
+        name: "Strung Counterweight",
+        recipes: [
+            {
+                invisible: true,
+                ingredients: [
+                    { name: "White String" },
+                    { name: "Counterweight", text: "Any counterweight" }
+                ]
+            }
+        ]
+    },
+    {
         name: "Platinum Watch",
         recipes: [
             {
@@ -1350,9 +1362,19 @@ export let allRecipes = [
         recipes: [
             {
                 ingredients: [
-                    { name: "White String" },
                     { name: "Yoyo Glove" },
-                    { name: "Counterweight" }
+                    { name: "Strung Counterweight" }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Magic Yoyo Bag",
+        recipes: [
+            {
+                ingredients: [
+                    { name: "Magic String" },
+                    { name: "Yoyo Bag" }
                 ]
             }
         ]

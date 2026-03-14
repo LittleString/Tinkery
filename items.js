@@ -1569,7 +1569,7 @@ export let items = [
         ],
         location: [
             {
-                place: "Ocean Crate", 
+                place: "Water Chest", 
                 odds: "10%"
             },
             {
@@ -1598,6 +1598,10 @@ export let items = [
             "Immunity"
         ],
         location: [
+            {
+                place: "Gold Chest (lava layer)", 
+                odds: "5%"
+            },
             {
                 place: "Hellstone Crate", 
                 odds: "5%"
@@ -2968,6 +2972,22 @@ export let items = [
             "Mobility"
         ]
     },
+    {
+        "name": "Strung Counterweight",
+        "tooltip": "Increases yoyo range and duration\nThrows a counterweight after hitting an enemy with a yoyo",
+        "value": {
+            "copper": 0,
+            "silver": 3,
+            "gold": 1,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Strung_Counterweight.png",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Strung_Counterweight",
+        "hardmode": false,
+        "tags": [
+            "Melee"
+        ]
+    },
 
 
 
@@ -4027,6 +4047,28 @@ export let items = [
         ]
     },
     {
+        "name": "Magic String",
+        "tooltip": "Allows offstring yoyo tricks",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 20,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Magic_String.png",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_String",
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ],
+        location: [
+            {
+                place: "Purchased from Skeleton Merchant in Hardmode", 
+                odds: "N/A"
+            }
+        ]
+    },
+    {
         "name": "Yoyo Glove",
         "tooltip": "Allows the use of two yoyos at once",
         "value": {
@@ -4596,6 +4638,22 @@ export let items = [
             "Melee"
         ],
     },
+    {
+        "name": "Yoyo Bag",
+        "tooltip": "Gives the user master yoyo skills",
+        "value": {
+            "copper": 0,
+            "silver": 0,
+            "gold": 10,
+            "platinum": 0
+        },
+        "iconLocation": "images/icons/Yoyo_Bag.png",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Yoyo_Bag",
+        "hardmode": true,
+        "tags": [
+            "Melee"
+        ]
+    },
 
 
 
@@ -4918,17 +4976,17 @@ export let items = [
         ],
         "finalCraft": true
     },
-    {
-        "name": "Yoyo Bag",
-        "tooltip": "Gives the user master yoyo skills",
+        {
+        "name": "Magic Yoyo Bag",
+        "tooltip": "Allows offstring yoyo tricks\nGives the user master yoyo skills",
         "value": {
             "copper": 0,
             "silver": 0,
-            "gold": 10,
+            "gold": 30,
             "platinum": 0
         },
-        "iconLocation": "images/icons/Yoyo_Bag.png",
-        "wikiLink": "https://terraria.wiki.gg/wiki/Yoyo_Bag",
+        "iconLocation": "images/icons/Magic_Yoyo_Bag.png",
+        "wikiLink": "https://terraria.wiki.gg/wiki/Magic_Yoyo_Bag",
         "hardmode": true,
         "tags": [
             "Melee"

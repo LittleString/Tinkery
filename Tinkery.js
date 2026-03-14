@@ -670,6 +670,8 @@ function createTree(treeData, parentRecipes) {
 
     // Creates tree with all styling (icon pic, gradient, onClick, etc.)
     function addTreeStyling(data, gElement, upOrDown) {
+        let clickTimer = null;
+
         // Create nodes
         const nodes = gElement.selectAll(".node")
         .data(data.descendants().filter(d => !d.data.invisible))
@@ -709,7 +711,29 @@ function createTree(treeData, parentRecipes) {
         })
         .attr("data-name", d => d.data.name)
         .on("click", function(event, d) {
-            iconOnClick.call(this, event, d)
+            // Add click timer to check for double click
+            if (clickTimer) {
+                clearTimeout(clickTimer);
+                clickTimer = null;
+                return;
+            }
+
+            clickTimer = setTimeout(() => {
+                iconOnClick.call(this, event, d);
+                clickTimer = null;
+            }, 25); // Wait 50 ms for double-click
+        })
+        .on("dblclick", function(event, d) {
+            // Cancel the pending single click
+            if (clickTimer) {
+                clearTimeout(clickTimer);
+                clickTimer = null;
+            }
+
+            // Force checkbox to be checked for iconOnClick call, then toggle it back off
+            document.getElementById("toggleTreeTraversal").checked = true;
+            iconOnClick.call(this, event, d);
+            document.getElementById("toggleTreeTraversal").checked = false;
         });
 
         // Create rect element on node
