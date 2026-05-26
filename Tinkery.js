@@ -111,7 +111,7 @@ document.getElementById("iconSearchBar").addEventListener("input", applyFilters)
 // Filter options filtering logic
 function applyFilters() {
     // Get and assign search criteria and icons
-    const selectedTags = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.name);
+    const selectedTags = Array.from(document.querySelectorAll('#filterOptions input[type="checkbox"]:checked')).map(cb => cb.name);
     const searchTerm = document.getElementById("iconSearchBar").value.toLowerCase();
     const icons = document.getElementById("iconContainer").getElementsByClassName("icon");
 
