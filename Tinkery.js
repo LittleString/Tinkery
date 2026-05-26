@@ -343,6 +343,27 @@ function rotateImages(imageElement, imagePaths) {
 
 initIconPanel();
 
+// Persist "Toggle Tree Traversal" checkbox state in localStorage
+{
+    const TOGGLE_KEY = 'tinkery_toggleTreeTraversal';
+    const toggleEl = document.getElementById('toggleTreeTraversal');
+    if (toggleEl) {
+        // Initialize checked state from storage (default: false)
+        const stored = localStorage.getItem(TOGGLE_KEY);
+        toggleEl.checked = stored === 'true';
+
+        // Save changes when user toggles the checkbox
+        toggleEl.addEventListener('change', () => {
+            try {
+                localStorage.setItem(TOGGLE_KEY, toggleEl.checked ? 'true' : 'false');
+            } catch (e) {
+                // Ignore storage errors (e.g., private mode)
+                console.warn('Unable to persist toggleTreeTraversal state', e);
+            }
+        });
+    }
+}
+
 
 
 
