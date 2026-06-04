@@ -160,14 +160,79 @@ function iconOnClick() {
     if(this.classList.contains("iconPanel")) { // If it's in icon panel, always get recipe
         document.getElementById("recipeContent").innerHTML = "";
         getFullCraftingRecipe(name);
+        setRecipeInUrl(name);
     } else if (!toggleTreeTraversal.checked) {
         // Don't get recipe if tree traversal isn't on
     } else { // Get recipe if tree traversal is on
         document.getElementById("recipeContent").innerHTML = "";
         getFullCraftingRecipe(name);
+        setRecipeInUrl(name);
     }
     
 }
+
+
+// --- URL state helpers: store and restore currently visualized recipe ---
+function setRecipeInUrl(name) {
+    try {
+        const url = new URL(window.location.href);
+        const current = url.searchParams.get('recipe');
+        if (name) {
+            // If the recipe param is already the same, don't create a duplicate history entry
+            if (current === name) return;
+            url.searchParams.set('recipe', name);
+        } else {
+            if (!current) return;
+            url.searchParams.delete('recipe');
+        }
+        // Use pushState so back/forward navigate between recipes
+        history.pushState({ recipe: name }, '', url.toString());
+    } catch (e) {
+        // ignore
+        console.warn('Unable to set recipe in URL', e);
+    }
+}
+
+function getRecipeFromUrl() {
+    try {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('recipe');
+    } catch (e) {
+        return null;
+    }
+}
+
+function showRecipeFromUrl(name) {
+    if (!name) return;
+    const item = items.find(i => i.name === name) || rawItems.find(i => i.name === name);
+    if (!item) return;  
+
+    try {
+        fillInfoPanel(item, 'icon recipeNode');
+        document.getElementById('recipeContent').innerHTML = '';
+        getFullCraftingRecipe(name);
+    } catch (e) {
+        console.warn('Unable to show recipe from URL directly', e);
+    }
+}
+
+// On load: if URL contains a recipe param, show it
+const initialRecipe = getRecipeFromUrl();
+if (initialRecipe) {
+    showRecipeFromUrl(initialRecipe)
+}
+
+// Handle back/forward navigation
+window.addEventListener('popstate', () => {
+    const r = getRecipeFromUrl();
+    if (r) {
+        showRecipeFromUrl(r);
+    } else {
+        // If recipe param removed, clear recipe panel
+        document.getElementById('recipeContent').innerHTML = '';
+    }
+});
+
 
 // Takes in an item and a classList for icon styling and fills out information panel on the right
 function fillInfoPanel(item, classList) {
