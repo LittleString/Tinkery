@@ -36,6 +36,9 @@
 /* Place Terraria background image */
 body {
     background-image: url('images/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Andy';
 }
 
