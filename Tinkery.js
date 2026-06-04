@@ -361,49 +361,34 @@ function getFullCraftingRecipe(recipeName) {
         addIngredients(recipe.recipes);
     }
 
-    // Adds first layer of parent recipes for a clicked item
+    // Recursively builds a tree of all ancestor (parent) recipes for a clicked item
     function addParents(recipe) {
-        const recipeName = recipe.name;
+        const startName = recipe.name;
 
-        let parentRecipeData = {
-            name: recipe.name,
-            children: []
-        };
+        // Use a visited set to avoid cycles / infinite loops
+        const visited = new Set();
 
-        // Find all recipes where this item is used as an ingredient
-        let parentRecipes = allRecipes.filter(r =>
-            r.recipes.some(recipe =>
-                recipe.ingredients.some(ing => ing.name === recipeName)
-            )
-        );
-
-        if (parentRecipes.length === 0) return parentRecipeData; // Base case: no parents found, stop recursion
-
-        // Iterate through all parent recipes
-        parentRecipes.forEach(parentRecipe => {
-            let recipeContainsItemAsIngredient = false;
-            if (!parentRecipeData.children.some(parent => parent.name === parentRecipe.name)) {
-                // Create a parent node for each recipe entry in the parent recipe
-                parentRecipe.recipes.forEach(parentRecipeEntry => {
-                    if (parentRecipeEntry.ingredients.some(ing => ing.name === recipeName)) {
-                        // Set flag to true
-                        recipeContainsItemAsIngredient = true;
-                    }
-                });
-
-                // If flag is true, add that recipe to parents
-                if(recipeContainsItemAsIngredient) {
-                    let parentNode = {
-                        name: parentRecipe.name
-                    };
-                    
-                    // Attach the parent node to the current recipe
-                    parentRecipeData.children.push(parentNode);
-                }
+        function build(nodeName) {
+            // Mark visited to avoid revisiting the same item
+            if (visited.has(nodeName)) {
+                return { name: nodeName, children: [] };
             }
-        });
+            visited.add(nodeName);
 
-        return parentRecipeData;
+            // Find recipes that use this node as an ingredient
+            const parents = allRecipes.filter(r =>
+                r.recipes.some(entry =>
+                    entry.ingredients.some(ing => ing.name === nodeName)
+                )
+            );
+
+            // For each parent recipe, recurse to find its parents
+            const children = parents.map(p => build(p.name));
+
+            return { name: nodeName, children };
+        }
+
+        return build(startName);
     }
 
     // Function to recursively add ingredients if they exist as recipes
@@ -481,6 +466,7 @@ function createTree(treeData, parentRecipes) {
     const nodeHeight = 120; // Vertical spacing between nodes
     const container = d3.select("#recipeContent");
     const containerWidth = container.node().clientWidth;
+    const containerHeight = container.node().clientHeight;
 
     // Container that holds all trees and zoom g elements
     const svg = container
@@ -525,6 +511,9 @@ function createTree(treeData, parentRecipes) {
     // Create a D3 hierarchy for data
     const root = d3.hierarchy(treeData); // Complete recipe info
     const parentNodes = d3.hierarchy(parentRecipes) // Direct parent recipes
+
+    // Keep the root name so we can highlight the selected/current item in the tree
+    const rootName = treeData && treeData.name ? treeData.name : null;
 
     // Define tree layout / spacing between nodes
     const treeLayout = d3.tree().nodeSize([nodeWidth, nodeHeight]);
@@ -586,7 +575,7 @@ function createTree(treeData, parentRecipes) {
     // Upward Tree
     const gUpward = zoomG.append("g")
     .attr("id", "upward-tree")
-    .attr("transform", "translate(0, 250)"); // Center root vertically
+    .attr("transform", `translate(0, ${containerHeight / 2})`); // Center root vertically
 
     gUpward.selectAll("line")
         .data(parentNodes.links())
@@ -604,7 +593,7 @@ function createTree(treeData, parentRecipes) {
     // Create downward recipe tree
     const gDownward = zoomG.append("g")
     .attr("id", "downward-tree")
-    .attr("transform", "translate(0, 250)"); // Center root vertically
+    .attr("transform", `translate(0, ${containerHeight / 2})`); // Center root vertically
 
     // Draw links (horizontal + vertical "L" connectors) for downward tree
     gDownward.selectAll(".link")
@@ -705,6 +694,11 @@ function createTree(treeData, parentRecipes) {
             // If the item is undefined, that means it's a raw item - look there instead
             if (item === undefined) {
                 classList += " rawItem";
+            }
+
+            // If this node is the root (the currently selected item), add a selected class
+            if (rootName && d.data.name === rootName) {
+                classList += " selected";
             }
 
             return classList;

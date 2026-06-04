@@ -399,6 +399,14 @@ body {
     text-align: center;
 }
 
+/* Highlight selected node in recipe tree */
+.recipeNode.selected rect {
+    stroke: #ffd54f;
+    stroke-width: 4;
+    filter: drop-shadow(0 0 8px rgba(255,213,79,0.9));
+}
+/* Image glow removed — keep glow on the surrounding box only */
+
 #tagsContainer {
     flex: 1;
 }
